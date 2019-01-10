@@ -1,0 +1,36 @@
+.website-map-header{height:0.88rem;background-color: #ea4a25;padding: 0 0.3rem;color:#fff;line-height: 0.88rem;font-size: 0.34rem;}
+.website-map-header span{display: inline-block;color:#fff;}
+.website-map-line{border-left:1px solid #fff;height:0.34rem;margin-left:0.25rem;line-height: 0.32rem;display: inline-block;padding-left: 0.25rem;}
+.ys-test{text-align: center;background-color: #fff;position: relative;padding-top: 1.14rem;z-index: 99;overflow: hidden;padding-bottom:0.15rem;}
+.ys-test-paging{width:1.14rem;height: 1.14rem;background-color: #000;line-height: 1.5rem;color:#fff;border-radius: 50%;margin:0 auto;position: absolute;top:-0.5rem;left:50%;margin-left: -0.57rem;}
+.ys-test-cont{width:6.9rem;margin:0 auto;}
+.ys-test-subject{border:0.04rem solid #000;background-color: #ea4a25;color:#fff;padding:0.4rem 0.2rem;border-radius: 0.4rem;margin-bottom: 0.8rem;}
+.ys-test-choice{margin-top: 0.6rem;}
+.ys-test-choice span{display: inline-block;width:0.8rem;color:#000000;font-size: 0.468rem;font-weight: bold;}
+.ys-test-choice input{width:6rem;height:0.8rem;border:1px solid #ea4a25;border-radius: 0.4rem;background-color: #fff;text-align: left;text-indent: 1em;color:#000000;font-weight: bold;}
+/*测试完成*/
+.test-complete-message{text-align: center;background-color: #fff;padding-top: 0.5rem;}
+.test-complete-img{width:1.54rem;height: 1.54rem;border-radius: 50%;}
+.test-complete-cue{font-size: 0.36rem;color:#ea4a25;margin-top: 0.15rem;}
+.test-complete-score{font-size: 0.24rem;color:#666666;margin-top: 0.1rem;}
+.test-complete-p{width:6.3rem;height:0.6rem;margin:0.4rem auto 0;position: relative;}
+.test-complete-code{position: absolute;bottom:0;right:0;width:2rem;height:0.6rem;background-color: #ea4a25;border:none;color:#fff;border-radius: 0.1rem 0.1rem 0 0 ;-webkit-appearance: none;}
+.test-complete-input{width:6.3rem;height:0.6rem;border:none;border-bottom:1px solid #ea4a25;text-indent: 3em;}
+.test-complete-icon{display: inline-block;width:0.26rem;height:0.29rem;position: absolute;top:0.15rem;left:0.3rem;background: url(../images/ys-sprite.png) -0.09rem -0.58rem;background-size: 3rem 3rem;}
+.test-complete-icon2{display: inline-block;width:0.26rem;height:0.29rem;position: absolute;top:0.18rem;left:0.3rem;background: url(../images/ys-sprite.png) -0.48rem -0.58rem;background-size: 3rem 3rem;}
+.test-complete-icon3{display: inline-block;width:0.28rem;height:0.3rem;position: absolute;top:0.15rem;left:0.3rem;background: url(../images/ys-sprite.png) -2.09rem -0.58rem;background-size: 3rem 3rem;}
+.test-complete-btn1{width:6.3rem;height:0.8rem;background-color: #f7422e;border:none;color:#fff;border-radius: 0.12rem;margin-top: 0.5rem;-webkit-appearance: none;}
+.test-complete-btn2{width:3.02rem;height:0.8rem;background-color: #ea4a25;border:none;color:#fff;border-radius: 0.4rem;margin-top: 0.5rem;}
+.test-complete-fit{font-size: 0.28rem;color:#666;margin-top: 0.6rem;}
+.test-complete-star{color:#ea4a25;}
+/*测试结果*/
+.home-icon-back{display: inline-block;width:0.32rem;height:0.32rem;background:url(../images/ys-sprite.png) -0.09rem -0.09rem no-repeat;background-size: 3rem 3rem;}
+.test-result-message{width:6.9rem;border-radius: 0.3rem;text-align: center;background-color: #fff;margin:0.5rem auto;box-shadow: 0 0 7px 3px #f5e2de;padding:0.5rem 0;}
+.test-result-score{font-size: 0.3rem;color:#666666;}
+.test-result-num{font-size: 0.6rem;color:#ea4a25;margin-top: 0.2rem;margin-bottom: 0.2rem;}
+.test-result-text{font-size: 0.36rem;color:#272536;font-weight: bold;margin:0.3rem 0;}
+.test-result-cont{padding:0 0.3rem;}
+.ys-Smile{width:1.28rem;height:1.28rem;border-radius: 50%;}
+.test-result-case{color:#666;}
+.step{position: fixed;top:0;left:0;width:100%;height:100%;background-color: #fff;}
+.message13-close{display: inline-block;position: absolute;font-size:0.3rem;right:0.3rem;top:0;color:#fff;}

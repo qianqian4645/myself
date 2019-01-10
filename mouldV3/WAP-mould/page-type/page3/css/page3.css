@@ -1,0 +1,42 @@
+/*生意地WAP-经验详情1106*/
+.syd1106-exp-teaImg{width:0.72rem;height:0.72rem;border-radius:50%;}
+.syd1106-exp-info{margin-left:0.9rem;}
+.syd1106-exp-ask{display: inline-block;padding:0.14rem 0.28rem;border-radius:0.04rem;}
+.syd1106-org-titIcon{display: inline-block;width:0.29rem;height:0.32rem;background: url("../images/syd1106-org-titIcon.png");background-size: 0.29rem 0.32rem;vertical-align: bottom;margin-right:0.13rem;}
+.syd1106-exp-orgList li{padding:0.3rem 0.24rem;border-bottom:0.02rem solid #eee;}
+.syd1106-exp-orgList li:last-child{border-bottom:none;}
+.syd1106-exp-orgLogo{width:1.3rem;height:1.3rem;border-radius:0.08rem;}
+.syd1106-exp-orgInfo{margin-left:1.6rem;}
+.syd1106-exp-orgTit i{display: inline-block;border:0.02rem solid #349bfe;color:#349bfe;border-radius:4px;padding:0.02rem 0.05rem;margin-left:0.1rem;font-size:0.22rem;}
+.syd1106-exp-orgBtn a{display: inline-block;padding:0.1rem 0.22rem;border-radius:0.04rem;}
+.syd1106-exp-orgBtn a:last-child{margin-right:0;}
+.syd1106-exp-gift{background: url("../images/syd1106-exp-gift.png");display: inline-block;width:0.26rem;height:0.23rem;background-size: 0.26rem 0.23rem;margin-right:0.12rem;
+    vertical-align: middle;}
+.ting-article-tag span{display: inline-block;padding:0.07rem 0.2rem;border-radius:0.3rem;margin-right:0.16rem;}
+.online1119-test-btn{display:block;border:0.02rem solid #ee645f;color:#ee645f;height:0.8rem;line-height:0.8rem;border-radius:0.4rem;text-align:center;font-size:0.3rem;}
+.online1119-test-btn span{display: inline-block;background: url("../images/online1119-test-icon.png") no-repeat;width:0.32rem;height:0.32rem;background-size: 0.32rem;vertical-align: middle;margin-right:0.1rem;}
+.student0612-case-list{padding:0 0.2rem;}
+.student0612-case-list li{padding:0.2rem 0;}
+.student0612-case-pic{width:0.6rem;height:0.6rem;float:left;border-radius: 50%;}
+.student0612-case-info{margin-left:0.8rem;}
+/*相关推荐*/
+.ting-mould-ArtikleHot li{padding:0.3rem 0;border-bottom:0.01rem solid #f6f6f6;}
+.ting-mould-ArtikleHot li h3{color:#333;font-size:0.3rem;}
+.ting-mould-ArtikleHot li p{color:#999;margin-top:0.3rem;font-size:0.22rem;}
+/*留言板*/
+.public0130-cost-bg{width:7.5rem;height:7.41rem;background: url("../images/public0130-cost-bg.jpg");background-size: 7.5rem 7.41rem;padding:0 0.3rem;box-sizing: border-box;}
+.public0130-cost-tit{padding:0.3rem 0.3rem 0.15rem;margin-bottom:0.3rem;text-align:center;font-size:0.36rem;font-weight:bold;border-bottom:0.01rem solid #ee645f;}
+.public0312-cost-box p{position: relative;float:left;width:2.3rem;margin-top:0.3rem;color:#000;}
+.public0312-cost-box p:nth-child(3n-1){text-align:center;}
+.public0312-cost-box p:nth-child(3n){text-align:right;}
+.public0312-cost-box input{width:0.38rem;height:0.35rem;vertical-align: middle;-webkit-appearance: none;background: url("../images/public0312-cost-iconBox.png") no-repeat;background-size: 0.38rem 0.35rem;outline: none;margin-right:0.15rem;}
+.public0312-cost-box input[type="checkbox"]:checked{background: url("../images/public0312-cost-iconBox2.png") center no-repeat;background-size: 0.38rem 0.35rem;outline: none;}
+.public0130-cost-iconBox{display: inline-block;width:0.28rem;height:0.28rem;border:1px solid #ea4a25;position: absolute;top:0;left:0;background-color: #fff;z-index: 3;}
+.public0130-cost-inputBox{width:6.9rem;height:0.8rem;margin:0.4rem auto;position: relative;}
+.public0130-cost-iconTel{display: inline-block;background: url("../images/public0130-cost-iconTel.png");background-size: 0.15rem 0.26rem;width:0.15rem;height:0.26rem;position: absolute;top:0.26rem;left:0.3rem;}
+.public0130-cost-inputBox input{width:100%;height:0.8rem;text-indent: 0.55rem;border:0.01rem solid #ee645f;border-radius:0.04rem;}
+.public0130-cost-submit{width:6.9rem;height:0.8rem;text-align:center;line-height: 0.8rem;font-size: 0.36rem;background-color: #ee645f;border:0.02rem solid #ee645f;border-radius:0.04rem;}
+
+
+
+

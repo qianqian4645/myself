@@ -1,0 +1,214 @@
+﻿/*屏幕适配*/
+@media only screen and (min-width:320px){
+  html{font-size:42.6667px;}
+}
+@media only screen and (min-width:360px){
+  html{font-size:48px;}
+}
+@media only screen and (min-width:375px){
+  html{font-size:50px;}
+}
+@media only screen and (min-width:412px){
+  html{font-size:54.9333px;}
+}
+@media only screen and (min-width:414px){
+  html{font-size:55.2px;}
+}
+@media only screen and (min-width:768px){
+  html{font-size:102.4px;}
+}
+@media only screen and (min-width:1024px){
+  html{font-size:136.533px;}
+}
+/*之前项目中有的样式*/
+.website-map-header{background-color: #786ca5;padding: 0.28rem 0.3rem;color:#fff;;font-size: 0.34rem;}
+.home-icon-back{display: inline-block;width:0.32rem;height:0.32rem;background:url(../images/ys-sprite.png) -0.09rem -0.09rem no-repeat;background-size: 3rem 3rem;}
+.website-map-line{border-left:1px solid #fff;height:0.34rem;margin-left:0.25rem;line-height: 0.32rem;display: inline-block;padding-left: 0.25rem;}
+.website-map-line1{border-left:1px solid #fff;}
+/*通用课程聚合页 2017-11-3*/
+.public-index{background-color: #f5f5f5;font-size: 0.28rem;}
+.public-course-main{background-color: #fff;margin-bottom: 0.16rem;}
+.public-course-tit{height:0.97rem;line-height: 0.97rem;font-size: 0.3rem;font-weight: bold;padding:0 0.3rem;border-bottom:1px solid #f3f3f3;}
+.public-course-icon{display: inline-block;width:0.3rem;height:0.25rem;background:url(../images/publice-sprite.png) -0.09rem -0.09rem no-repeat;background-size: 5rem 5rem;margin-right: 0.16rem;vertical-align: middle;}
+.public-course-more{font-size:0.24rem;color:#cccccc;float: right;font-weight:initial;}
+.public-course-arrow{display: inline-block;width:0.12rem;height:0.22rem;background:url(../images/publice-sprite.png) -0.49rem -0.09rem no-repeat;background-size: 5rem 5rem;}
+.publice-course-list{padding:0 0.3rem;}
+.publice-course-list li{padding:0.4rem 0;border-bottom: 1px solid #f3f3f3;}
+.publice-course-list li:last-child{border-bottom:none;}
+.publice-course-logo{width:1.6rem;height:1.6rem;display: inline-block;float: left;margin-right: 0.25rem;}
+.publice-course-logo img{width:1.6rem;height:1.6rem;border-radius: 0.1rem;}
+.course-describe-tit{line-height: 0.3rem;}
+.course-describe-tit a{color:#333333;font-size: 0.3rem;}
+.course-tit-audition{display: inline-block;padding:0.04rem 0.08rem;line-height: initial;background-color: #ffa800;color:#fff;font-size: 0.2rem;margin-left: 0.25rem;}
+.course-describe-info{margin-top: 0.18rem;font-size: 0.22rem;color:#999999;}
+.course-describe-btn{margin-top: 0.18rem;}
+.course-describe-audition{display: inline-block;padding:0.1rem 0.28rem;border-radius: 0.1rem;border:1px solid #00c0b1;color:#00c0b1;font-size: 0.24rem;margin-right: 0.4rem;}
+.course-describe-offer{display: inline-block;padding:0.1rem 0.28rem;border-radius: 0.1rem;border:1px solid #eb5231;color:#eb5231;font-size: 0.24rem;}
+.public-course-icon2{display: inline-block;width:0.3rem;height:0.26rem;background:url(../images/publice-sprite.png) -0.7rem -0.09rem no-repeat;background-size: 5rem 5rem;margin-right: 0.16rem;vertical-align: middle;}
+/*课程价目表-留言板 2017-11-22*/
+.course-price-message{width:6.9rem;height:4.85rem;position: fixed;top:50%;left:50%;margin-left: -3.45rem;margin-top:-2.325rem;background-color: #fff;border-radius: 0.2rem;box-shadow: 0 0 7px 1px #edeceb;}
+.course-price-tit{height:0.68rem;line-height: 0.68rem;font-size: 0.3rem;padding-left: 0.5rem;background-color: #241403;font-weight: bold;letter-spacing: 0.1rem;border-radius: 0.2rem 0.2rem 0 0 ;color:#fff;}
+.course-price-form{margin:0 auto;width:5.95rem;}
+.course-price-cue{font-size: 0.24rem;padding:0.48rem 0 ;letter-spacing: 0.05rem;}
+.course-price-input{width:5.95rem;height:0.78rem;text-indent: 0.5em;margin-bottom: 0.4rem;box-sizing: border-box;border:1px solid #f1f1f1;}
+.course-price-submit{width:5.95rem;height:0.78rem;background-color: #ff6633;color:#fff;border:1px solid #ff6633;font-size: 0.32rem;-webkit-appearance:none;border-radius: 0.04rem;}
+.message-color{color:#ff6633;}
+.course-message-close{display: inline-block;width:0.32rem;height:0.32rem;background:url(../images/publice-sprite.png) -1.17rem -0.09rem;background-size:5rem 5rem;float: right;margin-right: 0.5rem;margin-top: 0.2rem;}
+
+/*托福培训机构2017-11-23*/
+.experience-article-tit{font-size:0.36rem;line-height: 0.88rem;background-color: #fff;padding:0 0.3rem;border:1px solid #f3f3f3;font-weight: bold;}
+.experience-article-cont{padding:0.3rem 0.3rem 0.1rem;background-color: #fff;}
+.ys2-details-tea{display: inline-block;width:0.8rem;height:0.8rem;float: left;margin-right: 0.2rem;border-radius: 0.1rem;}
+.experience-teacher-info{font-size: 0.32rem;line-height: 0.32rem;}
+.ys2-details-tea img{width:0.8rem;height:0.8rem;border-radius:0.1rem;}
+.experience-teacher-attestation{padding-left: 0.2rem;font-size: 0.2rem;color:#ff2b00;}
+.experience-attestation-icon{display: inline-block;width:0.18rem;height:0.3rem;background:url(../images/ys-sprite.png) -0.48rem -0.09rem no-repeat;background-size: 3rem 3rem;vertical-align: middle;margin-left: 0.13rem;}
+.experience-education{font-size: 0.2rem;color:#666666;margin-top: 0.12rem;}
+.experience-education-time{color:#ea4a25;}
+.experience-teacher-message{display: inline-block;padding:0.1rem 0.18rem 0.11rem;background-color:#23cdc0;border-radius: 0.3rem;color:#fff;float: right;margin-right:0.15rem;font-size: 0.2rem;}
+.experience-teacher-ask{padding:0.1rem 0.18rem 0.11rem;background-color: #ea4a25;color:#fff;float: right;border-radius: 0.3rem;font-size: 0.2rem;}
+.experience-article{font-size: 0.28rem;color:#666;line-height: 0.5rem;background-color: #fff;padding:0.15rem 0.3rem 0;}
+.tf-cont-img{padding:0.15rem 0.3rem 0;background-color: #fff;}
+.tf-cont-img img{width:100%;}
+.experience-article-stress{font-weight: bold;color:#333333;}
+.outfit-summary-tit{width:6.9rem;height:0.88rem;line-height: 0.88rem;font-size:0.36rem;padding:0.5rem 0.3rem;background-color: #fff;}
+.outfit-summary-tit span{display: inline-block;width:100%;background-color: #f3f3f3;box-sizing: border-box;padding-left:0.3rem;border-left:3px solid #eb5231;}
+.experience-outfit-list li{background-color: #fff;margin-bottom: 0.16rem;padding:0.3rem;}
+.experience-outfit-img2{display: inline-block;width:1.4rem;height: 1.4rem;float: left;margin-right: 0.16rem;}
+.experience-outfit-img2 img{width:1.4rem;height:1.4rem;}
+.experience-outfit-classify{height:1.4rem;}
+.experience-course-tit2{font-size: 0.32rem;line-height: 0.32rem;}
+.experience-course-tit2 a{color:#000;font-weight: bold;}
+.outfit-summary-audition{display: inline-block;padding:0.03rem 0.08rem;background-color: #23cdc0;color:#fff;font-size:0.2rem;line-height: initial;border-radius: 0.08rem;}
+.experience-outfit-lable span{padding:0.048rem 0.04rem;background-color: #fff;border:1px solid #cccccc;margin-right: 0.1rem;font-size: 0.2rem;display: inline-block;margin-top: 0.17rem;border-radius: 0.1rem;color:#666666;}
+.experience-outfit-lable span:last-child{margin-right: 0;}
+.experience-outfit-address{font-size: 0.2rem;color:#999999;margin-top: 0.13rem;}
+.outfit-address-icon{display: inline-block;width:0.15rem;height:0.2rem;background: url(../images/publice-sprite.png) -1.63rem -0.09rem;background-size: 5rem 5rem;margin-right: 0.08rem;}
+.outfit-summary-price{margin-top:0.45rem;font-size: 0.24rem;color:#333;padding: 0.25rem 0;border-top:1px solid #f3f3f3;border-bottom: 1px solid #f3f3f3;}
+.tlkt81-discount-word{display: inline-block;width:1.4rem;height:0.44rem;line-height: 0.44rem;text-align: center;background-color: #fff4f1;color:#ea4a25;font-size: 0.2rem;border-radius: 0.03rem;margin-right: 0.12rem;}
+.experience-new-cost{padding-left: 0.2rem;color:#999999;}
+.outfit-summary-btn{display: flex;margin-top: 0.3rem;}
+.outfit-summary-btn a{display: inline-block;padding:0.12rem 0.25rem;color:#eb5231;border:1px solid #eb5231;border-radius: 0.2rem;font-size: 0.24rem;margin-right: 0.62rem;}
+.outfit-summary-btn a:last-child{margin-right:0;}
+.outfit-summary-tel{display:block;width:6.95rem;height:0.68rem;line-height: 0.68rem;color:#333;margin:0.3rem auto;text-align: center;background-color: #fff;}
+.outfit-summary-num{color:#ea4a25;}
+
+
+/*托福报价器 2017-11-23*/
+.tf-quoted-price img{width:100%;vertical-align: top;}
+.quoted-price-form{background-color: #fff;text-align: center;}
+.quoted-price-tit{font-size: 0.32rem;line-height: 1rem;text-align: center;}
+.quoted-price-form select{box-sizing: border-box;width:6.9rem;height:0.8rem;background-color: #f8f8f8;border:1px solid #ebebeb;padding-left: 0.1rem;border-bottom:none;}
+.quoted-price-form input{width:6.9rem;height:0.8rem;border:1px solid #ebebeb;padding-left: 0.12rem;box-sizing: border-box;}
+.quoted-price-form input[type="submit"]{width:6.9rem;background-color: #786ca5;border:1px solid #786ca5;box-sizing: border-box;font-size: 0.36rem;color:#fff;margin: 0.38rem auto;-webkit-appearance:none;border-radius:0.2rem;}
+.quoted-price-people{font-size: 0.24rem;color:#999999;}
+
+/*页面添加-微信按钮 2017-11-24*/
+.WeChat-contact-ask{display: inline-block;width:3.24rem;height:0.46rem;line-height: 0.46rem;border:1px solid #ebebeb;background-color: #f7f7f7;color:#666666;font-size: 0.24rem;box-sizing: border-box;border-radius: 0.4rem;float: right;}
+.WeChat-contac-icon{display: inline-block;width:0.44rem;height:0.44rem;background:url(../images/publice-sprite.png) -1.93rem -0.09rem;background-size: 5rem 5rem;padding-right: 0.15rem;vertical-align:top;}
+/*二维码 2017-11-24*/
+.code-teacher-info{text-align:center;background-color: #fff;}
+.code-teacher-img{width:1.2rem;height:1.2rem;border-radius: 50%;margin-top:0.8rem;}
+.code-teacher-name{font-size: 0.36rem;color:#333;margin-top:0.3rem;}
+.code-teacher-year{font-size: 0.24rem;color:#333;margin-top: 0.3rem;}
+.code-teacher-cout{font-size: 0.24rem;color:#333;margin-top:0.2rem;}
+.code-teacher-num{color:#ea4a25;font-size: 0.24rem;margin-top: 0.2rem;}
+.code-teacher-icon{width:4.43rem;height:4.42rem;}
+/*通用-少儿-模板*/
+.zly-ys-header{height:0.88rem;line-height: 0.88rem;padding:0 0.3rem;background-color: #ea4a25;color:#fff;font-size: 0.34rem;text-align:center;}
+.course-details-tit{padding:0.3rem;font-size:0.3rem;}
+.course-details-lfline{width:0.04rem;height:0.31rem;background-color: #ea4a25;display: inline-block;vertical-align:text-bottom;margin-right: 0.2rem;}
+.course-details-tit a{color:#333333;}
+.experience-details-list li{padding:0.28rem 0.3rem;background-color: #fff;}
+.details-tea-img1{width:0.6rem;height:0.6rem;float: left;}
+.details-tea-info{height:0.6rem;line-height: 0.6rem;}
+.details-tea-name{font-size:0.28rem;font-weight: bold;padding-left: 0.16rem;padding-right: 0.14rem;}
+.details-tea-time{font-size:0.18rem;color:#f08e48;}
+.details-tea-prove{color:#de4020;font-size:0.2rem;padding-left: 0.2rem;padding-right: 0.1rem;}
+.details-tea-ask{display: inline-block;padding:0.07rem 0.13rem;float: right;border-radius: 0.3rem;background-color:#786ca5;color:#fff;font-size:0.2rem;line-height: initial;}
+.details-tea-cont{font-size: 0.28rem;line-height: 0.6rem;padding-top:0.15rem;}
+.details-tea-icon{width:0.22rem;height:0.26rem;display: inline-block;background:url(../images/lxs-wap-sprite.png) -1.3rem 0 ;background-size: 3rem 3rem;vertical-align: middle;}
+.public-sr-banner{background-color: #ffeee7;padding:0 0.6rem 0.3rem;text-align:center;}
+.public-template-tit{font-size:0.3rem;color:#ea4a25;line-height: 0.8rem;text-align:center;}
+.public-template-subtit{font-size:0.18rem;line-height:0.48rem;}
+.public-se-template{width:100%;vertical-align: top;margin:0.2rem 0;}
+.template-teachaer-price{display: block;width:2.65rem;height:0.42rem;line-height:0.42rem;text-align:center;background-color: #786ca5;color:#fff;font-size:0.2rem;margin: 0 auto;border-radius: 0.42rem;}
+.public-template-online{text-align:center;background-color: #fff;padding:0.2rem 0 0.2rem;}
+.public-online-list li{width:50%;text-align: center;box-sizing: border-box;padding:0 0.5rem;float: left;margin-top:0.4rem;}
+.public-template-icon{width:1.3rem;height:1.3rem;}
+.public-online-tit{font-size:0.18rem;color:#ea4a25;padding:0.1rem;}
+.public-online-advantage{font-size:0.16rem;line-height: 0.4rem;height:1.2rem;}
+.template-online-free{margin-top:0.3rem;}
+.public-outfit-list li{padding:0.3rem;border-top:1px solid #dfdfdf;border-bottom:1px solid #dfdfdf;margin-bottom: 0.2rem;}
+.public-sr-logo{display: inline-block;width:1.2rem;height:1.2rem;float: left;border:1px solid #dfdfdf;}
+.public-sr-logo img{width:1.2rem;height:1.2rem;}
+.public-sr-outfit{background-color: #fff;margin-bottom:0.5rem;}
+.public-outfit-cont{margin-left:1.38rem;}
+.public-outfit-tit{line-height: 0.18rem;padding-bottom: 0.1rem;}
+.public-outfit-name{font-size:0.18rem;color:#333333;font-weight:bold;}
+.public-outfit-tel{font-size: 0.16rem;color:#ea4a25;float: right;}
+.public-outfit-explain{font-size:0.16rem;color:#666666;line-height: 0.32rem;}
+.public-outfit-explain span{color:#333;font-weight:bold;}
+.public-outfit-explain i{color:#ea4a25;}
+.public-outfit-btn{text-align:center;margin-top: 0.2rem;}
+.public-outfit-btn a{display: inline-block;width:1.47rem;height:0.36rem;line-height: 0.36rem;text-align:center;color:#786ca5;border:1px solid #786ca5;font-size:0.18rem;border-radius: 0.36rem;}
+.public-outfit-btn a:last-child{margin-left: 0.5rem;}
+.public-no-fit{height:0.47rem;display: block;background-color: #ea4a25;color:#fff;text-align:center;margin-top:0.2rem;}
+
+/*通用-少儿-留言板 2017-11-28*/
+.website-map-header a{color:#fff;}
+.public-sr-message img{width:100%;height:3.35rem;}
+.public-sr-form{width:6.09rem;margin:0.2rem auto 0;border-radius:0.1rem;text-align:center;padding-top: 0.07rem;font-size:0.16rem;padding-bottom: 0.5rem;}
+.public-sr-form p{margin-top:0.25rem;}
+.public-sr-form input{width:4.22rem;height:0.5rem;font-size:0.14rem;text-indent: 0.05rem;}
+.public-sr-form input[type="submit"]{width:2rem;height:0.5rem;background-color: #ea4a25;color:#fff;border:none;border-radius: 0.3rem;-webkit-appearance:none;text-indent:0;}
+
+/*相关推荐*/
+.experience-list{font-size:0.28rem;}
+.experience-detial-Relevant{line-height: 0.82rem;color:#999999;background-color: #fff;border-bottom: 1px solid #f3f3f3;padding:0 0.3rem;font-size: 0.32rem;}
+.experience-Relevant-icon{display: inline-block;width:0.33rem;height:0.33rem;background:url(../images/ys-sprite.png) -1.76rem -0.09rem no-repeat;background-size: 3rem 3rem;margin-right: 0.2rem;vertical-align: middle;}
+.experience-Relevant-list{background-color: #fff; }
+.experience-Relevant-list li{padding:0 0.3rem;border-bottom:1px solid #f3f3f3;}
+.experience-Relevant-list a{color:#333333;font-size: 0.3rem;display: inline-block;width:100%;box-sizing: border-box;padding:0.3rem 0;   }
+/*面包屑*/
+.public-index-crumbs{font-size:0.28rem;color:#666;padding:0.3rem;}
+.public-index-crumbs a{color:#333;}
+.public-index-crumbs .public-index-home{color:#eb5232;}
+
+/*通用-成人-课程 2017-11-30*/
+.public-main{background-color:#ebebeb;}
+.public-adult-course{padding:0 0.3rem;}
+.adult-course-tit{font-size:0.36rem;color:#996c33;text-align:center;padding:0.4rem 0;}
+.adult-course-tit span{padding-bottom:0.24rem;border-bottom:1px solid #996c33;display: inline-block;}
+.adult-course-teacher{background-color: #fff;padding:0.24rem 0;}
+.course-teacher-info{border-bottom:1px solid #f3f3f3;padding:0 0.32rem 0.25rem;}
+.adult-course-tea{display: inline-block;width:0.8rem;height:0.8rem;float:left;}
+.adult-course-tea img{width:0.8rem;height:0.8rem;border-radius:50%;}
+.adult-tea-cont{margin-left:1.06rem;}
+.adult-tea-tit a{font-size:0.28rem;color:#333;}
+.adult-tea-tit span{font-size:0.24rem;color:#ea4a25;padding-left: 0.24rem;}
+.adult-tea-heuristic{font-size:0.24rem;color:#666;margin-top: 0.16rem;}
+.adult-tea-article{font-size:0.28rem;color:#666;line-height:0.58rem;padding:0.05rem 0.32rem 0;background-color: #fff;}
+.adult-tea-ask{border-top:1px solid #f3f3f3;margin-top: 0.15rem;padding:0.25rem 0.3rem;}
+.adult-tea-ask a{display: inline-block;width:3.05rem;height:0.5rem;background-color:#786ca5 ;line-height: 0.5rem;text-align:center;color:#fff;font-size:0.24rem;}
+.adult-tea-ask a:last-child{margin-left:0.18rem;background-color: #71584b;}
+.adult-course-list li{background-color: #fff;border-radius: 0.15rem;margin-bottom:0.16rem;}
+.adult-course-cont{padding-bottom:0.16rem;}
+.adult-tea-img{display: inline-block;width:1.2rem;height:1.6rem;}
+.adult-tea-img img{width:1.2rem;height:1.6rem;}
+.adult-tea-experience{width:1.54rem;border-right:1px solid #f3f3f3;padding-top:0.26rem;float:left;margin-left: 0.3rem;}
+.adult-tea-name a{font-size:0.24rem;color:#333333;}
+.adult-tea-time{font-size:0.18rem;color:#999;}
+.adult-course-details{margin-left:1.44rem;padding:0.3rem 0.3rem 0;}
+.adult-course-definition a{color:#333;}
+.adult-course-definition span{font-size:0.24rem;color:#008aff;padding-left: 0.2rem;}
+.adult-course-style{font-size:0.24rem;color:#666;line-height: 0.42rem;margin-top: 0.1rem;}
+.adult-color{color:#ea4a25;}
+.adult-message-tit{height:0.68rem;line-height: 0.68rem;background-color: #a49457;color:#fff;text-align:center;margin-top: 0.32rem;}
+.adult-message-from{padding:0 0.3rem;text-align:center;}
+.adult-message-from input{width:100%;height:0.8rem;border:1px solid #a6937c;text-indent: 0.5em;margin-top: 0.3rem;}
+.adult-message-from input[type="submit"]{background-color: #786ca5;color:#fff;text-indent: 0;box-sizing: border-box;border:1px solid #786ca5;font-size: 0.36rem;margin-bottom: 0.4rem;-webkit-appearance:none;}
+.adult-related-issues{background-color: #fff;}
+.adult-related-list li{font-size:0.3rem;line-height:1.06rem;padding:0 0.3rem;border-bottom:1px solid #f3f3f3;}
+.adult-related-list li:last-child{border-bottom:1px solid #f3f3f3;}
+.adult-related-list a{color:#333333;display: block;}

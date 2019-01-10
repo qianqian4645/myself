@@ -1,0 +1,1335 @@
+﻿@charset "utf-8";
+/*CSS reset*/
+html{color:#000;background:#f5f5f5; font-family:"微软雅黑";}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+.fl { float: left;}
+.fr { float: right;}
+.cl { clear: both; }
+.dib{ display:inline-block}
+.mr5{margin-right:5px;}
+.ml5{margin-left:5px;}
+.mt10{margin-top:0.8em;}
+a {text-decoration: blink;}
+.tc{text-align: center;color:#fff;}
+/*topban*/
+.wap-main{}
+.wap-topban{ background:#fff; text-align:center;}
+.wap-topban-2{ background:#e9e9eb; text-align:center;}
+.wap-topban img, .wap-topban-2 img ,.wap-topban-3 img ,.wap-topban-4 img, .wap-topban-5 img, .wap-topban-6 img, .wap-topban-7 img{ width:320px;}
+.wap-bj{ background:#fff; padding:1em 1em 0.8em 1em; text-align:center;}
+.wap-bj-tit{ font-size:1.1em; color:#da5555; line-height:2.6em; text-align:left;}
+.wap-bj-list{ overflow:hidden; border-bottom:1px solid #78ace2; padding:0.5em 0; text-align:left;}
+.wap-bj-list img{ float:left; width:90px; margin-right:1em;}
+.wlist-tit{ font-size:1em; color:#04a6d8; line-height:2em; text-align:left;}
+.wlist-tit a{ color:#04a6d8;}
+.wlist-tit a:hover{ color:#04a6d8;}
+.wlist-con{ font-size:0.6em; color:#04a6d8; line-height:1.5em; text-align:left;}
+.wlist-class{ font-size:0.6em; color:#fff;line-height:2em; text-align:left;}
+.wlist-btn{ padding:0.3em 0.7em; color:#fff; background:#04a6d8; font-size:0.8em; display:inline-block; margin:0.4em 0;border-radius: 3px;}
+.cd-popup-trigger{ padding:0.3em 0.7em; color:#fff; background:#04a6d8; font-size:0.8em; display:inline-block; margin:0.4em 0;border-radius: 3px;}
+.wap-atxt{ font-size:0.6em; color:#09C; margin-right:1em;}
+.wlist-btn2{ padding:0.1em 0.7em; color:#fff; background:#d85555; font-size:1em; display:inline-block; margin:0.2em 0;border-radius: 3px;}
+.icon-f5{ background:url(../images/frf5.png);background-size:12px 13px;background-repeat:no-repeat; width:12px; height:13px; vertical-align:middle; display:inline-block;}
+.wap-al{padding: 0.8em 1em 0 1em; background:#ccc; overflow:hidden}
+/**/
+
+/**/
+/*弹出层*/
+
+/* -------------------------------- 
+
+xpopup 
+
+-------------------------------- */
+.cd-popup-input{ width:90%; border:1px solid #ddd;padding: 0.2em; margin-bottom:1rem;}
+
+.cd-popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(94, 110, 141, 0.9);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+.cd-popup.is-visible {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0s;
+  z-index: 6;
+}
+
+.cd-popup-container {
+  position: relative;
+  width: 90%;
+  /*max-width: 400px;*/
+  margin: 4em auto;
+  padding: 2em 0;
+  background: #FFF;
+  border-radius: .25em .25em .4em .4em;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-40px);
+  -moz-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  -o-transform: translateY(-40px);
+  transform: translateY(-40px);
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.cd-popup-container p {
+  padding: 1em;
+  font-size:1em;
+  text-align:left;
+  color:#06C
+}
+.cd-popup-container .cd-buttons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-popup-container .cd-buttons li {
+  float: left;
+  width: 50%;
+}
+.cd-popup-container .cd-buttons a {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #FFF;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.cd-popup-container .cd-buttons li:first-child a {
+  background: #fc7169;
+  border-radius: 0 0 0 .25em;
+}
+.no-touch .cd-popup-container .cd-buttons li:first-child a:hover {
+  background-color: #fc8982;
+}
+.cd-popup-container .cd-buttons li:last-child a {
+  background: #b6bece;
+  border-radius: 0 0 .25em 0;
+}
+.no-touch .cd-popup-container .cd-buttons li:last-child a:hover {
+  background-color: #c5ccd8;
+}
+.cd-popup-container .cd-popup-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+}
+.cd-popup-container .cd-popup-close::before, .cd-popup-container .cd-popup-close::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  width: 14px;
+  height: 3px;
+  background-color: #8f9cb5;
+}
+.cd-popup-container .cd-popup-close::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 8px;
+}
+.cd-popup-container .cd-popup-close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  right: 8px;
+}
+.is-visible .cd-popup-container {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+@media only screen and (min-width: 1170px) {
+  .cd-popup-container {
+    margin: 8em auto;
+  }
+}
+
+/*头部&尾部*/
+.header{height:50px; background:#fe790d; line-height:48px;}
+.headtit{ color: #ffffff;font-size: 1.5rem;}
+.footer{ height:2.5rem; line-height:2.5rem; color:#666; margin-bottom:4.5rem; text-align:center; font-size:1rem;}
+.footer a {color:#666;}
+.position-fix{position: fixed;bottom: 0; width: 100%;z-index: 2;}
+.bg-main{background:#eee; height:2.8rem; line-height:2.8rem; overflow:hidden; border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+.wid33 {width: 33%;text-align: center;}
+.gray-txt {color: #666;font-size: 1.2rem;}
+.orge-txt {color: #f60;font-size: 1.2rem;}
+.icon-tel {background: url(../images/tel-icon.png) no-repeat;-webkit-background-size: 19px 19px;background-size: 19px 19px;width: 19px;height: 19px;display: inline-block;vertical-align: sub;}
+.bgw {background: #fff;}
+.noborder{ border-bottom:none !important;}
+
+.resp-tabs-list li {
+    font-weight: 600;
+    font-size: 0.5em;
+    display: inline-block;
+    padding: 13px 10px;
+    margin: 0 4px 0 0;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+}
+
+.resp-tabs-container {
+    padding: 0px;
+    background-color: #ffffff;
+    clear: left;
+}
+
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 15px;
+}
+
+.resp-tab-active {
+	border: 1px solid #78ACE2 !important;
+	border-bottom: none;
+	margin-bottom: -1px !important;
+	padding: 12px 14px 14px 14px !important;
+	border-top: 4px solid #78ACE2 !important;
+	border-bottom: 0px #fff solid !important;
+}
+
+.resp-tab-active {
+    border-bottom: none;
+    background-color: #183c62;
+	color:#78ACE2
+}
+
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+.resp-tab-content {
+    border: 1px solid #78ACE2;
+}
+
+h2.resp-accordion {
+    font-size: 13px;
+    border: 1px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+    padding: 10px 15px;
+}
+
+h2.resp-tab-active {
+    border-bottom: 0px solid #c1c1c1 !important;
+    margin-bottom: 0px !important;
+    padding: 10px 15px !important;
+}
+
+h2.resp-tab-title:last-child {
+    border-bottom: 12px solid #c1c1c1 !important;
+    background: blue;
+}
+
+/*-----------Vertical tabs-----------*/
+.resp-vtabs ul.resp-tabs-list {
+    float: left;
+    width: 30%;
+}
+
+.resp-vtabs .resp-tabs-list li {
+    display: block;
+    padding: 15px 15px !important;
+    margin: 0 0 4px;
+    cursor: pointer;
+    float: none;
+}
+
+.resp-vtabs .resp-tabs-container {
+    padding: 0px;
+    background-color: #fff;
+    border: 1px solid #c1c1c1;
+    float: left;
+    width: 68%;
+    min-height: 250px;
+    border-radius: 4px;
+    clear: none;
+}
+
+.resp-vtabs .resp-tab-content {
+    border: none;
+    word-wrap: break-word;
+}
+
+.resp-vtabs li.resp-tab-active { 
+position: relative;
+z-index: 1;
+margin-right: -1px !important;
+padding: 14px 15px 15px 14px !important;
+border-top: 1px solid;
+border: 1px solid #fff !important;
+border-left: 4px solid #fff !important;
+margin-bottom: 4px !important;
+border-right: 1px #FFF solid !important;
+}
+
+.resp-arrow {
+    width: 0;
+    height: 0;
+    float: right;
+    margin-top: 3px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 12px solid #c1c1c1;
+}
+
+h2.resp-tab-active span.resp-arrow {
+    border: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid #9B9797;
+}
+
+/*-----------Accordion styles-----------*/
+h2.resp-tab-active {
+    background: #DBDBDB;/* !important;*/
+}
+
+.resp-easy-accordion h2.resp-accordion {
+    display: block;
+}
+
+.resp-easy-accordion .resp-tab-content {
+    border: 1px solid #c1c1c1;
+}
+
+.resp-easy-accordion .resp-tab-content:last-child {
+    border-bottom: 1px solid #c1c1c1;/* !important;*/
+}
+
+.resp-jfit {
+    width: 100%;
+    margin: 0px;
+}
+
+.resp-tab-content-active {
+    display: block;
+}
+
+h2.resp-accordion:first-child {
+    border-top: 1px solid #c1c1c1;/* !important;*/
+}
+
+.wap-topban-3{ background:#ffc102; text-align:center;}
+.wap-topban-4{ background:#9cdcff  ; text-align:center;}
+.wap-topban-5{ background:#f9cb6b; text-align:center;}
+.wap-bj-tit-2{ font-size:1.2em; color:#333; line-height:2.6em; text-align:left;}
+.evaall li{ overflow:hidden; margin:0.8em 0; text-align:center; border-bottom:1px solid #ddd; padding:0.8em 0;}
+.evaall li img{ width:90px; height:90px; border-radius: 50px;overflow:hidden; margin:0.8em 0;}
+.evaall li p{ font-size:0.8em; color:#333;line-height:1.5em; text-align:left;}
+.link{ text-align:center;}
+
+
+/*new-tingclass*/
+.wap-bj-2{ background:#fff; padding:1em 1em 0.8em 1em; text-align:center;}
+.ti-wap-bj-tit{ font-size:1.1em; color:#da5555; line-height:2.6em; text-align:left;}
+.ti-wap-bj-list{ overflow:hidden; border-bottom:1px solid #78ace2; padding:0.5em 0; text-align:left;}
+.ti-wap-bj-list img{ float:left; width:90px; margin-right:1em;}
+.ti-wlist-tit{ font-size:1em; color:#04a6d8; line-height:1.5em; text-align:left;}
+.ti-wlist-tit a{ color:#04a6d8;}
+.ti-wlist-tit a:hover{ color:#04a6d8;}
+.ti-wlist-con{ font-size:0.6em; color:#04a6d8; line-height:1.5em; text-align:left;}
+.ti-wlist-class{ font-size:0.6em; color:#04a6d8;line-height:2em; text-align:left;}
+.ti-wlist-btn{ padding:0.3em 0.7em; color:#fff; background:#04a6cf; font-size:0.8em; display:inline-block; margin:0.4em 0;border-radius: 3px;}
+
+/*弹出层3*/
+.cd-popup-trigger-3{}
+.cd-popup-input-3{ width:90%; height:2em; border:1px solid #ddd;padding: 0.2em; margin-bottom:1rem;}
+.cd-popup-3 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(94, 110, 141, 0.9);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+.cd-popup-3.is-visible-3 {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0s;
+  z-index: 6;
+}
+
+.cd-popup-container-3 {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: 4em auto;
+  padding: 2em 0;
+  background: #FFF;
+  border-radius: .25em .25em .4em .4em;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-40px);
+  -moz-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  -o-transform: translateY(-40px);
+  transform: translateY(-40px);
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-backface-visibility: hidden;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.cd-popup-container-3 .cd-buttons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cd-popup-container-3 .cd-buttons li {
+  float: left;
+  width: 50%;
+}
+.cd-popup-container-3 .cd-buttons a {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #FFF;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+.cd-popup-container-3 .cd-buttons li:first-child a {
+  background: #fc7169;
+  border-radius: 0 0 0 .25em;
+}
+.no-touch .cd-popup-container-3 .cd-buttons li:first-child a:hover {
+  background-color: #fc8982;
+}
+.cd-popup-container-3 .cd-buttons li:last-child a {
+  background: #b6bece;
+  border-radius: 0 0 .25em 0;
+}
+.no-touch .cd-popup-container-3 .cd-buttons li:last-child a:hover {
+  background-color: #c5ccd8;
+}
+.cd-popup-container-3 .cd-popup-close-3 {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+}
+.cd-popup-container-3 .cd-popup-close-3::before, .cd-popup-container-3 .cd-popup-close-3::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  width: 14px;
+  height: 3px;
+  background-color: #8f9cb5;
+}
+.cd-popup-container-3 .cd-popup-close-3::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 8px;
+}
+.cd-popup-container-3 .cd-popup-close-3::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  right: 8px;
+}
+.is-visible-3 .cd-popup-container-3 {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+@media only screen and (min-width: 1170px) {
+  .cd-popup-container {
+    margin: 8em auto;
+  }
+}
+.ti-wap-al{padding: 0.8em 1em 0 1em; background:#fff0d2; overflow:hidden}
+
+/*新弹出层样式*/
+.pop3-style{ overflow:hidden; padding:0 1em;}
+.pop3-style img{ float:left; width:90px; height:90px; margin-right:0.2em;}
+.pop3-style p{ font-size:0.8em; color:#333; line-height:2.2em;}
+.pop3-style p b{ color:#f60; font-weight:normal;}
+.table-tit-1{background:#f5f5f5; color:#333; font-size:0.8em; line-height:2.2em; text-align:center;}
+.table-con-1{color:#666; font-size:0.8em; line-height:1.8em; padding-left:0.5em; text-align:left;}
+
+.wap-jsq-main{ font-size:1.1em; color:#fff; text-align:center; padding:1.2em;}
+.jsq-nav{padding:0.8em; background:#fff; background-color:rgba(255,255,255,0.7); -webkit-box-shadow:0 0 10px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 10px rgba(0, 0, 0, .4);box-shadow:0 0 10px rgba(0, 0, 0, .4); margin-top:0.5em;}
+.jsq-consty{ margin:0.5em 0; color:#333; font-size:0.8em; text-align:left;}
+.jsq-select{ margin:0.5em 0; text-align:left;}
+.select-nav{ border:1px solid #ccc; color:#666; width:100%; font-size:0.8em; background:#fff;}
+.txt-inpsty{ border:1px solid #ccc; width:100%;font-size:0.8em;background:#fff; padding:0.2em;}
+.wap-ban-2{ background:#d7e7f4;}
+.wap-ban-2 img{ width:320px;}
+.wap-topban-6{ background:#efefed; text-align:center;}
+.wap-jsq-main-1{ font-size:1.1em; color:#666; text-align:center; padding:1.2em;}
+.wap-topban-7{ height:240px; background:url(../images/topban-bg-4.jpg) repeat-x; text-align:center;}
+.wap-topban-8{ height:231px; background:url(../images/topban-bg-3.jpg) repeat-x; text-align:center;}
+
+
+
+.demo {
+  background: #ccc;
+
+}
+.demo__header {
+  height: 2rem;
+  font-size:1.4rem;
+  color:#333;
+}
+.demo__content {
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.demo__card-cont {
+  position: relative;
+  height: 24rem;
+  margin: 0 auto 2rem;
+}
+.demo__card {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-origin: 50% 100%;
+      -ms-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+.demo__card.reset {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+  -webkit-transform: translateX(0) !important;
+      -ms-transform: translateX(0) !important;
+          transform: translateX(0) !important;
+}
+.demo__card.reset .demo__card__choice {
+  -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s;
+  opacity: 0 !important;
+}
+.demo__card.inactive {
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+.demo__card.to-left {
+  -webkit-transform: translateX(-30rem) rotate(-30deg) !important;
+      -ms-transform: translateX(-30rem) rotate(-30deg) !important;
+          transform: translateX(-30rem) rotate(-30deg) !important;
+}
+.demo__card.to-right {
+  -webkit-transform: translate(30rem) rotate(30deg) !important;
+      -ms-transform: translate(30rem) rotate(30deg) !important;
+          transform: translate(30rem) rotate(30deg) !important;
+}
+.demo__card.below {
+  z-index: 1;
+}
+.demo__card__top {
+  padding: 1.1rem 0;
+  background:#ccc;
+}
+.demo__card__img{
+  overflow: hidden;
+  width: 10rem;
+  height: 10rem;
+  margin: 0 auto 1.5rem;
+  border-radius: 50%;
+  border: 0.5rem solid #ffffff;
+}
+.demo__card__img.tximg-1{
+  background-image:url(../images/img1.jpg);
+  background-size: cover;
+}
+.demo__card__img.tximg-2{
+  background-image:url(../images/img2.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-3{
+  background-image:url(../images/img3.jpg);
+  background-size: cover;
+}
+.demo__card__img.tximg-4{
+  background-image:url(../images/img4.jpg);
+  background-size: cover;
+}
+.demo__card__img.tximg-5{
+  background-image:url(../images/img5.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-6{
+  background-image:url(../images/img6.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-7{
+  background-image:url(../images/img7.jpg);
+  background-size: cover;
+}
+.demo__card__img.tximg-8{
+  background-image:url(../images/img8.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-9{
+  background-image:url(../images/img9.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-10{
+  background-image:url(../images/img10.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-11{
+  background-image:url(../images/img11.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-12{
+  background-image:url(../images/img12.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-13{
+  background-image:url(../images/img13.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-14{
+  background-image:url(../images/img14.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-15{
+  background-image:url(../images/img15.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-16{
+  background-image:url(../images/img16.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-17{
+  background-image:url(../images/img17.jpg);
+  background-size: cover;
+}
+
+.demo__card__img.tximg-18{
+  background-image:url(../images/img18.jpg);
+  background-size: cover;
+}
+
+.demo__card__name {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+.demo__card__btm {
+  height: 8rem;
+  background: #FFFFFF;
+}
+.demo__card__we {
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  padding:0 0.5rem
+}
+.demo__card__choice {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.demo__card__choice:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 2rem;
+  height: 2rem;
+  margin-left: -1rem;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: -2rem -3rem #fff, 2rem -3rem #fff;
+}
+.demo__card__choice:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 4rem;
+  height: 1.5rem;
+  margin-left: -2rem;
+  border: 0.6rem solid #fff;
+  border-bottom: none;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.demo__card__choice.m--reject {
+  background: #69F;
+}
+.demo__card__choice.m--like {
+  background: #69F;
+}
+.demo__card__choice.m--like:after {
+  -webkit-transform: scaleY(-1);
+      -ms-transform: scaleY(-1);
+          transform: scaleY(-1);
+}
+.demo__card__drag {
+  z-index: 5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.demo__tip {
+  text-align: center;
+  font-size: 2.2rem;
+}
+/*听力课堂-出国-托福 2017/4/25版*/
+.wap-main-banner{text-align:center;}
+.wap-main-banner img{vertical-align:top;width:100%;}
+.tlkt-cg-ft{text-align: center;background-color: #363e65;}
+.tlkt-cg-ft2{text-align: center;background-color:#d05857;}
+.wap-topban-5new{margin-top: 0.8em; background:#f9cb6b;}
+.wap-jsq-main-new{padding:0;border:1px solid #f9cb6b;}
+.jsq-nav-new{padding:0.8em; background:#fff; background-color:rgba(255,255,255,0.7); -webkit-box-shadow:0 0 10px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 10px rgba(0, 0, 0, .4);box-shadow:0 0 10px rgba(0, 0, 0, .4); margin-top:0;color:#e37e7e;}
+.resp-tab-content{border:1px solid #d85555; !important;}
+.resp-tab-active-new{
+  border: 1px solid #d85555 !important;
+  border-bottom: none;
+  margin-bottom: -1px !important;
+  padding: 12px 14px 14px 14px !important;
+  border-top: 4px solid #d85555 !important;
+  border-bottom: 0px #d85555 solid !important;
+  color:#d85555;
+}
+.tlkt-cg-tit{text-align: center;background: #fff;}
+.tlkt-cg-tit p{padding:1em 0;color:#da5555; font-size: 20px;}
+.tlkt-cg-tit img{width:100%;}
+.solution img{width:320px;}
+
+/*听力课堂-少儿-少儿英语 2017/4/25版*/
+.pxxd-banner{background:#5b93d0;text-align:center;}
+.tupian{width:320px;margin:0 auto;}
+.pxxd-banner img{display:block;width:320px;vertical-align:top;}
+.syd-wmqzx-fsyc{width:320px;margin:0 auto;}
+.syd-wmqzx-fsyc img{width:320px;vertical-align:top;}
+.syd-wmqzx-main {background-color:#fff;}
+.resp-tab-content-blue {border: 1px solid #78ace2;}
+/*听力课堂-成人口语-培训2017/5/5*/
+.resp-tab-content{border:1px solid #78ACE2;}
+.wap-topban-4{text-align: center;}
+.wap-topban-4 img{vertical-align: top;}
+.tlkt-crky-px{background-color: #5b93d0;}
+.crky-px-topbg{background-color: #fff;}
+
+/*听力课堂-无明确指向-哪家好2017/5/24*/
+.clearfix:after{
+  content: " ";
+  height:0;
+  line-height: 0;
+  display: block;
+  clear:both;
+  visibility: hidden;
+}
+.wmqzx-njh-h3{font-size: 1.5rem;line-height: 3rem;}
+.wmqzx-njh-img{text-align: center;}
+.wmqzx-njh-img img{width:100%;}
+.wmqzx-njh-h4{font-size: 1.3rem;margin-top: 0.8rem;line-height: 2rem;}
+.wmqzx-njh-h4 span{color:#ff3300;}
+.tlkt-wmqzx-njh p{font-size: 0.9rem;line-height: 1.5rem;color:#666666;}
+.wmqzx-njh-cont{padding:1.4rem 1.4rem 0;}
+.njh-cont-ul{display: flex;}
+.wmqzx-njh-cont li{float: left;flex:1;margin:0.05rem 0.1rem;background-color: #999999;font-size: 0.9rem;text-align:center;line-height: 2rem;font-weight: 800;color:#fff;}
+.wmqzx-njh-main{display: none;}
+.njh-main-con{border:1px solid #ccc;padding: 0.9rem;margin-bottom: 1rem;margin-top:1rem;}
+.njh-main-con img{width: 89px;float: left;margin-right:1rem;}
+.main-con-right h3{text-align: left;font-size: 1rem;}
+.main-con-right p{text-align: left;}
+.con-right-p a{float: right;color:#ff3300;font-size: 0.9rem;}
+.wmqzx-njh-cont .njh-cont-current{background-color: #ff3300;}
+.njh-main-show{display: block;}
+.wmqzx-njh-foot{margin-top: 1rem;}
+.wmqzx-njh-foot li{width:33.3%;padding:0.2rem;border:1px solid #ccc;float: left;margin-top: 0.5rem 0;text-align: center;height:12.5rem;}
+.wmqzx-njh-foot li:last-child{text-align: center;color:#ff3300;line-height: 11;font-weight: 600;}
+.wmqzx-njh-foot img{width:100%;}
+.njh-foot-a{display: inline-block;padding:0.2rem 0.5rem;color:#fff;background-color: #ff3300;font-size: 0.8rem;margin-top: 0.3rem;}
+.tlkt-wmqzx-njh .main-p{font-size: 1rem;}
+.njh-foot-p{}
+  @media only screen and (min-width: 768px) and (max-width:1024px;) {
+   html{font-size: 38.4px;}
+
+
+      
+    }
+      @media only screen and (min-width: 1024px){
+          html{font-size: 51.2px;}
+          .njh-main-con img{width:178px;}
+          .wmqzx-njh-foot li{height:13.5rem;}
+
+
+      }
+@media only screen and (min-width:320px) and (max-width:360px){
+  html{font-size: 16px;}
+  .wmqzx-njh-foot li{height:13.5rem;}
+
+}
+@media only screen and (min-width:360px) and (max-width:375px){
+  html{font-size: 18px;}
+  .wmqzx-njh-foot li{height:13.5rem;}
+}
+@media only screen and (min-width:412px) and (max-width:768px){
+  html{font-size: 20.6px;}
+  .wmqzx-njh-foot li{height:13.5rem;}
+}
+@media only screen and (min-width:375px) and (max-width: 412px){
+  html{font-size: 18.75px;}
+}
+
+
+ /*听力课堂-托福-哪家好2017/5/27*/
+.tlkt-tf-njh{background-color: #eff3f4;}
+.swiper-container-android .swiper-slide, .swiper-wrapper{background-color:#eff3f4; }
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{top:20rem;}
+.swiper-container-android .swiper-slide, .swiper-wrapper{height: 22rem;width:18rem;margin-top: -0.5rem;}
+.swiper-pagination-bullet-active{background-color: #33cccc;width:0.5rem;height:0.5rem;}
+.tf-njh-cont{width:80%;border:1px solid #ccc;height:80%;border-radius: 1rem;padding:1.1rem;background-color: #fff;}
+.tf-njh-tit{font-size: 1.5rem;color:#33cccc;height:3rem;line-height: 3rem;}
+.tf-njh-banner img{width:100%;}
+.tf-njh-sub{font-size: 1.3rem;color:#ff3300;font-weight: 500;line-height:2.6rem;}
+.tf-njh-sub span{color:#000;}
+.tf-njh-sum{font-size: 0.9rem;color:#666666;} 
+.swiper-slide{text-align: center;}
+.tf-cont-img{width:5rem;height:5rem;margin: 0 auto;}
+.tf-cont-img img{width:100%;}
+.njh-cont-tit{font-size: 1.1rem;margin: 0.5rem 0;}
+.njh-cont-main{font-size: 0.9rem;text-align: left;margin-bottom: 0.5rem;}
+.njh-cont-a{color:#fff;background-color: #33cccc;font-size: 1rem;padding:0.3rem 0.8rem;}
+.tf-njh-tab{margin:0.3rem;padding: 0.3rem;border:1px solid #33cccc;}
+.njh-tab-p{display: flex;}
+.njh-tab-p span{flex: 1;padding:0.3rem 0.1rem;background-color: #999999;margin-right: 0.1rem;color:#fff;font-size:0.7rem;}
+.tf-njh-tt{width:100%;display: none;box-sizing: border-box;}
+.tf-njh-tt tr{width:100%;}
+.tf-njh-tt th{font-size:0.7rem;text-align: center;color:#33cccc;background-color: #fff;height: 1rem;}
+.tf-njh-tt td{font-size: 0.6rem;background-color: #cfeced;border-right: 1px solid #fff;border-bottom: 1px solid #fff;height: 1rem;line-height: 1rem;text-align: center;padding:0.1rem 1rem;}
+.tf-njh-tt th:first-child{width:25%;}
+.tf-njh-tt th:not-child(2){width:40%;}
+.tf-njh-tt th:not-child(3){width:15%;}
+.tf-njh-tt th:last-child{width:20%;}
+.tf-njh-tt td:first-child{width:25%;}
+.tf-njh-tt td:not-child(2){width:40%;}
+.tf-njh-tt td:not-child(3){width:15%;}
+.tf-njh-tt td:last-child{width:20%;}
+.tf-njh-tt td:last-child a{color:#ff3300;}
+.njh-tab-p .njh-tab-current{background-color: #33cccc;}
+.njh-tab-show{display: block;}
+.tf-njh-footer{position: fixed;bottom: 0;left:0;width:100%;background-color: #fcede6;text-align: center;}
+.tf-njh-footer img{width:320px;}
+  @media only screen and (min-width: 768px) and (max-width:1024px;) {
+    .tf-njh-tt td{padding:0.1rem 2.5rem;}
+}
+@media only screen and (width: 768px){
+  .tf-njh-tt td{padding:0.1rem 2.5rem;}
+}
+/*听力课堂-托福-费用2017/6/7*/
+.tlkt-tf-fy{text-align: center;background-color: #eff3f4;}
+.tlkt-tf-fy img{vertical-align: top;}
+@media only screen and (min-width:320px) and (max-width:360px){
+  .mobile-page{font-size: 16px;}
+}
+@media only screen and (min-width:360px) and (max-width:375px){
+  .mobile-page{font-size: 18px;}
+}
+@media only screen and (min-width:412px) and (max-width:768px){
+  .mobile-page{font-size: 20.6px;}  
+}
+@media only screen and (min-width:375px) and (max-width: 412px){
+  .mobile-page{font-size: 18.75px;}
+}
+@media only screen and (min-width: 768px) and (max-width:1024px;) {
+   .mobile-page{font-size: 38.4px;} 
+    }
+.tf-fy-tit{font-size:0.85rem;line-height: 2.3rem;background-color: #fff;}
+.tf-fy-main{padding:0 1rem;}
+ /*tab切换开始*/
+.tf-fy-btn{box-sizing: border-box;padding:0 2rem;margin-top: 0.8rem;}
+.tf-fy-span{width:50%;text-align: center;background-color:#999999;height:2rem;display: inline-block;line-height: 2rem;border-right: 2px solid #fff;font-size: 0.9rem;}
+.fy-tab-cont{box-sizing: border-box;color:#666;border-top:1px solid #ccc;margin-top:0.5rem;padding-top:0.5rem;display: none;}
+.tf-fy-dl{width:25%;font-size: 0.8rem;float: left;}
+.tf-fy-dl dd{height:2rem;margin:0.5rem 0;line-height:2rem;background-color: #bce8e9;color:#ff3300;}
+.tf-fy-dl2{font-size: 0.8rem;width:70%;float:right;margin-left: 0.5rem;}
+.tf-fy-dl2 dd{height:2.5rem;border:1px dashed #666666;padding:0.1rem 0.2rem;border-top:none; }
+.tf-fy-dl2 .fy-dl2-dd{line-height: 2.5rem;border-top:1px dashed #666666;}
+.tf-fy-a{padding:0.5rem;background-color: #33cccc;color:#fff;border-radius:0.8rem ;font-size: 0.8rem;display: inline-block;margin-top: 0.5rem;}
+.tf-fy-dl2 .fy-dl2-dd2{border-top:1px dashed #666666;}
+.tf-fy-dl2 .fy-dl2-dd3{line-height: 2.5rem;}
+.tf-fy-active{background-color: #33cccc;}
+.fy-tab-active{display:block;}
+/*tab切换结束*/
+.tf-fy-section{margin-top: 0.5rem;}
+.tf-fy-quest{height:2rem;background-color: #33cccc;line-height: 2rem;color:#fff;font-size: 0.9rem;position: relative;}
+.tf-fy-quest:before,.tf-fy-quest:after{
+  width:0.5rem;
+  height:0.5rem;
+  content: "";
+  position: absolute;
+  
+}
+.tf-fy-quest:before{border-top:2px solid #ffff00;  border-left:2px solid #ffff00;top:15%;  left:23%;}
+.tf-fy-quest:after{
+  border-bottom:2px solid #ffff00;
+  border-right:2px solid #ffff00;
+  left:75%;
+  bottom:15%;
+}
+.fy-section-list{padding:0.5rem 0;margin:0.5rem 0;}
+.fy-section-list li{border:1px solid #666;padding:0.3rem;height:4.2rem;border-top:none;}
+.fy-section-list li:first-child{border-top:1px solid #666;}
+.fy-section-img{width:15%;float: left;height:100%;padding:0.3rem;box-sizing: border-box;}
+.fy-section-img img{width:100%;border-radius:50%;}
+.fy-section-cont{font-size: 0.8rem;}
+.fy-section-p{position: relative;}
+.hqkcbj{clear: both;}
+.fy-section-a{padding:0.18rem 0.28rem;float: right;background-color: #33cccc;color:#fff;display:inline-block;border-radius: 0.6rem;position: absolute;top:0;right:0.15rem;font-size: 0.7rem;}
+.fy-end-img{width:30%;float: left;margin-right: 0.5rem;}
+.fy-end-img img{width:100%;}
+.tf-fy-end{background-color: #fff;padding:0.5rem;margin-top: 0.5rem;position: relative;}
+.fy-end-icon{position: absolute;width:0.2rem;height:0.7rem;border-right: 3px solid #33cccc;right:0;top:0;}
+.fy-end-right{text-align:left;margin-top: -0.5rem;}
+.end-right-tit{font-size:1rem;text-align: left;}
+.end-right-cont{font-size: 0.9rem;margin:0.1rem 0;text-align: left;color:#666666;}
+.end-right-btn1{padding:0.2rem 0.4rem;background-color: #ff0000;color:#fff;font-size: 0.8rem;border-radius: 0.6rem;margin-top:0.8rem;}
+.end-right-btn2{padding:0.2rem 0.4rem;background-color: #33cccc;color:#fff;font-size: 0.8rem;border-radius: 0.6rem;margin:0.8rem;}
+@media only screen and (min-width:768px) and (max-width:71024px){
+  /*.mobile-page{font-size: 20.6px;} */
+  /*.fy-section-img{width:;}*/
+  .fy-section-img img{width:70%;}
+  .fy-end-right{margin-left: 35%;} 
+  .end-right-tit{margin-top: 1rem;}
+  .end-right-cont{margin:1rem 0;}
+  
+}
+/*听力课堂WAP-出国雅思-那家好 2017/6/8*/
+.njh-cont-a1{background-color: #ff3300;border-radius: 0.8rem;}
+.tf-fy-quest1{background-color: #ff3300;}
+.fy-section-a1{background-color: #ff3300;}
+.fy-section-tw{text-align: left;}
+.tf-njh-sum1{text-align: left;}
+/*听力课堂-出国雅思-哪家好2017/6/9*/
+.tlkt-cgys-fy{background-color: #ffffff;}
+.tf-fy-tit1{background-color: #ff3600;color:#fff;}
+.tf-njh-cont1{background-color: #fef7f3;border:none;}
+.njh-cont-a2{background:linear-gradient(to right,#ff6300,#ff2f00);border-radius: 0.8rem;}
+.tf-fy-quest2{background:linear-gradient(to right,#ff6300,#ff2f00);}
+.fy-section-img1{width:3rem;margin-top: 0.5rem;}
+.fy-section-tw1{height: 2rem;position:relative;margin-top: 0.7rem;}
+.fy-section-a2{background:linear-gradient(to bottom,#ff6300,#ff2f00);top:1.5rem;}
+/*听力课堂WAP-少儿英语-排名2017/6/14*/
+.tlkt-seyy-pm{text-align: center;background-color: #fff;}
+.tlkt-seyy-pm img{vertical-align: top;}
+.tf-fy-tit2{color:#f66005;}
+.sryy-pm-tit{height:3rem;position: relative;width:20rem;}
+.tf-njh-sub1{position:absolute;top:1.1rem;left:50%;z-index: 2;width:8rem;margin-left: -4rem;}
+.tf-njh-sub2{height:3rem;line-height: 3rem;}
+.tf-njh-cont2{background-color: #e0fdff;border:none;height:17.5rem;width:16.5rem;}
+.njh-cont-a3{border-radius:0.8rem;background-color: #ff6600; }
+.seyy-pm-course{background-color: #fff;margin-bottom: 1rem;}
+.pm-course-list{width:5rem;float: left;text-align: center;}
+.course-list-img{width:3.5rem;margin:0 auto;}
+.course-list-img img{width:100%;}
+.course-list-p{font-size: 0.9rem;margin:0.5rem 0;}
+.course-list-btn{font-size: 0.9rem;color:#fff;background-color: #ff6600;border-radius: 0.8rem;padding:0.2rem 0.4rem;}
+/*听力课堂-成人英语-排名2017/6/15*/
+.tlkt-cryy-pm{text-align: center;background-color: #fff;}
+.tlkt-cryy-pm img{vertical-align: top;}
+.tf-fy-tit3{color:#fff;background-color: #ff6600;}
+.cryy-pm-from{width:19rem;margin:0 auto;border:1px solid #cccccc;height:21rem;border-radius: 0.3rem;margin-top:3rem;box-sizing: border-box;padding:0 1.4rem;text-align:left;font-size: 1rem;}
+.cryy-cue-word{text-align:left;margin:0.6rem 0 0.4rem;font-weight: 800;font-size: 1rem;}
+.cryy-select,.cryy-input{width:15rem;border:1px solid #ccc;font-size: 1rem;color:#666;height:2rem;border-radius: 0.3rem;}
+.cryy-input{text-indent: 0.3rem;}
+.cryy-from-p{text-align: center;height:4rem;line-height:4rem;}
+.cryy-btn{color:#fff;padding:0.1rem 1.3rem;background-color: #ff3300;border-radius: 1rem;}
+.cryy-pm-tit{font-size: 1.5rem;height:3rem;line-height: 3rem;}
+.institu-ranking{width:19rem;margin:0 auto;heigth:35rem;}
+.institu-name{display: flex;margin:0.5rem 0;}
+.institu-name-li{float: left;flex:1;margin:0 0.2rem;background-color: #cccccc;padding:0.1rem 0.1rem;font-size: 0.8rem;}
+.institu-cont{display: none;}
+.institu-cont-list li{height:6.9rem;margin:0.5rem 0 ;box-shadow: 0 0 1px 1px #ccc;padding:0.5rem 0 0.5rem 0.5rem;}
+.institu-cont-img{width:5rem;float: left;height:5rem;margin-top: 0.5rem;}
+.institu-cont-img img{width: 100%;}
+.institu-cont-word{height:5rem;margin-top: 0.5rem;width:12.9rem;float:left;text-align:left;margin-left: 0.6rem;}
+.cont-word-tit{text-align: left;font-weight: 800;font-size: 0.8rem;}
+.cont-word-p{font-size: 0.7rem;text-align: left;height:1.15rem;line-height: 1.15rem;}
+.cont-word-sub{text-align: left;}
+.cont-word-btn{font-size: 0.8rem;color:#fff;background-color: #3366cc;padding:0.1rem 0.3rem;margin-right:0.7rem;border-radius: 0.2rem;}
+.cont-word-btn1{background-color: #ff3300;}
+.institu-active{background-color: #ff3300;color:#fff;}
+.cryy-active{display:block;}
+.cryy-pm-table{width:19rem;margin:0 auto;height:15px;}
+.cryy-pm-first td,.cryy-pm-second td{width:4.5rem;height:5rem;background-color: #cc3333;border-right:0.5rem solid #fff;border-bottom:0.5rem solid #fff;}
+.cryy-pm-first td:nth-child(2){background-color: #33cc66;}
+.cryy-pm-second td:nth-child(2){background-color: #33cc66;}
+.cryy-pm-first td:nth-child(3){background-color: #cc9933;}
+.cryy-pm-second td:nth-child(3){background-color: #cc9933;}
+.cryy-pm-first td:last-child{border-right: none;background-color: #33cccc;}
+.cryy-pm-second td:last-child{background-color: #33cccc;}
+.cryy-pm-second td{height:1.5rem;}
+.pm-first-h4{font-size: 1rem;color:#fff;height: 1.5rem;}
+.pm-first-p{font-size: 0.7rem;color:#fff;}
+.cryy-second-a{color:#fff;font-size: 0.9rem;}
+/*听力课堂-成人英语-哪家好2017/6/16*/
+.cryy-pm-first1 td:first-child{background-color: #ff3300;}
+.cryy-pm-second1 td:first-child{background-color: #ff3300;}
+.cryy-pm-first1 td:nth-child(2){background-color: #33cc66;}
+.cryy-pm-second1 td:nth-child(2){background-color: #33cc66;}
+.cryy-pm-first1 td:nth-child(3){background-color: #ff9900;}
+.cryy-pm-second1 td:nth-child(3){background-color: #ff9900;}
+.cryy-pm-first1 td:last-child{background-color: #33cccc;}
+.cryy-pm-second1 td:last-child{background-color: #33cccc;}
+/*听力课堂-成人口语-哪家好2017/6/19*/
+.crky-njh-course{width:19rem;margin:0 auto;}
+.njh-course-list li{padding:0.5rem;box-sizing: border-box;height:6rem;box-shadow: 0 0 1px 1px #eae9e9;margin:0.5rem 0;}
+.course-list-img{width:5rem;height:5rem;float: left;margin-right: 0.5rem;}
+.course-list-img img{width:5rem;height:5rem;}
+.course-list-cont{text-align:left;height:5rem;}
+.list-cont-tit{font-size: 0.8rem;font-weight: 800;text-align: left;}
+.list-cont-brief{font-size:0.7rem;height:2.4rem;margin:0.2rem 0;}
+.list-cont-brief p{height:1.2rem;line-height: 1.2rem;text-align:left;color:#666666;}
+.list-cont-btn{font-size: 0.7rem;color:#ff3300;}
+/*听力课堂-无明确指向-排名2017/6/21*/
+.tlkt-wmqzx-pm{text-align: center;}
+.tlkt-wmqzx-pm img{vertical-align: top;}
+.tf-fy-tit4{background-color: #28296a;color:#fff;}
+.cryy-pm-from1{height:17rem;}
+.cryy-btn1{background-color: #ee4234;border-radius: 0.3rem;}
+.cryy-pm-tit1{color:#28296a;}
+.cont-word-p1{width:12.9rem;height:2.5rem;}
+.cont-word-tit1{color:#28296a;}
+.cont-word-btn2{background-color: #007944;}
+.cont-word-btn3{background-color: #ee4234;}
+.wmqzx-pm-tabel{width:19rem;margin:0 auto;margin-bottom: 0.3rem;}
+.pm-tabel-tr1 td{width:4.75rem;border-bottom:0.5rem solid #fff;}
+.pm-tabel-tr1 td img{width:4rem;}
+.tabel-tr2-btn{background-color: #ee4234;color:#fff;font-size: 0.8rem;padding:0.2rem 0.5rem;border-radius: 0.8rem;}
+.tabel-tr2-btn2{background-color: #cc9a5d;}
+.tabel-tr2-btn3{background-color: #007944;}
+.tabel-tr2-btn4{background-color: #494e8e;}
+.wmqzx-pm-describe{font-size: 0.3rem;height:1rem;line-height: 1rem;width:19rem;margin:1rem 0;}
+.wmqzx-pm-jg{background-color: #ff3333;color:#fff;padding:0.2rem 0.7rem;margin:0.5rem 0;display: inline-block;}
+.cont-word-btn4{padding:0.1rem 0.5rem}
+/*听力课堂-出国雅思-费用2017/6/22*/
+.institu-cont-img1{border:1px solid #dbdbe6;border-radius: 0.3rem;}
+.institu-cont-img1 img{border-radius: 0.3rem;}
+.institu-name-li1{margin:0 0.9rem;padding:0.3rem 0;font-size:0.9rem;}
+.wmqzx-pm-quote{color:#fff;background-color: #ff3333;font-size: 1rem;padding:0.2rem 0.7rem;border-radius:0.3rem;}
+.tf-fy-quest3{height:2rem;background-color: #33cccc;line-height: 2rem;color:#fff;font-size: 0.9rem;letter-spacing:0.1rem;font-size:1.1rem;}
+.cryy-pm-tit2{margin-top:0.5rem;}
+.fy-section-a3{top:1.5rem;background-color: #ee4234;border-radius: 0.2rem;}
+.tf-fy-main1{margin-top: 1rem;}
+.wmqzx-pm-jg1{border-radius:0.3rem;}
+/*听力课堂-少儿英语-排名2017/6/23*/
+.seyy-pm-tit{font-size:1.5rem;color:#fff;background-color: #8ed6dc;}
+.cryy-pm-tit2{color:#753420;}
+.institu-name-li2{margin:0 0.2rem;font-size: 0.9rem;}
+.institu-active1{background-color: #f15a21;color:#fff;}
+.cont-word-btn5{background-color: #0399d4;}
+.cont-word-btn6{background-color: #f15a21;}
+.wmqzx-pm-jg2{border-radius: 0.3rem;background-color: #f15a21;}
+.instittlkt-seyy-pm1u-cont-list1 li{box-shadow: 0 0 10px 1px #eae9e9;}
+/*听力课堂-无明确指向-排名  2017/6/30*/
+.tlkt-wmqzx-pm1{text-align: center;background-color: #f3f3f3;font-family: "苹方中等";}
+.tlkt-wmqzx-pm1 img{vertical-align: top;}
+.wmqzx-pm1-tit{font-size: 1.5rem;height:2rem;line-height: 2rem;color:#fff;background-color: #000;}
+.pm1-advantage-cont{background-color: #f3f3f3;padding: 0.5rem 0 1rem;}
+.wmqzx-pm1-advantage{font-size: 1.5rem;height:2rem;color:#28296a;margin:0.9rem 0;}
+.pm1-advantage-list{width:19rem;margin:0 auto;}
+.pm1-advantage-list li{height: 3.9rem;width:3.9rem;border-radius: 2rem;border:1px solid #aaaaaa;float:left;text-align: center;margin:0.4rem;font-size: 1rem;}
+.pm1-advantage-list li a{font-size: 0.8rem;color:#545454;display: inline-block;margin-top: 0.8rem;}
+.institu-name1{margin-bottom:1.5rem;}
+.institu-name-li3{padding:0.15rem 0.1rem;background-color: #fff;border:1px solid #cccccc;}
+.institu-active2{background-color: #786ea6;color:#fff;border:1px solid #786ea6 ;}
+.cont-word-btn7{background-color: #fff;border:1px solid #999;color:#515151;border-radius:0.15rem;}
+.institu-ranking1{background-color: #fff;width:20rem;padding:0.5rem 0.5rem 1rem;}
+.tf-njh-banner1{margin-top: 1rem;}
+.tf-njh-banner1 img{width:100%;}
+.institu-cont-list2 li{box-shadow:none;border:1px solid #e7e7e7;padding:0.5rem 0 0.5rem 0.45rem;border-radius: 0.2rem;}
+.institu-cont-word1{margin-left: 0.45rem;}
+.wmqzx-pm1-jg{background-color: #786ea6;color:#fff;padding:0.3rem 4.5rem;margin:1rem 0 1.5rem;display: inline-block;}
+.cont-word-p2{color:#666;}
+.cont-word-btn8{background-color: #666699;border:1px solid #999;color:#fff;border-radius:0.15rem;}
+/*听力课堂-少儿英语-排名* 2017/07/03*/
+.tlkt-seyy-pm1{text-align: center;background-color: #fff;font-family: "苹方中等";}
+.seyy-pm1-tit{font-size: 1.5rem;height:2rem;line-height: 2rem;color:#fff;background-color: #46352e;}
+.seyy-pm1-advantage{font-size: 1.5rem;height:2rem;color:#663333;margin:0.9rem 0;}
+.pm1-advantage-cont1{background-color: #fff;}
+.pm1-advantage-list1 li{border:none;}
+.pm1-advantage-list1 li a{color:#fff;}
+.pm1-advantage-list1 li:first-child{background-color: #ee4234;}
+.pm1-advantage-list1 li:nth-child(2){background-color: #cc9a5d;}
+.pm1-advantage-list1 li:nth-child(3){background-color: #009999;}
+.pm1-advantage-list1 li:last-child{background-color: #0099cc;}
+.seyy-pm1-zx{padding:0.1rem 0.5rem;font-size: 0.8rem;color:#515151;margin-right:0.7rem;border:1px solid #999;}
+.seyy-pm1-zx1{background-color: #f15a21;color:#fff;border:1px solid #fff;}
+.wmqzx-pm1-jg1{background-color: #f15a21;margin:0.6rem 0;}
+.cont-word-p2{width: 12rem;}
+.institu-name-li4{margin:0 0.2rem;font-size: 0.9rem;padding: 0.3rem 0.1rem;border:1px solid #ccc;background-color: #fff;}
+.institu-active1{background-color: #f15a21;color:#fff;}
+.institu-name2{margin-bottom: 0.7rem;}
+/*听力课堂-雅思-费用 2017/7/18*/
+.tlkt-ys-fy{background-color: #f9f9f9;margin-bottom: 3.5rem;font-family: "苹方常规"}
+.ys-fy-header{background-color: #fff;padding:0.5rem 0;margin-bottom: 1rem;}
+.fy-header-h3{font-size: 1.3rem;color:#333333;line-height: 2.5rem;}
+.fy-header-time{font-size: 0.6rem;color:#666666;}
+.ys-fy-main{padding:0.5rem;background-color: #fff;}
+.fy-main-cont{text-indent: 2em;line-height: 1.5rem;text-align: left;font-size: 0.9rem;}
+.ys-fy-pic{margin:0.5rem;}
+.ys-fy-pic img{width:100%;}
+.ys-fy-footer{position: fixed;bottom:0;left:0;width:100%;}
+.fy-footer-list{}
+.fy-footer-list li{float:left;background-color: #13304f;color:#fff;border-right:1px solid #fff;padding:0.6rem 0;font-size: 0.9rem;text-align: center;width:6.3rem;}
+.fy-footer-list li:nth-child(3){width:7.4rem;}
+.footer-list-btn{color:#fff;}
+/*新弹出框 2017/7/28*/
+.leave-word{font-size:10px;width:23.3em;height:31em;position: fixed;top:50%;left:50%;margin-top: -15.5em;margin-left: -11.65em;overflow: hidden;}
+.leave-word-bg{width:23.3em;height:31em;}
+.leave-word-bg img{width:23.3em;height:18em;position: absolute;top:0;left:0;}
+.leave-word-cont{width:23.3em;height:23.3em;background-color: #fddee2;margin-top: 7.7em;border-radius: 0 0 0.4em 0.4em;}
+.leave-word-tit{color:#fff;font-size:2em;position: absolute;top:5.3em;left:3em;}
+.leave-word-input{width:10em;width:15em;position: absolute;bottom:5.8em;left:0.82em;padding:0.6em 0.4em;font-size:1.4em;border-radius: 0.5em;border:1px solid #aaa;background-color:#fff;}
+.leave-word-btn{text-align:center;color:#fff;border:none;background-color: #f95d6f;width:100%;font-size:2em;position: absolute;bottom:0;left:0;border-radius: 0 0 0.4em 0.4em;padding:0.35em 0;}
+.leave-word-close{position: absolute;right:-3.4em;top:-3em;font-size:18px;font-family:"tahoma";background-color: #f95d6f;width:5em;height:5em;border-radius: 50%;}
+.word-close-icon{color:#fff;position: absolute;left:0.65em;bottom:0.5em;width:1.5em;height:1.5em;}
+/*听力课堂-少儿英语-排名 2017-8-16*/
+.jyjj-cgys-njh{width:20rem;background-color: #fff;}
+.wmqzx-fy2-h3{height:2.5rem;line-height: 2.5rem;background-color: #3399cc;color:#fff;text-align: center;font-size: 1.2rem;}
+.cgys-njh-banner img{width:100%;}
+.wmqzx-fy2-word{line-height: 1.4rem;font-size: 0.82rem;margin:0.6rem;padding-bottom:0.6rem;color:#333;}
+.wmqzx-word-p{text-indent: 2em;}
+.njh-class-cont{padding:0 0.5rem;}
+.njh-class-list li{border:1px solid #1bb7ea;margin:0.5rem 0.2rem;font-size: 0.8rem;background-color: #fff;padding:0.4rem 0.3rem;box-sizing: border-box;}
+.njh-class-name{color:#333;text-align:center;font-size: 0.8rem;font-weight: bold;padding: 0.3rem;}
+.njh-class-known{margin-bottom: 0.5rem;text-align:center;}
+.njh-class-p{color:#666;line-height: 1.35rem;}
+.njh-class-btn{font-size: 0.9rem;color:#1bb7ea;background-color: #fff;}
+.wmqzx-fy2-see{text-align: center;}
+/*听力课堂-少儿英语-哪家好2017-08-24*/
+.cgys-njh-recom{padding:0 0.5rem 1rem;}
+.cgys-njh-recom li{padding:0.5rem;border:1px solid #fa556d;margin-bottom:0.5rem;}
+.njh-recom-img{width:4rem;height:4.5rem;float: left;margin-top: 0.5rem;}
+.njh-recom-cont{font-size: 0.7rem;margin-left:4.5rem; line-height: 1.1rem;}
+.recom-cont-p{margin-top: 0.3rem;}
+.recom-cont-btn{padding:0.1rem 0.5rem;background-color: #fa556d;color:#fff;border-radius: 0.15rem;}
+.recom-cont-btn1{margin-right: 1rem;}
+.wlist-tit1 a{color:#333;}
+.wlist-con1{color:#fa556d;}
+.wlist-btn1,.cd-popup-trigger1 {background-color: #fa556d;font-size:0.7rem;padding:0.3em;}
+.wap-bj-list1{border-bottom: 1px solid #fa556d;}
+.fy-footer-list{display: flex;background-color: #0099cc;height:1.8rem;line-height: 1.8rem;font-size: 0.9rem;}
+.fy-footer-list li{flex: 1;text-align: center;border-right:1px solid #fff;}
+.fy-footer-list li:last-child{border-right:none;}
+.fy-footer-list li a{color:#fff;}
+/*听力课堂-少儿英语-哪家好2017-08-24*/
+.sryy2-jgb-tit{color:#e66829;text-align: center;}
+.sryy2-jgb-table{text-align: center;margin:0 auto 1rem;}
+.sryy2-jgb-tr{height:3.5rem;text-align: center;}
+.sryy2-jgb-table td{border:0.5rem solid #fff;font-size: 0.65rem;padding:0.2rem;color:#fff;height:1rem;}
+.sryy2-jgb-table td:first-child{background-color: #ffa376;}
+.sryy2-jgb-table td:nth-child(2){background-color: #7ebcfa;}
+.sryy2-jgb-table td:nth-child(3){background-color: #7bd4da;}
+.sryy2-jgb-table td:last-child{background-color: #f78d88;}
+.sryy2-jgb-table td a{color:#fff;}
+.sryy2-jgb-sectr td{height:1rem;}
+.sryy2-jgb-mes{width:18rem;margin:0 auto;background-color: #fbfbfb;border-radius: 0.1rem;box-shadow: 0 0 7px 2px #ececec;box-sizing: border-box;padding:1rem;text-align: center;margin-bottom: 1rem;}
+.jgb-mes-tit{font-size: 0.8rem;color:#6aaff5;text-align: center;height:1.5rem;line-height: 1.5rem;margin-bottom: 0.8rem;}
+.sryy2-jgb-mes input{width:100%;border:1px solid #dddddd;font-size: 0.7rem;margin-bottom: 0.8rem;padding:0.18rem 0;text-indent: 0.5em;}
+.sryy2-jgb-mes .jgb-mes-btn{background-color: #6aaff5;width:5rem;border:none;color:#fff;text-align: center;border-radius: 0.15rem;margin-bottom: 0;}
+.sryy2-jgb-show{display: block;}
+.sryy2-jgb-tab li{background-color: #e1e1e1;}
+.sryy2-jgb-tab .resp-tab-active{background-color: #fff;}
+.section-list-word1{line-height: 1.2rem;height:1.2rem;font-size: 0.65rem;text-align: left;overflow: hidden;color:#666;}
+.jgb-tabcont-tit{font-size: 0.65rem;font-weight:700;}
+.list-word1-word{color:#999999;font-size:0.5rem;text-indent: 2em;}
+.list-word1-tit{font-size: 0.5rem;height}
+.section-list-show1{font-size: 0.7rem;color:#6aaff5;}
+.cgys-njh-recom1{margin:0.5rem 0;}
+.cgys-njh-recom1 li{border:1px solid #78ace2;}
+.recom-cont-btn2{background-color: #6aaff5;}
+.wlist-btn3{padding:0.3rem;font-size:0.7rem;}
+.cd-popup-trigger2{padding:0.3rem;font-size: 0.7rem;}
+/*听力课堂-少儿英语-哪家好*/
+.cgys-njh-recom1 li{border:1px solid #78ace2;}
+.njh-recom-img{width:4rem;height:4.5rem;float: left;margin-top: 0.5rem;}
+.njh-recom-cont p {text-align: left;}
+.recom-cont-p{margin-top: 0.3rem;}
+.sryy-njh-cont{font-size: 0.7rem;padding:0.5rem 0.7rem 0;}
+.njh-cont-word{text-indent:2em;line-height: 1.2rem;color:#333;}
+.section-list-word2{color:#333;height:auto;overflow: visible;}
+.sryy2-jgb-mes1{width:auto;margin-top: 1rem;}
+.sryy2-jgb-subtit{font-size: 0.9rem;text-align: left;padding-left: 0.7rem;margin-bottom: 0.5rem;}
+/*精英家教-成人英语2017-08-31 */
+.jyjj-cryy-index{width:20rem;background-color: #fff;margin-bottom:3.5rem;}
+.cryy-index-header{height:2.35rem;line-height:2.35rem;background-color: #ea4a25;text-align: center;color:#fff;}
+.jyjj-cryy-main{padding:0 0.853rem;}
+.cryy-index-tit{font-size:0.9rem;line-height: 1.467rem;font-weight: bold;padding:1.306rem 0 1.413rem;}
+.cryy-main-article{line-height: 1.467rem;font-size:0.693rem;margin-bottom: 1.2rem;}
+.cryy-main-tea{height:2.4rem;}
+.cryy-main-reply{font-size:0.8rem;border-bottom: 3px solid #000000 ;padding-bottom: 0.7rem;}
+.main-tea-list li{padding-top:2.13rem; padding-bottom: 0.5rem;border-bottom:1px solid #e9e9e9;}
+.main-tea-img{width:1.6rem;height:1.6rem;border-radius: 50%;float:left;}
+.main-tea-icon{width:0.48rem;height: 0.48rem;margin-left: -0.2rem;float:left;margin-top: 1.12rem;}
+.main-tea-name{font-size:0.746rem;color:#666;margin-right: 0.8rem;margin-left: 0.453rem;}
+.tea-list-jg{padding:0.2rem;background-color: #2ab962;color:#fff;font-size:0.58rem;}
+.tea-list-ask{font-size:0.58rem;padding:0.32rem 0.48rem;border:1px solid #ea4a25;color:#ea4a25;border-radius: 0.15rem;float: right;}
+.tea-list-span{margin:0.88rem 0 0.4rem;}
+.tea-list-span span{display: inline-block;padding:0.24rem 0.773rem;font-size:0.6934rem;border:1px solid #b8ce8c;background-color: #f2f6e9;margin-right: 0.586rem;}
+.tea-list-span .tea-list-ys{border:1px solid #fac287;background-color: #f8f2ec;}
+.tea-list-word{color:#666;font-size: 0.683rem;line-height: 1.546rem;}
+.tea-list-help{text-align: right;font-size:0.534rem;color:#999999;margin-top: 0.3rem;}
+.tea-list-help img{width:0.373rem;height:0.534rem;margin-right: 0.2rem;}
+/*弹窗*/
+.cryy-main-module{width:15.2rem;height:12.72rem;background-color: #fff;box-shadow: 0 0 7px 3px #cdcdcd;border-radius:0.3rem;text-align: center;position:fixed;top:50%;left:50%;margin-left: -7.6rem;margin-top: -6.36rem;display:none;}
+.cryy-main-form img{width:100%;vertical-align: top;border-radius:0.3rem 0.3rem 0 0 ;}
+.cryy-main-form select{width:12.53rem;height:1.6rem;border:1px solid #4dbd21;font-size:0.64rem;color:#666;text-indent: 3em;}
+.main-form-p{position:relative;margin-top:1.84rem; }
+.cryy-main-form .cryy-form1-img1{width:0.56rem;height:0.56rem;position:absolute;top:0.5rem;left:2rem;}
+.main-form-p1{position: relative;margin-top: 0.746rem;margin-bottom: 1rem;}
+.main-form-p1 input{width:12.4rem;height:1.4rem;border:1px solid #4dbd21;font-size:0.64rem;color:#666;text-indent: 3em;}
+.main-form-btn{font-size:0.8rem;color:#4dbd21;}
+.cryy-form1-close{width:1.227rem;height:1.227rem;position: absolute;top:-0.6rem;right:-0.6rem;border-radius:50%;}
+/*听力课堂WAP-出国雅思-费用 2017-9-4*/
+.pm1-advantage-cont1{background-color: #fff;}
+.institu2-name-li{float: left;flex:1;margin:0 0.9rem 0.8rem 0;padding:0.3rem 0rem;font-size: 0.85rem;border:1px solid #d2d2d2;}
+.institu2-name-li:last-child{margin-right: 0;}
+.institu-active1{background-color: #786ea6;}
+.cgys-fy-offer{font-size: 0.8rem;color:#fff;background-color: #786ea6;padding:0.1rem 0.5rem;margin-right:0.7rem;border-radius: 0.2rem;}
+.cgys-fy-consult{font-size: 0.8rem;color:#fff;background-color: #a6776e;padding:0.1rem 0.5rem;margin-right:0.7rem;border-radius: 0.2rem;}
+.cgtf-fy2-section{margin-top: 2.2rem;}
+.cgtf-fy2-care{background:linear-gradient(to right,#3c2967,#6a285e);}
+.fy2-section-a3{top:1.5rem;background-color: #786ea6;border-radius: 0.2rem;}
+.cgys-fy2-article{margin-top: 1rem;padding:0 1rem;}
+.fy2-article-tit{font-size: 0.9375rem;color:#000000;font-weight: bold;text-align:left;margin-bottom: 1rem;}
+.fy2-article-cont{font-size: 0.875rem;color:#000;line-height:1.8rem;text-align:left;}
+/*弹窗*/
+.cryy-main-module{width:15.2rem;height:12.72rem;background-color: #fff;box-shadow: 0 0 7px 3px #cdcdcd;border-radius:0.3rem;text-align: center;position:fixed;top:50%;left:50%;margin-left: -7.6rem;margin-top: -6.36rem;}
+.cryy-main-form img{width:100%;vertical-align: top;border-radius:0.3rem 0.3rem 0 0 ;}
+.cryy-main-form select{width:12.53rem;height:1.6rem;border:1px solid #4dbd21;font-size:0.64rem;color:#666;text-indent: 3em;}
+.main-form-p{position:relative;margin-top:1.84rem; }
+.cryy-main-form .cryy-form1-img1{width:0.56rem;height:0.56rem;position:absolute;top:0.5rem;left:2rem;}
+.main-form-p1{position: relative;margin-top: 0.746rem;margin-bottom: 1rem;}
+.main-form-p1 input{width:12.4rem;height:1.63rem;border:1px solid #4dbd21;font-size:0.64rem;color:#666;text-indent: 3em;}
+.main-form-btn{font-size:0.8rem;color:#4dbd21;}
+.cryy-form1-close{width:1.227rem;height:1.227rem;position: absolute;top:-0.6rem;right:-0.6rem;border-radius:50%;}
+.main-form-p2{margin-top: 2.5rem;}
+.main-form-btn1{margin-top: 1rem;display: inline-block;}
+
+
+/*相关推荐*/
+.experience-list{font-size:0.28rem;}
+.experience-detial-Relevant{line-height: 0.82rem;color:#999999;background-color: #fff;border-bottom: 1px solid #f3f3f3;padding:0 0.3rem;font-size: 0.32rem;text-align:left;}
+.experience-Relevant-icon{display: inline-block;width:0.33rem;height:0.33rem;background:url(../images/ys-sprite.png) -1.76rem -0.09rem no-repeat;background-size: 3rem 3rem;margin-right: 0.2rem;vertical-align: middle;}
+.experience-Relevant-list{background-color: #fff; }
+.experience-Relevant-list li{padding:0 0.3rem;border-bottom:1px solid #f3f3f3;}
+.experience-Relevant-list a{color:#333333;font-size: 0.3rem;display: inline-block;width:100%;box-sizing: border-box;padding:0.3rem 0;   }
+/*面包屑*/
+.public-index-crumbs{font-size:16px;color:#666;padding:0.3rem;text-align:left;}
+.public-index-crumbs a{color:#333;font-size:1em;}
+.public-index-crumbs .public-index-home{color:#eb5232;}
+
+.pColorClass{color:#c33;}
+/* 2017-12-14 面包屑+相关推荐*/
+.public-index-crumbs{font-size:16px;color:#666;padding: 0.5rem 0.8rem;text-align:left;}
+.public-index-crumbs a{color:#333;font-size:1em;}
+.public-index-crumbs .public-index-home{color:#eb5232;}
+.experience-detial-Relevant{line-height:2.32em;color:#999999;background-color: #fff;border-bottom: 1px solid #f3f3f3;padding:0 0.3rem;font-size: 1em;}
+.experience-Relevant-icon1{display: inline-block;width:0.32rem;height:0.3rem;background:url("tingclasswap/Wap3/css/tingclass.css") -4.12rem -0.1rem;background-size: 5rem 5rem;margin-right: 0.16rem;vertical-align: middle;}
+.experience-Relevant-list{background-color: #fff; }
+.experience-Relevant-list li{padding:0 0.8em;border-bottom:1px solid #f3f3f3;}
+.experience-Relevant-list a{color:#333333;font-size: 0.8em;display: inline-block;width:100%;box-sizing: border-box;padding:0.8em 0;   }
+.no-more{color:#999999;font-size: 0.8em;text-align: center;line-height: 3.36em;}
+/*听力课堂-旧版颜色修改 2017-12-14*/
+.website-map-header{background-color: #786ca5;padding: 0.8rem 0.8rem;color:#fff;font-size: 0.8rem;text-align:left;}
+.home-icon-back{display: inline-block;width:0.32rem;height:0.32rem;background:url(../images/ys-sprite.png) -0.09rem -0.09rem no-repeat;background-size: 3rem 3rem;}
+.website-map-line{border-left:1px solid #fff;height:0.8rem;margin-left:0.4rem;line-height: 0.8rem;display: inline-block;padding-left: 0.5rem;}
+.website-map-header a{color:#fff;}
+.header-colorfe790d{background-color:#fe790d;}
+.ys-article-tit{font-size:14px;}
+.ys-article-cont{font-size:14px;padding:10px 15px 15px;text-align:left;}

@@ -1,0 +1,6 @@
+.syd-map-header{height:0.88rem;padding: 0 0.3rem;line-height: 0.88rem;font-size: 0.34rem;}
+.website-map-line{border-left:1px solid #ff7758;height:0.34rem;margin-left:0.25rem;line-height: 0.32rem;display: inline-block;padding-left: 0.25rem;color:#fff;}
+.ting-mould-foot{padding:0 0.9rem;}
+.ting-mould-foot li{float:left;padding:0 0.34rem;border-right:0.02rem solid #7f8a94;}
+.ting-mould-foot li:last-child{border-right:none;}
+.ting-mould-foot li a{color:#fd5739;}

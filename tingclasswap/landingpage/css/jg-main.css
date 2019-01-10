@@ -1,0 +1,507 @@
+@media only screen and (min-width:320px){
+  html{font-size:42.6667px;}
+}
+@media only screen and (min-width:360px){
+  html{font-size:48px;}
+}
+@media only screen and (min-width:375px){
+  html{font-size:50px;}
+}
+@media only screen and (min-width:412px){
+  html{font-size:54.9333px;}
+}
+@media only screen and (min-width:414px){
+  html{font-size:55.2px;}
+}
+@media only screen and (min-width:768px){
+  html{font-size:102.4px;}
+}
+@media only screen and (min-width:1024px){
+  html{font-size:136.533px;}
+}
+.syd-ysh-index{background-color: #f4f5f6;font-family: "苹方常规";color:#333;margin-bottom: 1.2rem;}
+.ys-home-banner{position: relative;vertical-align: top;background-color:#fff;}
+.ys-home-banner img{width:100%;}
+.jg-details-close{position: absolute;top:0.29rem;left:0.27rem;width:0.428rem;height:0.427rem;background:url(../images/syd-ysh-sprite1.png) -2.8265rem -0.36rem;background-size:4rem 4rem;}
+.details-nav-list{background-color: #fff;border-bottom:1px solid #e3e4e5;height:0.7rem;font-size: 0.28rem;}
+.details-nav-list li{float: left;width:20%;text-align: center;}
+.details-nav-list a{color:#8e8e8e;font-size: 0.28rem;padding-bottom: 0.27rem;}
+.details-nav-list .nav-list-a{border-bottom: 2px solid #ea4a25;color:#ea4a25;}
+.ys-details-introduce{background-color: #fff;margin:0.3rem 0;padding: 0.3rem 0;display: none;font-size:0.26rem;}
+.ys-details-show{display: block;}
+/*机构详情-内容部分*/
+.details-intro-cont{padding: 0 0.3rem;}
+.details-intro-tit{color:#333;font-size: 0.26rem;border-bottom: 1px solid #e5e5e5;padding: 0 0.3rem 0.2rem;}
+.details-intro-icon1{width:0.24rem;height:0.26rem;margin-right: 0.2rem;}
+.details-intro-article{padding-top: 0.3rem;font-size: 0.24rem;color:#666;line-height: 0.41rem;text-indent: 2em;}
+.details-intro-article:first-line{font-size: 0.24rem;font-weight: bold;color:#000;}
+.details-intro-sum{color:#666;text-indent: 2em;padding-top: 0.4rem}
+.details-intro-beli{font-weight: bold;color:#000;padding-top: 0.3rem;}
+/*课程页*/
+.details-intro-icon2{width:0.25rem;height:0.23rem;margin-right: 0.2rem;}
+.course-list-spot{width:0.12rem;height:0.12rem;border-radius:50%;background-image:linear-gradient(to bottom,#eb992f,#eb562e);display: inline-block;float: left;margin-top: 0.1rem;}
+.course-list-tit a{font-weight: blod;color:#333;font-size:0.26rem;}
+.course-list-cont2{margin-left: 0.3rem;}
+.details-course-list li{padding:0.2rem 0;line-height: 0.4rem;border-bottom:1px solid #e8e8e8;}
+.course-list-recom{font-size:0.2rem;color:#666;}
+/*教师页*/
+.details-intro-icon3{width:0.24rem;height:0.23rem;margin-right: 0.2rem;}
+.details-teach-list li{padding:0.2rem 0;line-height: 0.4rem;border-bottom:1px solid #e8e8e8;}
+.details-teach-pic{width:1.2rem;height:1.2rem;float:left;display: inline-block;}
+.details-teach-pic img{width:1.2rem;height:1.2rem;}
+.details-teach-cont{margin-left:1.5rem;}
+.details-teach-name{font-size:0.24rem;}
+.details-teach-p{height:0.5rem;line-height: 0.5rem;}
+.details-teach-tag{padding:0.01rem 0.09rem;border:1px solid #cccccc;color:#999999;margin-right:0.2rem;border-radius:0.05rem;font-size:0.2rem;}
+.details-teach-special{font-size:0.24rem;color:#666;}
+/*地址*/
+.details-intro-icon4{width:0.24rem;height:0.23rem;margin-right: 0.2rem;}
+.details-intro-site{padding:0.25rem;box-sizing: border-box;}
+.details-intro-site a{color:#333333;font-size: 0.2rem;padding:0.1rem;border-radius:0.5rem;border:1px solid #e5e5e5;margin:0 0.17rem 0.3rem 0;display: inline-block;}
+.details-intro-site .details-intro-active{color:#ea4a25;border:1px solid #ea4a25;}
+.details-intro-site a:nth-child(6n){margin-right: 0;}
+.details-full-addr{background-color: #f4f5f6;}
+.full-addr-tit{margin-top: 0.2rem;background-color: #fff;padding:0.2rem 0.3rem;}
+.full-addr-list{background-color: #fff;padding:0.3rem;font-size: 0.2rem;}
+.full-addr-list li{height:0.47rem;line-height: 0.47rem}
+.full-addr-list li a{font-size: 0.24rem;color:#333;}
+.details-intro-icon5{width:0.25rem;height:0.25rem;margin-right: 0.2rem;}
+.syd-ysh-eval1{width:0.5rem;height:0.5rem;float: left;margin-right: 0.2rem;border-radius: 50%;}
+.details-intro-eval{background-color: #f4f5f6;}
+.details-intro-eval li{padding:0.3rem;background-color: #fff;margin-bottom: 0.2rem;}
+.intro-eval-name{font-size: 0.24rem;color:#666666;height:0.5rem;line-height: 0.5rem;}
+.intro-eval-cont{font-size: 0.24rem;line-height: 0.4rem;padding:0.1rem 0;}
+.intro-eval-time{font-size: 0.2rem;color:#666666;}
+/*网站地图*/
+.ysh-website-map{background-color: #fff;padding:0.2rem;}
+.website-map-header{background-color: #ea4a25;padding:0.3rem;color:#fff;font-size: 0.34rem;}
+.website-map-header span{display: inline-block; color:#fff;}
+.website-map-line{border-left:1px solid #fff;height:0.34rem;margin-left:0.25rem;line-height: 0.32rem;display: inline-block;padding-left: 0.25rem;color:#fff;}
+.website-map-tit{font-size: 0.3rem;color:#000000;background-color: #fff;}
+.map-hot-institu{margin-top: 0.5rem;border:1px solid #e5e4e4;font-size: 0.24rem;padding:0.5rem 0 0.3rem ;position: relative;}
+.hot-institu-tit{position: absolute;left:50%;top:0;font-size: 0.28rem;width:2rem;margin-left: -1rem;background-color: #fff;height:0.3rem;margin-top: -0.15rem;text-align: center;}
+.map-hot-institu a{padding:0 0.2rem;border-right:1px solid #000000;color:#666666;font-size: 0.24rem;display: inline-block;height:0.24rem;line-height: 0.22rem;margin-bottom: 0.15rem;}
+/*雅思机构*/
+.syd-ysh-tel{font-size: 0.28rem;float:right;}
+.ysh-index-org{font-size: 0.28rem;}
+.ysh-index-org li{background-color:#fff;margin-bottom: 0.2rem;padding: 0.23rem 0.3rem;}
+.index-org-logo{width:1.4rem;height:1.4rem;display: inline-block;float:left;border:1px dashed #e0dede;margin-right: 0.33rem;}
+.index-org-logo img{width:1.4rem;height:1.4rem;}
+.org-cont-tit{margin-bottom: 0.1rem;}
+.org-cont-tit a{font-size: 0.28rem;color:#000;}
+.org-cont-abstra{font-size:0.2rem;color:#666666;line-height:0.3rem;}
+.org-cont-course{font-size: 0.2rem;color:#000;line-height: 0.3rem;}
+.org-cont-p{margin-top: 0.1rem;}
+.org-cont-consult,.org-cont-offer{padding:0.08rem 0.16rem;font-size: 0.2rem;border:1px solid #5fa0f0; color:#5fa0f0;margin-right: 0.3rem;border-radius: 0.04rem;}
+.org-cont-offer{color:#ef7558;border:1px solid #ef7558;}
+/*雅思经验列表页*/
+.syd-yah-details li{padding:0.3rem 0.2rem;font-size: 0.28rem;background-color: #fff;border-bottom:1px solid #efefef;line-height: 0.36rem;}
+.yah-details-tit a{color:#000000;font-size: 0.28rem;}
+.yah-details-time{color:#666666;font-size: 0.2rem;margin-top:0.05rem;}
+.yah-details-loading{text-align: center;line-height: 0.5rem;background-color: #fff;}
+.yah-details-loading a{font-size: 0.24rem;color:#999999;}
+/*雅思课程聚合页*/
+.ysh-course-tit{font-size: 0.3rem;color:#000000;line-height: 0.8rem;background-color: #fff;padding-left: 25px;}
+.ysh-course-table{width:100%;background-color: #fff;margin:0 auto;}
+.ysh-course-table td{width:1.6rem;height:2rem;border:0.2rem solid #fff;}
+.ysh-course-table td a{display: inline-block;width:100%;height:2rem;}
+.ysh-course-table td img{width:1.6rem;height:2rem;vertical-align: top;}
+.ysh-course-table td .ysh-course-img{width:3.4rem;height:2rem;}
+/*雅思-课程-列表页*/
+.index-course-logo{display: inline-block;width:1.37rem;height:1.2rem;float: left;margin-right: 0.2rem;}
+.index-course-logo img{width:1.37rem;height:1.2rem;border:1px solid #cccccc;}
+.yah-course-loading{background-color: #f4f5f6;text-align: center;font-size: 0.2rem;}
+.yah-course-loading a{color:#999999;}
+/*生意地-雅思会-首页*/
+.syd-ysh-index{font-size: 0.28rem;}
+.syd-ysh-header{height:0.88rem;line-height: 0.75rem;background-color: #ea4a25;padding:0.1rem 0.2rem;box-sizing: border-box;font-size: 0.28rem;}
+.syd-ysh-logo{display: inline-block;width:0.83rem;height:0.58rem;}
+.syd-ysh-logo img{width:0.83rem;height:0.58rem;}
+.ysh-header-tel{font-size: 0.28rem;float: right;color:#fff;}
+.home-nav-list {display: flex;font-size:0.24rem; text-align: center;background-color: #fff;height:0.78rem;line-height: 0.78rem;margin-bottom: 0.2rem;}
+.home-nav-list li{flex: 1;}
+.nav-list-a{color:#ea4a25;}
+.home-nav-list li a{color:#666;}
+/*雅思经验*/
+.ysh-home-details{background-color: #fff;margin-bottom: 0.2rem;}
+.home-details-tit{padding: 0 0.2rem;height:0.65rem;line-height: 0.65rem;border-bottom:1px solid #efefef;}
+.details-tit-icon{width:0.365rem;height:0.35rem;display: inline-block;background:url(../images/syd-ysh-sprite1.png) 0 0 no-repeat;background-size: 4rem 4rem;margin-right: 0.2rem;vertical-align:text-top;}
+.home-details-more{float: right;font-size:0.22rem;color:#999999; }
+.details-tit-arrow{width:0.1067rem;height:0.186rem;display: inline-block;background:url(../images/syd-ysh-sprite1.png) -0.8rem -0.373rem no-repeat;background-size: 4rem 4rem;vertical-align: initial;margin-left: 0.1rem;}
+.home-details-list{box-sizing: border-box;margin-bottom: 0.2rem;width:95%;margin:0 auto;}
+.home-details-list li{padding:0.35rem 0;float: left;width:48%;border-bottom:1px solid #efefef;}
+.home-details-list li:nth-child(2n){padding-left:0.2rem;}
+.home-details-list li:nth-child(2n+1){border-right:1px solid #efefef;}
+.home-details-list li:nth-last-child(-n+2){border-bottom: none;}
+.ysh-home-img1{width:0.8rem;height:0.8rem;float: left;margin-right: 0.2rem;}
+.details-list-cont{font-size: 0.24rem;height:0.8rem;line-height: 0.35rem;}
+.details-list-cont a{color:#333333;}
+/*雅思课程*/
+.ysh-home-course{background-color: #fff;margin-bottom: 0.2rem;}
+.details-tit-icon1{width:0.39rem; height:0.34rem;display: inline-block;background:url(../images/syd-ysh-sprite1.png) -0.4rem 0 no-repeat;background-size: 4rem 4rem;vertical-align:text-top;margin-right: 0.2rem;}
+.home-course-list li{margin:0.2rem;border-bottom:1px solid #e5e5e5;padding-bottom: 0.2rem;}
+.home-course-list li:last-child{border-bottom:none;}
+.home-course-img{width:1rem;height:1rem;display: inline-block;border:1px solid #e5e5e5;margin-right: 0.2rem;float: left;}
+.home-course-img img{width:1rem;height:1rem;}
+.home-course-tit{font-size: 0.26rem;height:0.5rem;line-height: 0.5rem;}
+.home-course-tit a{color:#333333;}
+.home-course-cont{font-size: 0.22rem;color:#666;}
+/*雅思在线*/
+.ysh-home-online{background-color: #fff;margin-bottom: 0.2rem;}
+.details-tit-icon2{width:0.35rem;height:0.35rem;display: inline-block;background:url(../images/syd-ysh-sprite1.png) -0.86rem 0 no-repeat;background-size: 4rem 4rem;margin-right: 0.2rem;vertical-align:middle;}
+.home-online-list{padding: 0 0.2rem;}
+.home-online-list li{border-bottom:1px solid #efefef;line-height: 0.74rem;height:0.74rem;}
+.home-online-list li:last-child{border:none;}
+.home-online-list li a{color:#666666;font-size: 0.26rem;}
+/*雅思话题*/
+.ysh-home-topic{background-color: #fff;margin-bottom:0.2rem;}
+.details-tit-icon3{width:0.37rem;height:0.34rem;display: inline-block;background:url(../images/syd-ysh-sprite1.png) -1.25rem 0 no-repeat;background-size: 4rem 4rem;margin-right:0.2rem;vertical-align: middle;}
+.home-topic-list{padding:0 0  0.2rem 0.2rem;width:7.5rem;box-sizing: border-box;margin:0 auto;display:flexbox;flex-wrap:wrap;display:inline-flexbox;}
+.home-topic-list a{color:#666;font-size: 0.24rem;width:2rem;height:0.5rem;text-align:center;line-height:0.5rem;border:1px solid #e8e8e8;margin:0.3rem 0.3rem 0 0;display: inline-block;}
+
+/*雅思问答*/
+.details-tit-icon4{width:0.34rem;height:0.36rem;display: inline-block;background:url(../images/syd-ysh-sprite1.png) -1.7rem 0 no-repeat;background-size: 4rem 4rem;margin-right: 0.2rem;vertical-align: middle;}
+/*雅思机构*/
+.ysh-home-organ{background-color: #fff;margin-bottom: 0.2rem;}
+.details-tit-icon5{width:0.32rem;height:0.32rem;display:inline-block;margin-right: 0.2rem;vertical-align: middle;background:url(../images/syd-ysh-sprite1.png) -2.08rem 0 no-repeat;background-size:4rem 4rem;}
+.syd-organ-logo{width:0.8rem;height:0.8rem;display: inline-block;float: left;margin-right: 0.2rem;border:1px solid #e0dede;border-radius: 0.03rem;}
+.syd-organ-logo img{width:0.8rem;height:0.8rem;}
+.ysh-home-sitemap{height:0.5rem;line-height: 0.5rem;font-size: 0.22rem;text-align:center;background-color: #fff;border:1px solid #eeeeee;}
+.ysh-home-sitemap a{color:#666666;display: block;width:100%;height:100%;}
+.ysh-home-foot{text-align:center;font-size: 0.2rem;color:#999;height:0.93rem;line-height: 0.93rem;}
+.ysh-home-line{display: inline-block;width:2.5rem;height:0.07rem;border-top:1px solid #d5d5d5;margin-right: 0.1rem;}
+.ysh-home-line1{margin-left: 0.1rem;}
+/*雅思-课程-详情页*/
+.ysh-course-details{padding:0.2rem 0;font-size: 0.3rem;margin-bottom: 0.2rem;background-color: #fff;}
+.course-details-lfline{width:0.04rem;height:0.31rem;background-color: #ea4a25;display: inline-block;vertical-align:text-bottom;margin-right: 0.2rem;}
+.course-details-tit a{color:#333333;}
+.course-details-jg{padding:0.2rem 0.2rem 0 0;border-top:1px solid #eee;margin:0.2rem 0.2rem 0;}
+.course-details-jglogo{display: inline-block;width:0.6rem;height:0.6rem;float: left;margin-right: 0.2rem;}
+.course-details-jglogo img{width:0.6rem;height:0.6rem;border-radius: 50%;border:1px solid #eeeeee;}
+.details-jg-tit{height:0.6rem;line-height: 0.6rem;}
+.details-jg-tit a{font-size: 0.2rem;color:#666;}
+.course-details-people{background-color: #fff;margin-bottom: 0.2rem;}
+.details-people-tit{font-size: 0.28rem;color:#333;padding:0.2rem;border-bottom:1px solid #f5f5f5;}
+.people-tit-icon{width:0.4rem;height:0.373rem;display: inline-block;background:url(../images/syd-ysh-sprite1.png) -2.533rem 0 no-repeat;background-size: 4rem 4rem;vertical-align: middle;margin-right:0.2rem;}
+.details-people-cont{padding:0.2rem;font-size: 0.24rem;color:#666666;line-height: 0.38rem;}
+.people-tit-icon1{width:0.467rem;height:0.333rem;display: inline-block;background:url(../images/syd-ysh-sprite1.png) -3.053rem 0 no-repeat;background-size: 4rem 4rem;vertical-align: middle;margin-right:0.2rem;}
+.people-tit-icon2{width:0.373rem;height:0.373rem;background-position: -3.626rem 0;}
+.people-tit-icon3{width:0.32rem;height:0.347rem;background-position:0 -0.3693rem;}
+.people-tit-icon4{width:0.307rem;height:0.3693rem;background-position: -0.414rem -0.3693rem; }
+/*机构详情改版*/
+.ys-home-banner{width:7.5rem;height:2.59rem;background:url(../images/syd-ysh-bg.jpg);
+text-align: center;padding-top:0.4rem;box-sizing: border-box;}
+.ys-home-banner .home-banner-logo{width:1.18rem;height:1.18rem;border-radius: 50%;border:3px solid rgba(255,255,255,0.5);}
+.home-banner-name{font-size: 0.34rem;color:#fff;}
+.details-nav-list{height:0.9rem;line-height: 0.9rem;}
+.ys-home-ban img{width:100%;vertical-align: middle;}
+.ys-tec-assess {padding: 0.06rem 0.15rem;display :inline-block;background-color:#ea4a25;color:#fff;float:right;border-radius:0.3rem;}
+/*底部浮动框*/
+.ys2-aks2-footer{position:fixed;bottom:0;left:0;width:100%;font-size: 0.22rem;}
+.aks2-footer-list{display: flex;height:0.98rem;background-color: #ea4a25;font-size:0.22rem;line-height: 0.35rem;}
+.aks2-footer-list li{flex:1;text-align:center;border-right:1px solid #fff;padding: 0.1rem 0;}
+.aks2-footer-list li:last-child{border:none;}
+.aks2-footer-list li a{color:#fff;font-size: 0.22rem;}
+.footer-list-icon{display:inline-block;width:0.538rem;height:0.507rem;background:url(../images/syd-ysh-sprite1.png) -0.933rem  -0.36rem no-repeat;vertical-align:middle;background-size: 4rem 4rem;}
+.footer-list-icon1{width:0.427rem;height:0.48rem;background:url(../images/syd-ysh-sprite1.png) -1.693rem -0.36rem no-repeat;background-size: 4rem 4rem;}
+.footer-list-icon2{width:0.507rem;height:0.507rem;background:url(../images/syd-ysh-sprite1.png) -2.24rem -0.36rem no-repeat;background-size: 4rem 4rem;}
+/*咨询名师*/
+.lxs-wap-index{font-size:0.28rem;background-color: #e5e4e4;margin-bottom:2rem;min-width: 320px;width:100%;}
+.details-tea-img1{width:0.6rem;height:0.6rem;border-radius: 50%;float: left;}
+.details-list-cont1{padding:0.22rem  0.3rem;background-color: #fff;border-bottom:1px solid #e5e5e5;}
+.details-cont1-icon{display: inline-block;width:0.19rem;height:0.19rem;float: left;background:url(../images/lxs-wap-sprite.png) -1.30rem 0 no-repeat;background-size: 3rem 3rem;margin-top: 0.41rem;margin-left: -0.1rem;}
+.ask-teacher-info{font-size:0.28rem;color:#333;padding-left:0.18rem;padding-right: 0.18rem;}
+.ask-teacher-help{font-size:0.2rem;color:#999;}
+.ask-teacher-icon{width:0.26rem;height:0.26rem;display: inline-block;background:url(../images/lxs-wap-sprite.png) -1.5rem 0 no-repeat;background-size:3rem 3rem ;}
+.ask-teacher-section{padding:0.4rem 0.3rem 0;background-color: #fff;}
+.teacher-section-brief{font-size: 0.26rem;color:#333;font-weight:bold;margin-left: 0.18rem;}
+.teacher-section-word{font-size: 0.22rem;color:#666666;line-height: 0.4rem;margin-top: 0.1rem;padding-bottom: 0.32rem;border-bottom:1px solid #dddcdc;}
+.ask-teacher-icon1{background-position: -1.81rem 0 ;background-size:3rem 3rem;width:0.23rem;height:0.23rem;}
+.teacher-section-word1{border-bottom: none;}
+.ask-teacher-que{margin-top: 0.2rem;padding:0.2rem 0.3rem;background-color: #fff;}
+.ask-teacher-icon2{width:0.24rem;height:0.24rem;background-position: -2.1rem 0;background-size: 3rem 3rem;}
+.teacher-que-tit{border-bottom:1px solid #dddcdc;padding-bottom: 0.2rem;}
+.ask-teacher-form{text-align: center;}
+.teacher-index-sr{text-align:center;background-color: #fff;border-bottom:1px solid #dddcdc;width:90%;margin:0 auto;margin-bottom: 0.46rem;}
+.index-sr-cont{width:100%;height:2.7rem;border:none;margin:0 auto;padding:0.5rem 0;box-sizing: border-box;font-size: 0.2rem;outline:none;}
+.teacher-form-input{width:2.69rem;height:0.46rem;text-indent: 0.5em;}
+.teacher-form-btn{display: inline-block;width:1.56rem;height:0.534rem;text-align: center;line-height: 0.53rem;background-color: #ea4a25;color:#fff;font-size: 0.24rem;vertical-align: bottom;}
+.ask-teacher-spot{width:0.08rem;height:0.08rem;background-color: #999999;border-radius: 50%;display: inline-block;float: left;margin-top: 0.15rem;}
+.ask-teacher-cue{font-size: 0.2rem;color:#999;margin-top:0.38rem;margin-right: 0.01rem;margin-left: 0.1rem;}
+.details-tea-info{height:0.6rem;line-height: 0.6rem;}
+/*经验详情---------------------------------------*/
+.ask2-header-local {color: #fff;padding-right:0.2rem;}
+.experience-details-tit{font-size:0.3rem;color:#000000;line-height:0.5rem;background-color: #fff;padding:0.3rem;font-weight: bold;margin-bottom: 0.2rem;}
+.ask2-header-line1{height:0.34rem;line-height:0.3rem;border-left:1px solid #fff;padding-left:0.2rem;}
+.details-list-section{padding-bottom:0.24rem;border-bottom:1px solid #e5e5e5;}
+.experience-details-list li{margin-bottom: 0.2rem;padding:0.28rem 0.3rem;background-color: #fff;}
+.list-info-img{width:0.6rem;height:0.6rem;border-radius: 50%;float: left;}
+.details-tea-info{height:0.6rem;line-height: 0.6rem;}
+.details-tea-name{font-size:0.28rem;font-weight: bold;padding-left: 0.16rem;padding-right: 0.14rem;}
+.details-tea-name a {color: #333;}
+.details-tea-time{font-size:0.18rem;color:#f08e48;}
+.details-tea-prove{color:#de4020;font-size:0.2rem;padding-left: 0.2rem;padding-right: 0.1rem;}
+.details-tea-ask{display: inline-block;padding:0.07rem 0.13rem;float: right;border-radius: 0.3rem;background-image:linear-gradient(to right,#da3333,#f08f49);color:#fff;font-size:0.2rem;line-height: initial;}
+.details-tea-cont{font-size: 0.28rem;line-height: 0.6rem;padding-top:0.15rem;}
+.details-list-now{font-size:0.2rem;color:#999999;text-align:right;margin-top: 0.2rem;}
+.details-tea-icon{width:0.22rem;height:0.26rem;display: inline-block;background:url(../images/lxs-wap-sprite.png) -1.3rem 0 ;background-size: 3rem 3rem;vertical-align: middle;}
+.ys-outfit-btn{display: inline-block;width:6.9rem;height:0.8rem;line-height: 0.8rem;background-color: #ea4a25;text-align: center;color:#fff;margin-top: 0.68rem;}
+/*选课方案*/
+.curricula-variable-banner{margin:0.5rem 0.75rem;padding:0.3rem;background-color: #fff;border-radius: 0.15rem;margin-bottom: 0.5rem;}
+.variable-banner-img{width:100%;}
+.teacher-index-banner img{width:100%;}
+.course-teacher-main{font-size: 0.95rem;}
+.teacher-main-p{padding:0.5rem 0.75rem;}
+.word-tab-tit{display: inline-block;width:7rem;border-radius: 0.15rem;background-color: #eae9f1;height:1.5rem;margin-left:1rem;line-height: 1.5rem;}
+.word-tab-nav{display: inline-block;width:3.5rem;height:1.5rem;text-align: center;}
+.word-tab-nav1{border-radius: 0.15rem 0 0 0.15rem;}
+.word-tab-nav2{border-radius: 0 0.15rem 0.15rem 0;}
+.tab-nav-active{background-color: #fa7252;color:#fff;}
+.course-teacher-section{display: none;}
+.course-teacher-active{display: block;}
+.teacher-section-history{margin-top:0.3rem;padding:0.5rem 0.75rem;border-top:1px solid #ccc;border-bottom:1px solid #e8e8e8;}
+.teacher-section-star{color:#ea4a25;}
+.teacher-section-p{display: flex;margin:0.5rem 0 0;}
+.section-history-p{padding:0.5rem 0;font-size: 0.8rem;}
+.teacher-section-p1{display: flex;}
+.teacher-section-p select{flex:1;font-size:0.8rem;margin-right: 0.5rem;background-color: #f6f6f6;border-radius: 0.15rem;}
+.teacher-section-p span{flex: 1;}
+.teacher-section-p1 span{flex: 1;font-size: 0.8rem;color:#666;}
+.teacher-section-cycle{padding:0 0.75rem;border-bottom: 1px solid #e8e8e8;padding-bottom:0.8rem;}
+.teacher-section-p input{width:8.5rem;margin-right: 0.5rem;background-color: #f6f6f6;border:1px solid #ccc;border-radius: 0.15rem;font-size: 0.8rem;height:1.3rem;text-indent: 0.5rem;}
+.teacher-section-cue{font-size:0.5rem;padding:0.5rem 0;text-align: center;color:#999999;}
+.variable-main-btn{width:90%;margin-top: 0.68rem;background-color: #ea4a25;border:none;color:#fff;padding:0.2rem 0;display:inline-block;}
+/*学习方案*/
+.consult-teacher-index{background-color: #f4f5f6;font-family: "苹方中等";color:#333;font-size:0.28rem;}
+.consult-teacher-index1{background-color: #fff;}
+.variable-main-cue{color:#999999;font-size: 0.4rem;margin-top: 1rem;}
+.index-section-ask{padding: 0.5rem 0;border-bottom:1px solid #e5e5e5;}
+.index-section-icon6{width:0.9rem;height:0.9rem;}
+/*input::-webkit-input-placeholder{color:#ccc;}*/
+.teacher-index-text{text-align: center;border-bottom:1px solid #ccc;padding:0.4rem 0.3rem;}
+.index-text-area{height:3.52rem;width:6.9rem;background-color: #f6f6f6;padding:0.1rem;outline:none;border:none;margin:0 auto;box-sizing: border-box;}
+.index-text-p{height:1rem;padding:0.2rem;border-bottom:1px solid #ddd;line-height: 1rem;}
+.index-text-p input{height:0.6rem;width:5.5rem;text-indent: 1em;}
+.index-text-cue{display: inline-block;width:1.3rem;text-align:center;}
+/*新留言板*/
+.leave-word1{font-size:10px;width:20.8em;height:31em;position: fixed;top:50%;left:50%;margin-top: -15.5em;margin-left: -10.4em;}
+.leave-word-bg1{width:20.8em;height:31em;}
+.leave-word-bg1 img{width:14.8em;height:14.45em;position: absolute;top:0;left:2.83em;}
+.leave-word-bg1 .word-bg1-img2{width:22.7em;height:10.4em;position: absolute;top:15.5em;left:-0.9em;}
+.word-bg1-cont{width:20.8em;height:21.8em;box-shadow: 0 0 7px 1px #e6e6e6;margin-top: 9em;border-radius: 5px;background-color:#fff;}
+.leave-word-tit1{color:#fff;font-size:2em;position: absolute;top:8.3em;left:2.5em;}
+.leave-word-input1{width:15em;position: absolute;bottom:5.7em;left:0 ;padding:0.6em;font-size:1.3em;border-radius: 0.5em;border:1px solid #aaa;}
+.leave-word-btn1{color:#fff;border:none;background-color: #f95d6f;width:5em;font-size:2em;position: absolute;bottom:0.7em;left:2.75em;padding:0.2em 0;text-align:center;}
+.leave-word-close1{position: absolute;right:-0.36em;top:4.3em;color:#f95d6f;font-size:18px;font-family: "tahoma";background-color: #fddee2;width:1em;height:1em;text-align: center;border-radius: 50%;font-size: 1.8em;line-height:0.8em;}
+/*雅思机构-2017-10-11*/
+.syd-outfit2-list li{padding:0.27rem 0.29rem 0.08rem;margin-bottom: 0.17rem;background-color: #fff;border-bottom:1px solid #f0f0f0;}
+.syd-outfit2-img{width:1.2rem;height:1.12rem;display: inline-block;float: left;}
+.syd-outfit2-img img{width:1.2rem;height:1.12rem;}
+.syd-outfit2-cont{margin-left:1.42rem;}
+.outfit2-cont-tit{font-size: 0.3rem;color:#000;font-weight: bold;}
+.outfit2-cont-synopsis{font-size:0.24rem;color:#666;margin:0.05rem 0;}
+.outfit2-cont-offer{padding:0.05rem 0.15rem 0.08rem;display: inline-block;float: right;font-size:0.24rem;color:#fff;background-image: linear-gradient(to right,#ff9933,#ff3333);border-radius: 0.2rem;}
+.outfit2-cont-harvest{font-size:0.2rem;color:#666666;}
+.outfit2-harvest-icon{width:0.21rem;height:0.2rem;display: inline-block;background: url(../images/outfit2-harvest-icon.png) center no-repeat; background-size: 0.21rem 0.2rem;margin-right: 0.1rem;}
+.outfit2-help-count{color:#ff3333;}
+.syd-outfit2-price{font-size:0.28rem;color:#333;padding:0.18rem 0;margin-top: 0.18rem;border-top:1px solid #f0f0f0;}
+.outfit2-price-a{display:block;color:#333;}
+.outfit2-price-benefit{display: inline-block;padding:0.03rem 0.05rem;background-color: #ea5625;color:#fff;margin-right: 0.1rem;}
+.outfit2-price-hot{font-size:0.44rem;color:#ea4a25;padding-right: 0.1rem;}
+.outfit2-price-cue{font-size: 0.28rem;color:#ea4a25;}
+.outfit2-price-cost{text-decoration: line-through;color:#999999;}
+.outfit2-price-details{font-size: 0.28rem;float: right;margin-top:0.15rem;color:#ea4b25;}
+.outfit2-price-arrow{display: inline-block;width:0.14rem;height:0.25rem;background: url(../images/outfit2-price-arrow.png)  no-repeat;background-size: 0.14rem 0.25rem;vertical-align: middle;margin-top: -0.02rem;margin-left: 0.15rem;}
+.outfit2-advantage{font-size: 0.28rem;border-top:1px solid #f0f0f0;padding:0.18rem 0;color:#000;}
+.outfit2-advantage-cont{color:#666;}
+.outfit2-free-tel{width:0.26rem;height:0.26rem;display: inline-block;background: url(../images/outfit2-free-tel.png) center no-repeat;background-size: 0.26rem;vertical-align: middle;margin-right: 0.18rem;}
+/************************雅思经验详情页3  2017-11-2************************************/
+.ys-index{background-color:#f3f3f3;font-size: 0.28rem;}
+.ys-home-page{color:#fff;}
+.website-map-line1{border-left:1px solid #ff7758;}
+.ys-head-nav{line-height: 1.04rem;font-size: 0.24rem;padding:0 0.3rem;color:#666666;}
+.head-nav-first{color:#ea4a25;}
+.head-nav-second{color:#666;}
+/*.ys-experience-details{padding:0 0.3rem;}*/
+.experience-article-tit{font-size:0.36rem;line-height: 0.88rem;background-color: #fff;padding:0 0.3rem;border:1px solid #f3f3f3;}
+.experience-article-cont{padding:0.3rem 0.3rem 0.1rem;background-color: #fff;}
+.ys2-details-tea{display: inline-block;width:0.8rem;height:0.8rem;float: left;margin-right: 0.2rem;}
+.ys2-details-tea img{width:0.8rem;height:0.8rem;}
+.experience-teacher-attestation{padding-left: 0.2rem;font-size: 0.2rem;color:#ff2b00;}
+.experience-attestation-icon{display: inline-block;width:0.18rem;height:0.22rem;background:url(../images/ys-sprite.png) -0.48rem -0.09rem no-repeat;background-size: 3rem 3rem;vertical-align: middle;margin-left: 0.13rem;}
+.experience-education{font-size: 0.2rem;color:#666666;margin-top: 0.12rem;}
+.experience-education-time{color:#ea4a25;}
+.experience-teacher-message{display: inline-block;padding:0.1rem 0.24rem 0.11rem;background-color:#23cdc0;border-radius: 0.3rem;color:#fff;float: right;margin-right:0.2rem;margin-top: 0.15rem;font-size: 0.22rem;}
+.experience-teacher-ask{padding:0.1rem 0.24rem 0.11rem;background-color: #ea4a25;color:#fff;float: right;border-radius: 0.3rem;margin-top: 0.15rem;font-size: 0.22rem;}
+.experience-article{font-size: 0.28rem;color:#666;line-height: 0.5rem;background-color: #fff;padding:0 0.3rem;}
+.experience-article-test{text-align: center;background-color: #fff;padding:0.5rem 0;}
+.experience-article-test a{padding:0.17rem 0.45rem;color:#ea4a25;border:1px solid #ea4a25;border-radius: 0.4rem;display: inline-block;}
+/*优质机构推荐*/
+.experience-outfit-tit{line-height: 0.95rem;padding:0 0.3rem;font-size: 0.32rem;color:#666666;}
+.experience-outfit-icon{display: inline-block;width:0.33rem;height:0.32rem;background:url(../images/ys-sprite.png) -0.74rem -0.09rem;background-size: 3rem 3rem;margin-right: 0.2rem;}
+.experience-outfit-list li{background-color: #fff;margin-bottom: 0.16rem;}
+.experience-outfit-name{font-size: 0.3rem;padding:0 0.3rem;line-height: 0.83rem;}
+.experience-outfit-name a{color:#333;}
+.experience-outfit-name span{color:#999;}
+.experience-outfit-course{padding:0 0.3rem;}
+.experience-outfit-img{display: inline-block;width:1.6rem;height:1.2rem;border:1px solid #f3f3f3;border-radius: 0.1rem;float: left;margin-right: 0.25rem;}
+.experience-outfit-img img{width:1.6rem;height:1.2rem;}
+.experience-course-tit{font-size: 0.3rem;line-height: 0.45rem;}
+.experience-course-price{font-size: 0.3rem;margin-top:0.36rem;}
+.experience-course-current{color:#eb5231;}
+.experience-course-cost{text-decoration: line-through;color:#999999;padding-left: 0.15rem;}
+.experience-course-people{color:#999;float: right;}
+.experience-course-btn{text-align: center;margin-top: 0.3rem;line-height: 0.8rem;border-top:1px solid #f3f3f3;border-bottom: 1px solid #f3f3f3;}
+.experience-course-btn a{display: inline-block;width:3.735rem;height:0.8rem;color:#23cdc0;border-right:1px solid #f3f3f3;}
+.experience-course-btn a:last-child{color:#eb5231;border-right:none;}
+.experience-course-icon1{display: inline-block;width:0.235rem;height: 0.238rem;background:url(../images/ys-sprite.png) -1.13rem -0.09rem no-repeat;background-size: 3rem 3rem;}
+.experience-course-icon2{display: inline-block;width:0.24rem;height: 0.238rem;background:url(../images/ys-sprite.png) -1.445rem -0.09rem no-repeat;background-size: 3rem 3rem;}
+.experience-hot-tel{background-color: #fff;width:90%;display:block;height:0.68rem;line-height: 0.68rem;text-align: center;margin: 0.3rem auto;color:#333333;font-size: 0.24rem;}
+.experience-hot-tel span{color:#ea4a25;}
+/*相关经验*/
+.experience-detial-Relevant{line-height: 0.82rem;color:#999999;background-color: #fff;border-bottom: 1px solid #f3f3f3;padding:0 0.3rem;font-size: 0.32rem;}
+.experience-Relevant-icon{display: inline-block;width:0.33rem;height:0.33rem;background:url(../images/ys-sprite.png) -1.76rem -0.09rem no-repeat;background-size: 3rem 3rem;margin-right: 0.2rem;vertical-align: middle;}
+.experience-Relevant-list{background-color: #fff;line-height:1.08rem; }
+.experience-Relevant-list li{padding:0 0.3rem;border-bottom:1px solid #f3f3f3;}
+.experience-Relevant-list a{color:#333333;font-size: 0.3rem;}
+.no-more{color:#999999;font-size: 0.24rem;text-align: center;line-height: 1.36rem;background-color: #fff;}
+/**************************经验详情页2 2017-11-2****************************************/
+.experience-detial-Relevant2{line-height: 0.82rem;color:#999999;background-color: #fff;border-bottom: 1px solid #f3f3f3;padding:0 0.3rem;font-size: 0.32rem;margin-top: 0.16rem;}
+.experience-outfit-icon2{display: inline-block;width:0.33rem;height:0.32rem;background:url(../images/ys-sprite.png) -2.2rem -0.09rem;background-size: 3rem 3rem;margin-right: 0.2rem;}
+.experience-outfit-img2{display: inline-block;width:1.26rem;height: 1.26rem;float: left;margin-right: 0.16rem;}
+.experience-outfit-img2 img{width:1.26rem;height:1.26rem;}
+.experience-outfit-course2{padding:0.3rem 0 0 0.3rem;}
+.experience-course-tit2{font-size: 0.36rem;}
+.experience-course-tit2 a{color:#000;}
+.experience-course-feature{line-height: 0.45rem;color:#999999;}
+.experience-course-help{color:#ea4a25;}
+.experience-course-tit2 .experience-course-offer{font-size: 0.22rem;color:#ea4a25;float: right;padding:0.1rem 0.3rem;color:#ea4a25;border:1px solid #ea4a25;border-radius: 0.3rem;}
+.experience-course-details{padding:0.3rem 0;border-top:1px solid #f3f3f3;margin-top: 0.3rem;}
+.experience-course-table{width:100%;font-size: 0.24rem;color:#999999;}
+.experience-course-table td{height:0.5rem;line-height: 0.5rem;}
+.experience-course-table tr td:first-child{border-right:1px solid #f3f3f3;width:1.5rem;}
+.experience-course-table tr td:nth-child(2){width:2.2rem;text-align: center;}
+.experience-course-table .experience-course2-price{color:#ea4a25;font-size: 0.32rem;}
+.experience-course-table .experience-course2-class{color:#333333;font-size: 0.3rem;}
+.experience-course-table tr td:nth-child(3){text-align: right;}
+.experience-course-table tr td:nth-child(3) a{color:#23cdc0;font-size: 0.28rem;}
+/*雅思列表2  2017-11-2*/
+.ys-head-nav2{height:0.8rem;line-height: 0.8rem;background-color: #fff;padding:0 0.3rem;}
+.experience-hot-topic{padding:0 0.3rem;}
+.experience-topic-tit{font-size: 0.28rem;color:#333333;line-height: 0.8rem;}
+.experience-topic-list{display: flex;flex-wrap: wrap;}
+.experience-topic-list li{margin-right: 0.3rem;background-color: #fff;width:2.08rem;height:0.45rem;line-height: 0.45rem;text-align: center;font-size: 0.2rem;border-radius: 0.1rem;}
+.experience-topic-list li:nth-child(3n){margin-right: 0;margin-bottom:0.3rem;}
+.experience-topic-list a{display: inline-block;width:2.08rem;height:0.45rem;color:#000000;border-radius: 0.1rem;}
+.experience-topic-list .experience-topic-active{background-color: #ea4a25;color:#fff;}
+.ys-list{padding:0 0.3rem;background-color: #fff;}
+.ys-list li{padding:0.2rem 0;font-size: 0.28rem;border-bottom:1px solid #f3f3f3;}
+.ys-list a{display:block;color:#333;}
+.ys-list-time{font-size: 0.24rem;color:#999999;margin-top: 0.15rem;}
+.load-more{line-height:1.3rem;display: block;background-color: #fff;text-align: center;color:#999999;font-size: 0.24rem;}
+/*雅思经验 2017-11-2*/
+.experience-course-tit2 span{font-size: 0.24rem;color:#666666;}
+.experience-outfit-lable span{padding:0.08rem 0.08rem;background-color: #f8f2ec;border:1px solid #fbead8;margin-right: 0.1rem;font-size: 0.24rem;display: inline-block;margin-top: 0.15rem;border-radius: 0.1rem;}
+.experience-outfit-lable span:nth-child(2){border:1px solid #fcdde0;background-color: #f9eaeb;}
+.experience-outfit-lable span:nth-child(3){border:1px solid #e8e8e8;background-color: #f2f2f2;}
+.experience-outfit-lable span:nth-child(4){border:1px solid #e3ecd2;background-color: #f2f6e9;margin-right: 0;}
+.experience-outfit-new{padding-top: 0.2rem;margin:0.3rem 0.3rem 0;border-top: 1px solid #f3f3f3;}
+.experience-new-price{display: inline-block;width:1.26rem;color:#ff6633;margin-right: 0.2rem;}
+.experience-new-color{color:#eb5231;}
+.experience-new-cost{color:#999999;padding-left:0.15rem;}
+.no-more2{color:#999999;font-size: 0.24rem;text-align: center;line-height: 1.36rem;}
+.outfit-logo{width:1.2rem;height:0.58rem;margin-left: 0.3rem;padding-left: 0.3rem;display: inline-block;border-left:1px solid #ff795a;}
+.outfit-logo img{border-radius: 0.1rem;width:1.2rem;height:0.58rem;} 
+
+ 
+/*课程列表页*/
+.kid-home-header{height:0.72rem;background-color: #ff85ad;line-height: 0.72rem;padding:0 0.23rem;background-image: linear-gradient(to right,#37cdaa,#49d3ef);font-size: 0.2rem;}
+.kid-home-page{color:#fff;}
+.present-position{margin-left: 0.16rem;padding-left: 0.15rem;border-left:1px solid #fff; display: inline-block;line-height: 0.24rem;color:#fff;}
+.course-list{padding:0 0.15rem;}
+.course-list li{padding:0.2rem 0;border-bottom:1px dashed #ddd;}
+.course-list-logo{width:1.5rem;height:1.5rem;display: inline-block;float: left;border:1px solid #ddd;}
+.course-list-logo img{width:1.5rem;height:1.5rem;}
+.course-list-cont{margin-left: 1.65rem;}
+.course-list-name{font-size: 0.2rem;}
+.course-list-name a{color:#333333;}
+.course-list-advantage{color:#666;font-size: 0.16rem;line-height: 0.31rem;height: 0.62rem;overflow: hidden;}
+.course-list-time{color:#666;font-size: 0.16rem;line-height: 0.31rem;}
+.course-list-btn{text-align: center;}
+.course-list-btn a{padding:0.08rem 0.15rem;display: inline-block;background-image: linear-gradient(to right,#ff9933,#ff3333);border-radius: 0.1rem;margin-top: 0.15rem;margin-right: 0.6rem;color:#fff;font-size: 0.18rem;}
+.course-btn-more{height:0.5rem;line-height: 0.5rem;text-align: center;}
+.course-btn-more a{color:#ea4a25;font-size: 0.16rem;}
+/*话题列表*/
+.topic-list {padding:0 0.25rem;}
+.topic-list li{padding:0.2rem 0;font-size: 0.16rem;border-bottom: 1px solid #ddd;}
+.topic-list-spot{display: inline-block;width:0.04rem;height:0.04rem;border-radius: 50%;float:left;line-height:initial;margin-top: 0.03rem;}
+.topic-list-cont{margin-left: 0.2rem;line-height: 0.4rem;}
+.topic-list-cont a{color:#333;}
+.topic-list-time{color:#666666;line-height: 0.4rem;}
+.topic-high-outfit{padding:0 0.15rem;}
+.topic-outfit-tit{color:#33cc99;font-size: 0.24rem;line-height: 0.57rem;font-weight: bold;}
+.topic-outfit-list li{width:1.5rem;float: left;text-align: center;margin-right: 1.35rem;box-shadow: 0 0 7px 3px #ddd;padding:0.15rem 0;}
+.topic-outfit-list li:last-child{margin-right: 0;}
+.topic-outfit-list a{display: inline-block;width:100%;font-weight:bold;color:#333333;font-size:0.18rem;}
+.topic-outfit-list img{width:0.9rem;height:0.9rem;border:1px solid #ddd;}
+/*机构列表*/
+.outfit-list{padding:0 0.15rem;}
+.outfit-list li{padding:0.2rem 0;border-bottom:1px dashed #ddd;}
+.outfit-list-logo{display: inline-block;width:1.19rem;height:1.19rem;border:1px solid #ddd;float: left;}
+.outfit-list-logo img{width:1.19rem;height:1.19rem;}
+.outfit-list-cont{margin-left: 1.34rem;}
+.outfit-list-tit{font-size:0.2rem;}
+.outfit-list-tit a{color:#333;}
+.outfit-list-info{font-size:0.16rem;color:#666666;}
+.outfit-list-feature a{display: inline-block;padding:0.04rem 0.07rem;border:1px solid #33cc99;color:#33cc99;font-size: 0.14rem;margin-top: 0.05rem;margin-right: 0.15rem;}
+/*经验。问答详情修改*/
+.experience-message-icon{display: inline-block;width:0.33rem;height:0.33rem;background:url(../images/ys-sprite.png) -0.09rem -0.985rem;margin-right: 0.05rem;background-size: 3rem 3rem;}
+.experience-ask-icon{display: inline-block;width:0.24rem;height:0.24rem;background:url(../images/ys-sprite.png) -1.12rem -0.97rem;margin-right: 0.1rem;background-size: 3rem 3rem;vertical-align: middle;}
+.article-online-icon{display: inline-block;width:0.3rem;height:0.3rem;background:url(../images/ys-sprite.png) -0.74rem -0.97rem;background-size:3rem 3rem;margin-right:0.14rem;vertical-align: middle;}
+/*雅思底部 2017-11-9*/
+.ys-footer{height:1rem;background-color: #fff;text-align: center;line-height: 1rem;color:#666666;}
+.ys-footer-logo{width:0.74rem;height:0.45rem;display: inline-block;}
+.ys-footer-logo img{width:0.74rem;height:0.45rem;vertical-align: middle;}
+.ys-footer-span{padding-left:0.24rem;}
+.ys-footer-tel{color:#eb5231;}
+
+
+/*短信报价*/
+.sms-quotation{background-color: #fff;text-align: center;padding-bottom: 0.4rem;margin-bottom: 0.16rem;}
+.sms-quotation-tit{font-size:0.4rem;line-height: 1.3rem;}
+.sms-quotation-img{width:4.86rem;1.75rem;}
+.sms-quotation-form{background-color: #fff;overflow:hidden;}
+.sms-quotation-form p{width:6.27rem;margin:0.4rem auto 0;position: relative;}
+.sms-quotation-form input,.sms-quotation-form select{width:6.27rem;height:0.6rem;border:none;border-bottom: 1px solid #dadada;color:#888;text-indent: 3em;}
+.sms-quotation-form input[type="submit"]{background-color: #ea4a25;color:#fff;height:0.8rem;border-radius: 0.4rem;margin-top: 0.2rem;text-indent: 0em;}
+.sms-quotation-icon{display: inline-block;width:0.35rem;height:0.3rem;background:url(../images/ys-sprite.png) -0.835rem -0.58rem no-repeat;background-size: 3rem 3rem;position: absolute;top:0.15rem;left:0.2rem;}
+.sms-quotation-icon2{width:0.27rem;height:0.29rem;background-position: -1.3rem -0.58rem;}
+.sms-quotation-icon3{width:0.28rem;height:0.28rem;background-position: -1.69rem -0.58rem;}
+.sms-quotation-info{text-align:center;padding-top: 0.3rem;font-size: 0.24rem;background-color:#fff;}
+.sms-quotation-info a{color:#333333;}
+/*课程报价留言板*/
+.sms-quotation-icon4{width:0.32rem;height:0.22rem;background-position: -2.53rem -0.59rem;}
+
+/*测试结果*/
+.home-icon-back{display: inline-block;width:0.32rem;height:0.32rem;background:url(../images/ys-sprite.png) -0.09rem -0.09rem no-repeat;background-size: 3rem 3rem;}
+
+/*预约试听*/
+.audition-cont-message{padding:0 0.3rem;background-color: #fff;margin-top: 0.16rem;}
+.audition-cont-message p{width:6.9rem;margin:0 auto;border-bottom:1px solid #d9d9d9;height:0.6rem;padding-top:0.2rem;}
+.audition-cue{display: inline-block;width:1.5rem;border-right:1px solid #d9d9d9;text-align: center;margin-right: 0.18rem;color:#999;}
+.audition-cue-select{width:5rem;height:0.6rem;border:none;}
+.audition-cue-radio{width:0.18rem;height:0.18rem;}
+.audition-cue-input{width:5rem;height:0.6rem;border:none;color:#888;}
+.audition-cue-input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #333;
+}
+.audition-cue-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #333;
+}
+.audition-cue-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #333;
+}
+.audition-cue-input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #333;
+}
+ 

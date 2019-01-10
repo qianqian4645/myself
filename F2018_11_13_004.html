@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="mouldV3/WAP-mould/css/base-wap.css"/>
+    <link rel="stylesheet" href="mouldV3/WAP-mould/css/wap-mould.css"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <script>
+        var viewport = document.documentElement;
+        var width = viewport.clientWidth;
+        var fontSize = width / 750 * 100;
+        viewport.style.fontSize = fontSize + 'px';
+    </script>
+</head>
+<body>
+<div class="outfit1109-box ${frameCode}">
+    <ul class="outfit1113-list4">
+        <li>
+            <img src="${orgInfo.LogoUrl}" alt="" class="outfit1113-list4-logo1 fl"/>
+            <div class="outfit1113-list4-info">
+                        <h3 class="outfit1113-list4-name" ><i class="f34 fb">${org_name}</i><eye:foreach collection="${Split(org_tag,'、')}" var="t">
+                            <span>${t}</span>
+                        </eye:foreach></h3>
+                        <p class="f22 col-84 mt10">性价比：<i class="col-fd5739">${cost_performance_num}</i>分 <span class="pl24">学员数：<i class="col-fd5739">${help_student_num}</i>人</span></p>
+                <p class="f22 col-84 mt10 pb20 bd-bottom-eee">课程：${main_course}</p>
+                <p class="pt20 pb20 f22 col-84 bd-bottom-eee"><span class="outfit1113-list4-icon mr10"></span>${latest_discount }
+                </p>
+                <p class="outfit1113-list4-btn  pt25 "><a href="#" class="click-monitor bd-fd5739 bg-fd5739 col-fff "  data-m="${mouldCode}"  data-type="留言板" data-lsgid="43" data-value="课程报价">课程报价</a><a href="#" class="click-monitor bd-fd5739 col-fd5739" data-m="${mouldCode}"  data-type="小能" data-lsgid="" data-value="免费试听">在线咨询</a></p>
+            </div>
+
+
+        </li>
+    </ul>
+</div>
+</body>
+</html>

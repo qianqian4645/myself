@@ -1,0 +1,52 @@
+/*生意地WAP-经验详情1106*/
+.bd-left-fd6448{border-left:0.04rem solid #fd6448;}
+.syd1106-exp-teaImg{width:0.72rem;height:0.72rem;border-radius:50%;}
+.syd1106-exp-info{margin-left:0.9rem;}
+.syd1106-exp-ask{display: inline-block;padding:0.14rem 0.28rem;border-radius:0.04rem;}
+.syd1106-org-titIcon{display: inline-block;width:0.29rem;height:0.32rem;background: url("../images/syd1106-org-titIcon.png");background-size: 0.29rem 0.32rem;vertical-align: bottom;margin-right:0.13rem;}
+.syd1106-exp-orgList li{padding:0.3rem 0.24rem;border-bottom:0.02rem solid #eee;}
+.syd1106-exp-orgList li:last-child{border-bottom:none;}
+.syd1106-exp-orgLogo{width:1.3rem;height:1.3rem;border-radius:0.08rem;}
+.syd1106-exp-orgInfo{margin-left:1.6rem;}
+.syd1106-exp-orgTit i{display: inline-block;border:0.02rem solid #349bfe;color:#349bfe;border-radius:4px;padding:0.02rem 0.05rem;margin-left:0.1rem;font-size:0.22rem;}
+.syd1106-exp-orgBtn a{display: inline-block;padding:0.1rem 0.22rem;border-radius:0.04rem;}
+.syd1106-exp-orgBtn a:last-child{margin-right:0;}
+.syd1106-exp-gift{background: url("../images/syd1106-exp-gift.png");display: inline-block;width:0.26rem;height:0.23rem;background-size: 0.26rem 0.23rem;margin-right:0.12rem;
+    vertical-align: middle;}
+.ting-article-tag span{display: inline-block;padding:0.07rem 0.2rem;border-radius:0.3rem;margin-right:0.16rem;}
+.online1119-test-btn{display:block;border:0.02rem solid #ee645f;color:#ee645f;height:0.8rem;line-height:0.8rem;border-radius:0.4rem;text-align:center;font-size:0.3rem;}
+.online1119-test-btn span{display: inline-block;background: url("../images/online1119-test-icon.png") no-repeat;width:0.32rem;height:0.32rem;background-size: 0.32rem;vertical-align: middle;margin-right:0.1rem;}
+.student0612-case-list{padding:0 0.2rem;}
+.student0612-case-list li{padding:0.2rem 0;}
+.student0612-case-pic{width:0.6rem;height:0.6rem;float:left;border-radius: 50%;}
+.student0612-case-info{margin-left:0.8rem;}
+/*相关推荐*/
+.ting-mould-ArtikleHot li{padding:0.3rem 0;border-bottom:0.01rem solid #f6f6f6;}
+.ting-mould-ArtikleHot li h3{color:#333;font-size:0.3rem;}
+.ting-mould-ArtikleHot li p{color:#999;margin-top:0.3rem;font-size:0.22rem;}
+
+.page23-org-titBg h3{background: url("../images/page23-org-titBg.png") no-repeat center;background-size: 3.87rem 0.54rem;text-align:center;height:0.6rem;line-height:0.6rem;}
+.page23-org-logo img{width:1.2rem;height:1.2rem;border-radius:0.1rem;border:0.02rem solid #ebebeb;}
+.public0525-outfit-info{margin-left:1.56rem;}
+.public0529-outfit2-list>li{padding:0.2rem 0.3rem 0.1rem;margin-bottom:0.2rem;border-top:0.02rem solid #ebebeb;border-bottom:0.02rem solid #ebebeb;background: #f9f9f9;}
+.public0529-outfit2-list>li:last-child{margin-bottom:0;}
+.public0529-outfit2-edge2{background: url("../images/2018_05_29_002/public0529-outfit2-icon2.png");background-size:0.28rem 0.14rem; height:0.14rem;}
+.public0529-course2-tit{background:#fff url("../images/2018_05_29_002/public0529-outfit2-bg2.png") center no-repeat;background-size: 7.5rem 2.48rem;padding-top:0.5rem;margin-top:0.3rem; height:2.48rem;box-sizing: border-box;}
+.public0529-course2-tit h3{font-size:0.36rem;font-weight:bold;text-align:center;margin-top: 0.32rem;}
+.public0529-course2-tit p{text-align:center;margin-top:0.5rem;font-size:0.26rem;}
+.public0529-course2-list{padding:0 0.2rem;}
+.public0529-course2-list li{height:2.95rem;background: #fdf0f0 url("../images/public0529-course2--bg1.png") no-repeat right 0;background-size: 5.35rem 2.93rem;padding:0.3rem 0.2rem;box-sizing: border-box;border:0.02rem solid #ccc;margin-top:0.3rem;}
+.public0529-course2-list li:nth-child(2){background:#fdf0f0 url("../images/public0529-course2--bg2.png") no-repeat right 0;background-size: 4.23rem 2.92rem;}
+.public0529-course2-list li:nth-child(3){background:#fdf0f0  url("../images/public0529-course2--bg3.png") no-repeat right 0;background-size: 4.08rem 2.93rem;}
+.public0525-outfit-evaluate{display: flex;margin-top:0.2rem;border-top:0.02rem dotted #ebebeb;padding:0.15rem 0;font-size:0.3rem;}
+.public0525-outfit-evaluate li{flex: 1;height:0.36rem;line-height: 0.36rem;color:#03a286;}
+.public0525-outfit-evaluate li:nth-child(2){text-align:center;}
+.public0525-outfit-evaluate li:nth-child(3){text-align:right;}
+.public0525-outfit-btn{text-align:center;margin:0.2rem 0;}
+.public0525-outfit-btn a{display: inline-block;width:3rem;padding:0.09rem 0;border:0.02rem solid #ee645f;text-align: center;background-color: #ee645f;border-radius:0.04rem;}
+.public0525-outfit-btn a:last-child{margin-left:0.76rem;background-color: #fff;border:0.02rem solid #ee645f;color:#ee645f;}
+.public0529-course2-btn{display: inline-block;width:2.3rem;padding:0.11rem 0;border-radius:0.04rem;text-align:center;margin-top:0.25rem;background-color: #ee645f;}
+.page23-new-discount{line-height:0.45rem;}
+
+
+

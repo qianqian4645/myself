@@ -1,0 +1,58 @@
+.ting-mould-border{height:0.3rem;width:0.1rem;border-radius:0.02rem;vertical-align: middle;}
+.experience-article-cont{padding:0.3rem 0.3rem 0.1rem;background-color: #fff;}
+.ys2-details-tea{display: inline-block;width:0.8rem;height:0.8rem;float: left;margin-right: 0.2rem;}
+.ys2-details-tea img{width:0.8rem;height:0.8rem;}
+.experience-teacher-info{padding-bottom:0.3rem;border-bottom:1px solid #f3f3f3;}
+.experience-teacher-attestation{padding-left: 0.2rem;font-size: 0.2rem;color:#ff2b00;}
+.experience-attestation-icon{display: inline-block;width:0.18rem;height:0.22rem;background:url(../images/ys-sprite.png) -0.48rem -0.09rem no-repeat;background-size: 3rem 3rem;vertical-align: middle;margin-left: 0.13rem;}
+.experience-education{font-size: 0.2rem;color:#666666;margin-top: 0.12rem;}
+.experience-teacher-message{display: inline-block;padding:0.1rem 0.24rem 0.11rem;background-color:#23cdc0;border-radius: 0.3rem;color:#fff;float: right;margin-right:0.2rem;margin-top: 0.15rem;font-size: 0.22rem;}
+.experience-teacher-ask{padding:0.1rem 0.24rem 0.11rem;background-color: #786ca5;color:#fff;float: right;border-radius: 0.3rem;margin-top: 0.15rem;font-size: 0.22rem;}
+.experience-article{font-size: 0.28rem;color:#000;line-height: 0.5rem;background-color: #fff;padding:0 0.3rem 0.2rem;}
+.experience-article-test{text-align: center;background-color: #fff;padding:0.5rem 0;}
+.experience-article-test a{width:3.6rem;padding:0.17rem 0;text-align:center;background-image: linear-gradient(to bottom,#6b59ae,#a699d5);border-radius: 0.06rem;display:block;color:#fff;margin:0 auto;font-size:0.34rem;}
+.ting-teaMould-ask{padding:0.1rem 0.24rem 0.11rem;float: right;border-radius: 0.3rem;margin-top: 0.15rem;font-size: 0.24rem;}
+.experience-attestation-icon{display: inline-block;width:0.18rem;height:0.22rem;background:url(../images/ys-sprite.png) -0.48rem -0.09rem no-repeat;background-size: 3rem 3rem;vertical-align: middle;margin-left: 0.13rem;}
+.ting-map2-article{font-size:0.32rem;color:#000000;line-height: 0.6rem;padding:0.3rem;background-color: #fff;position: relative;}
+.articleDate{display:block;font-size:0.22rem;color:#666;}
+.student0612-case-tit{padding:0.2rem;font-size:0.26rem;font-weight:bold;}
+.student0612-case-tit{padding:0.2rem;font-size:0.26rem;font-weight:bold;}
+.student0612-case-list{background: #f6f6f6;padding:0 0.2rem;}
+.student0612-case-list li{padding:0.2rem 0;border-bottom:0.02rem solid #ccc;}
+.student0612-case-list li:last-child{border-bottom:none;}
+.student0612-case-pic{width:0.6rem;height:0.6rem;float:left;}
+.student0612-case-info{margin-left:0.8rem;}
+.experience-detial-Relevant{line-height: 0.82rem;color:#999999;background-color: #fff;border-bottom: 1px solid #f3f3f3;padding:0 0.3rem;font-size: 0.32rem;}
+.experience-Relevant-icon{display: inline-block;width:0.33rem;height:0.33rem;background:url(../images/ys-sprite.png) -1.76rem -0.09rem no-repeat;background-size: 3rem 3rem;margin-right: 0.2rem;vertical-align: middle;}
+.experience-Relevant-list{background-color: #fff; }
+.experience-Relevant-list li{padding:0 0.3rem;border-bottom:1px solid #f3f3f3;}
+.experience-Relevant-list a{color:#333333;font-size: 0.3rem;display: inline-block;width:100%;box-sizing: border-box;padding:0.3rem 0;   }
+/*底部浮动框*/
+.ys2-aks2-footer{position:fixed;bottom:0;left:0;width:100%;font-size: 0.22rem;}
+.aks2-footer-list{display: flex;height:0.98rem;background-color: #ffa256;font-size:0.22rem;line-height: 0.35rem;}
+.aks2-footer-list li{flex:1;text-align:center;border-right:1px solid #fff;padding: 0.1rem 0;}
+.aks2-footer-list li:last-child{border:none;}
+.aks2-footer-list li a{color:#fff;font-size: 0.22rem;}
+.footer-list-icon{display:inline-block;width:0.538rem;height:0.507rem;background:url(../images/syd-ysh-sprite1.png) -0.933rem  -0.36rem no-repeat;vertical-align:middle;background-size: 4rem 4rem;}
+.footer-list-icon1{width:0.427rem;height:0.48rem;background:url(../images/syd-ysh-sprite1.png) -1.693rem -0.36rem no-repeat;background-size: 4rem 4rem;}
+.footer-list-icon2{width:0.507rem;height:0.507rem;background:url(../images/syd-ysh-sprite1.png) -2.24rem -0.36rem no-repeat;background-size: 4rem 4rem;}
+.cityxg{margin-bottom:1rem;}
+/*内容部分*/
+.col-026088{color:#026088;}
+.col-71a934{color:#71a934;}
+.org-cont-bg{background:url("../images/org17-cont-bg.jpg");height:2.88rem;background-size: 7.5rem 2.88rem;text-align:center;box-sizing: border-box;padding:0.3rem 0;}
+.org17-cont-logo{width:1.6rem;height:1.6rem;border:0.1rem solid #e5e7e3;border-radius:50%;}
+.org-cont-Calculation{padding:0.3rem;background-color: #ebf9ff;text-align:center;}
+.org-cont-Calculation select,.org-cont-Calculation input[type="text"]{width:100%;height:0.48rem;border:0.02rem solid #ccc;margin-top:0.2rem;box-sizing: border-box;color:#999;text-align:center;}
+.org-Calculation-submit{display: inline-block;width:3.84rem;height:0.6rem;text-align:center;line-height:0.6rem;border:none;background-color: #ff5a5a;color:#fff;font-size:0.26rem;margin-top:0.45rem;border-radius:0.3rem;}
+.org17-advantage-cont{text-align:center;padding:0.4rem 0;}
+.org17-advantage-list{padding:0.2rem 1.45rem;}
+.org17-advantage-list li{width:2.2rem;height:2.2rem;background-color: #e7f8ff;color:#89b65d;font-size:0.36rem;border-radius:50%;box-sizing: border-box;padding-top:0.6rem;float:left;margin-right:0.2rem;margin-top:0.2rem;}
+.org17-advantage-list li:nth-child(2n){margin-right:0;}
+.org17-advantage-btn{display: inline-block;width:3.84rem;height:0.6rem;text-align:center;line-height:0.6rem;border:none;background-color: #ff5a5a;color:#fff;font-size:0.26rem;border-radius:0.3rem;}
+.page17-course-img{display: inline-block;width:2.2rem;height:1rem;}
+.org17-course-list li{border:0.02rem solid #ddd;padding-bottom:0.2rem;width:2.22rem;float:left;margin-right:0.16rem;}
+.org17-course-list li:nth-child(3n){margin-right:0;}
+.page17-course-btn{display: inline-block;width:1.72rem;height:0.36rem;text-align:center;line-height:0.36rem;background-color:#ff5a5a;border-radius:0.18rem;font-size:0.22rem;color:#fff;}
+.org17-course-btn{display: inline-block;width:3.84rem;height:0.6rem;text-align:center;line-height:0.6rem;border:none;background-color: #3b7aaa;color:#fff;font-size:0.26rem;border-radius:0.3rem;}
+.page17-school-img{width:4.74rem;height:4.1rem;}

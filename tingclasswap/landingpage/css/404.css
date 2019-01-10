@@ -1,0 +1,33 @@
+/*屏幕适配*/
+@media only screen and (min-width:320px){
+  html{font-size:42.6667px;}
+}
+@media only screen and (min-width:360px){
+  html{font-size:48px;}
+}
+@media only screen and (min-width:375px){
+  html{font-size:50px;}
+}
+@media only screen and (min-width:412px){
+  html{font-size:54.9333px;}
+}
+@media only screen and (min-width:414px){
+  html{font-size:55.2px;}
+}
+@media only screen and (min-width:768px){
+  html{font-size:102.4px;}
+}
+@media only screen and (min-width:1024px){
+  html{font-size:136.533px;}
+}
+/*听力课堂wap-404页面 2017-11-22*/
+.tlkt-404-index{font-size:0.28rem;background-color: #fff;}
+.tlkt-404-img img{width:100%;}
+.tlkt404-related-cont{margin-left: 15%;}
+.tlkt404-related-recom span{font-size: 0.22rem;color:#f44821;padding-bottom: 0.12rem;border-bottom:1px solid #f44821;display: inline-block;margin-bottom: 0.1rem;}
+.tlkt404-related-list li{font-size: 0.16rem;line-height: 0.34rem;}
+.tlkt404-related-list a{color:#666;}
+.tlkt404-related-home{display: block;color:#f44821;font-size: 0.24rem;text-align: center;margin-top:0.2rem;line-height: 0.3rem;}
+.tingclass-404-btn{padding:1.07rem 1.12rem 0;}
+.tingclass-404-btn img{width:100%;}
+.tingclass-404-btn a{display: inline-block;width: 2.2rem;height:0.49rem;background-color: #f44821;border-radius:0.06rem;text-align:center;line-height:0.49rem;font-size:0.24rem;color:#fff; margin-top:0.6rem;box-shadow: 0 0.03rem 0.03rem 0.03rem #d03815;}

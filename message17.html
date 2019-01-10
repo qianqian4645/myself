@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mouldV3/WAP-mould/css/base-wap.css"/>
+    <link rel="stylesheet" href="mouldV3/WAP-mould/message/message17/css/message17.css"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <script>
+        var viewport = document.documentElement;
+        var width = viewport.clientWidth;
+        var fontSize = width / 750 * 100;
+        viewport.style.fontSize = fontSize + 'px';
+    </script>
+</head>
+<body>
+<div class="message16-outer-layer">
+    <h3 class="public-message-header">
+        <span>在线留言</span>
+        <a href="#" class="message16-close">X</a>
+    </h3>
+    <div class="public70-message-section">
+        <form action="/xuexi/msg/common-leavemessage-event/" class="public70-message-form" method="post">
+
+            <input type="hidden" id="reUrl" name="reUrl" value="http://m.1010jiajiao.com//xuexi/">
+
+            <input type="hidden" id="leaveType" name="leaveType" value="4">
+
+            <input type="hidden" id="lmtype" name="lmtype" value="70">
+            <input type="hidden" id="IP" name="IP" value="39.155.213.193">
+
+            <input type="hidden" name="formFieldList" value="fcontent">
+            <input type="hidden" name="fcontent_label" value="您的问题">
+            <p>您的问题</p>
+            <textarea name="fcontent" id="fcontent" cols="30" rows="10" placeholder="输入您的问题"></textarea>
+            <p>您的电话</p>
+            <input type="text" name="lptel" id="lptel" placeholder="输入您的电话">
+            <input name="contact" id="contact" type="hidden" value="匿名70">
+            <input type="submit" value="立即提交" class="bgmain">
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+.eol-home-head{padding:0.1rem 0.2rem;border-bottom:0.02rem solid #efefef;background:#fff;}
+.eol-newVersoin-logo{width:2.27rem;height:0.43rem; margin-right:0.24rem;margin-top:0.11rem;}
+.eol-english-logo{width:1.45rem;height:0.48rem;padding-left:0.24rem;border-left:0.02rem solid #ebebeb;margin-top:0.1rem;}
+.eol-nav-icon{background: url("../images/eol-nav-icon.png") no-repeat;width:0.34rem;height:0.27rem;background-size: 0.34rem 0.27rem;display: inline-block;margin-top:0.2rem;}
+.eol-nav-layer{background-color:rgba(0,0,0,0.4);width:100%;height:100%;position: fixed;top:0;left:0;z-index: 2;display: none;}
+.eol-nav-fixed{width:2.6rem;position: fixed;background-color:#3c3c43;top:0;right:0;height:100%;z-index: 3;}
+.eol-nav-fixed li:first-child{padding:0.59rem 0;border-bottom:0.02rem solid #55555f;color:#fff;font-size:0.3rem;font-weight:bold;text-align:center;line-height: normal;height: auto;}
+.eol-nav-fixed li{height:0.88rem;line-height:0.88rem;text-align:center;font-size:0.3rem;}
+.eol-nav-fixed li a{color:#fff;display: block;}
+.eol-nav-fixed li a.active{background-color: #fab649;color:#fff;}

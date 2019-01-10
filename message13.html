@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mouldV3/WAP-mould/css/base-wap.css"/>
+    <link rel="stylesheet" href="mouldV3/WAP-mould/message/message13/css/message13.css"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <script>
+        var viewport = document.documentElement;
+        var width = viewport.clientWidth;
+        var fontSize = width / 750 * 100;
+        viewport.style.fontSize = fontSize + 'px';
+    </script>
+</head>
+<body>
+<div class="ys-index">
+    <div id="Step_1" class="step">
+        <h3 class="website-map-header">
+            <span class="">在线英语能力测试（官方题库）</span>
+            <a href="#" class="message13-close">X</a>
+        </h3>
+        <div class="ys-test">
+            <p class="ys-test-paging"><span class="questionNum">1</span>/<span class="questionCount">10</span></p>
+            <div class="ys-test-cont">
+                <p class="ys-test-subject question">1. discreet的意思是：</p>
+                <p class="ys-test-choice"><span>A</span><input type="button" name="" value="稀释的" class="answer a"></p>
+                <p class="ys-test-choice"><span>B</span><input type="button" name="" value="分歧的" class="answer b"></p>
+                <p class="ys-test-choice"><span>C</span><input type="button" name="" value="分散的" class="answer c"></p>
+                <p class="ys-test-choice"><span>D</span><input type="button" name="" value="谨慎的" class="answer d"></p>
+            </div>
+        </div>
+    </div>
+    <div id="Step_2" class="step" style="display:none;">
+        <h3 class="website-map-header">
+            <a href="javascript:history.back(-1);" class="home-icon-back"></a><span class="website-map-line website-map-line1">测试完成</span>
+        </h3>
+        <div class="test-complete-message">
+            <img data-echo="http://msydfile.nadiyi.cn/Shengyidi/adultwap/images/test-complete.png" class="test-complete-img" src="http://msydfile.nadiyi.cn/Shengyidi/adultwap/images/test-complete.png">
+            <p class="test-complete-cue">测试完成!</p>
+            <form>
+                <p class="test-complete-p">
+                    <span class="test-complete-icon"></span>
+                    <input type="text" id="name" placeholder="姓名" class="test-complete-input">
+                </p>
+                <p class="test-complete-p">
+                    <span class="test-complete-icon2"></span>
+                    <input type="text" id="phone" placeholder="电话" class="test-complete-input">
+                </p>
+                <p class="test-complete-p"><span class="test-complete-icon3"></span>
+                    <input type="text" id="code" placeholder="请输入验证码" class="test-complete-input"><input type="button" id="sendCode" onclick="sendCodeFunc()" class="test-complete-code" value="获取验证码"></p>
+                <p>
+                    <input type="button" name="" onclick="submit_cdpopuptrigger()" value="查看成绩" class="test-complete-btn1"></p>
+                <input type="hidden" id="IP" name="IP" value="124.200.97.237">
+            </form>
+        </div>
+    </div>
+    <div id="Step_3" class="step"  style="display:none;">
+        <h3 class="website-map-header">
+            <a href="javascript:history.back(-1);" class="home-icon-back"></a><span class="website-map-line website-map-line1">测试结果</span>
+        </h3>
+        <div style="background-color: #fff; overflow: hidden;">
+            <div class="test-result-message">
+                <p class="test-result-score">您测试成绩为</p>
+                <p class="test-result-num"><span class="score">89</span>分</p>
+                <div class="test-result-cont smile" style="display: none;">
+                    <img data-echo="http://msydfile.nadiyi.cn/Shengyidi/adultwap/images/ys-Smile.jpg" class="ys-Smile" src="http://msydfile.nadiyi.cn/Shengyidi/adultwap/images/ys-Smile.jpg">
+                    <p class="test-result-text">还不错呦！</p>
+                </div>
+                <div class="test-result-cont cry" style="display: none;">
+                    <img data-echo="http://msydfile.nadiyi.cn/Shengyidi/adultwap/images/ys-Cry.jpg" class="ys-Smile" src="http://msydfile.nadiyi.cn/Shengyidi/adultwap/images/ys-Cry.jpg">
+                    <p class="test-result-text">继续加油哦！</p>
+                </div>
+                <p href="#" class="test-result-case">老师稍后会与您取得联系，为你提供学习建议</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

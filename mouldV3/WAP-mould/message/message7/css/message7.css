@@ -1,0 +1,12 @@
+.message1-outer-layer{width:100%;height:100%;position: fixed;top:0;left:0;background-color: rgba(0,0,0,0.5);}
+.message7-outer-box{width:6.4rem;height:8.9rem;background-color: #fff;position: fixed;top:50%;left:50%;margin-left:-3.2rem;margin-top:-4.45rem;}
+.message7-banner{width:6.4rem;}
+.message7-form{padding:0.3rem;}
+.message7-form-target p{width:1.68rem;height:0.46rem;float:left;text-align:center;border:0.01rem solid #cccccc;line-height:0.46rem;margin-top:0.25rem;margin-right:0.35rem;position: relative;font-size:0.26rem;}
+.message7-form-target p:nth-child(3n){margin-right:0;}
+.message7-form-target input{-webkit-appearance:none;width:100%;height:100%;position: absolute;text-align:center;top:0;left:0;}
+.message7-form-target p.active{border:0.01rem solid #fe984c;color:#fe984c; }
+.message7-form-target p.active span{display: inline-block;background: url("../images/message7-checked.png");width:0.32rem;height:0.2rem;position: absolute;right:0;bottom:0.01rem;background-size: 0.32rem 0.32rem;}
+.message7-form-input{width:100%;height:0.66rem;border:0.01rem solid #ccc;text-indent:1em;margin-top:0.4rem;}
+.message7-form-submit{width:100%;height:0.54rem;text-align:center;line-height:0.54rem;background-color:#fe984c;border:none;color:#fff;margin-top:0.3rem;}
+.message7-close{display: inline-block;background: url("../images/message7-close.png");width:0.34rem;height:0.34rem;background-size: 0.34rem 0.34rem;position: absolute;right:-0.06rem;top:-0.12rem;}

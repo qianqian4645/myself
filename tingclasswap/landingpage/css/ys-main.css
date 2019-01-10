@@ -1,0 +1,2320 @@
+﻿/*屏幕适配*/
+@media only screen and (min-width:320px) {
+    html {
+        font-size: 42.6667px;
+    }
+}
+
+@media only screen and (min-width:360px) {
+    html {
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width:375px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width:412px) {
+    html {
+        font-size: 54.9333px;
+    }
+}
+
+@media only screen and (min-width:414px) {
+    html {
+        font-size: 55.2px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    html {
+        font-size: 102.4px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    html {
+        font-size: 136.533px;
+    }
+}
+
+.zly-ys-index {
+    font-size: 0.28rem;
+    background-color: #f3f3f3;
+}
+
+.zly-ys-header {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    padding: 0 0.3rem;
+    background-color: #ea4a25;
+    color: #fff;
+    font-size: 0.34rem;
+}
+
+.zly-ys-article {
+    background-color: #fff;
+    padding: 0.5rem 0.3rem;
+}
+
+.ys-article-tit {
+    font-size: 0.34rem;
+    font-weight: bold;
+    line-height: 0.55rem;
+    margin-bottom: 0.3rem;
+}
+
+.ys-article-cont {
+    font-size: 0.26rem;
+    line-height: 0.58rem;
+}
+
+.zly-ys-outfit {
+    padding: 0.4rem 0.2rem 0.4rem 0.3rem;
+    margin-top: 0.1rem;
+    background-color: #fff;
+}
+
+.ys-outfit-tit {
+    font-size: 0.3rem;
+    padding: 0.2rem 0;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+}
+
+.ys-outfit-list > li {
+    padding: 0.5rem 0 0.3rem 0;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.ys-outfit-logo {
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 1px solid #e9e9e9;
+    float: left;
+    margin-right: 0.15rem;
+}
+
+.ys-outfit-name {
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+}
+
+.ys-outfit-speciality {
+    font-size: 0.2rem;
+    color: #666666;
+}
+
+.ys-outfit-offer {
+    display: inline-block;
+    background-color:#786ca5;
+    font-size: 0.2rem;
+    padding: 0.01rem 0.15rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    float: right;
+    margin-top: 0.1rem;
+}
+
+.ys-outfit-abstract {
+    margin: 0.3rem 0 0.2rem;
+}
+
+.ys-outfit-advantage {
+    font-size: 0.28rem;
+    color: #000000;
+    float: left;
+}
+
+.outfit-advantage-cont {
+    color: #666666;
+    width: 5.5rem;
+    margin-left: 1.4rem;
+    line-height: 0.48rem;
+}
+
+.outfit-discount-cue {
+    font-size: 0.28rem;
+    color: #000000;
+}
+
+.outfit-discount-class {
+    color: #333;
+}
+
+.outfit-discount-price {
+    font-size: 0.44rem;
+    color: #ea4a25;
+    padding-right: 0.1rem;
+    padding-left: 0.05rem;
+}
+
+.outfit-discount-price2 {
+    color: #ea4a25;
+    font-size: 0.28rem;
+}
+
+.discount-price-word {
+    padding: 0.01rem 0.03rem;
+    color: #ea4a25;
+    border: 1px solid #ea4a25;
+    border-radius: 5px;
+    font-size: 0.2rem;
+}
+
+.ys-outfit-cost {
+    font-size: 0.24rem;
+    color: #999999;
+    text-decoration: line-through;
+    float: right;
+    margin-top: 0.2rem;
+}
+
+.ys-outfit-help {
+    font-size: 0.2rem;
+    color: #999999;
+    text-align: right;
+    margin-top: 0.3rem;
+}
+
+.ys-outfit-icon {
+    width: 0.2rem;
+    height: 0.18rem;
+    margin-right: 0.13rem;
+}
+
+.ys-outfit-btn {
+    display: inline-block;
+    width: 6.9rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #ea4a25;
+    text-align: center;
+    color: #fff;
+    margin-top: 0.68rem;
+}
+
+/*少儿*/
+.details-list-section1 {
+    border-bottom: 1px solid #ccc;
+    padding: 0 0.3rem 0.2rem;
+}
+
+.experience-details-list li {
+    margin-bottom: 0.2rem;
+    padding: 0.28rem 0;
+    background-color: #fff;
+}
+
+.details-tea-img1 {
+    width: 0.6rem;
+    height: 0.6rem;
+    float: left;
+}
+
+.details-tea-info {
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+
+.details-tea-name {
+    font-size: 0.28rem;
+    font-weight: bold;
+    padding-left: 0.16rem;
+    padding-right: 0.14rem;
+}
+
+.details-tea-time {
+    font-size: 0.18rem;
+    color: #f08e48;
+}
+
+.details-tea-prove {
+    color: #de4020;
+    font-size: 0.2rem;
+    padding-left: 0.2rem;
+    padding-right: 0.1rem;
+}
+
+.details-tea-ask {
+    display: inline-block;
+    padding: 0.07rem 0.13rem;
+    float: right;
+    border-radius: 0.3rem;
+    background-color:#786ca5;
+    color: #fff;
+    font-size: 0.2rem;
+    line-height: initial;
+}
+
+.details-tea-cont {
+    font-size: 0.28rem;
+    line-height: 0.6rem;
+    padding-top: 0.15rem;
+}
+
+.details-tea-cont1 {
+    padding: 0.15rem 0.3rem 0;
+}
+
+.details-list-now {
+    font-size: 0.2rem;
+    color: #999999;
+    text-align: right;
+    margin-top: 0.2rem;
+}
+
+.details-tea-icon {
+    width: 0.22rem;
+    height: 0.26rem;
+    display: inline-block;
+    background: url(../images/lxs-wap-sprite.png) -1.3rem 0;
+    background-size: 3rem 3rem;
+    vertical-align: middle;
+}
+/*留言板*/
+.ys-message-board {
+    font-size: 0.28rem;
+}
+
+.message-board-arrow {
+    display: inline-block;
+    width: 0.16rem;
+    height: 0.3rem;
+    background: url(../images/ys-outfit-sprite.png) 0 0 no-repeat;
+    background-size: 1rem 1rem;
+    vertical-align: baseline;
+    margin-right: 0.4rem;
+}
+
+.message-board-header {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background-color: #786ca5;
+    padding: 0 0.3rem;
+}
+
+.message-board-offer {
+    font-size: 0.34rem;
+    line-height: 0.28rem;
+    border-left: 1px solid #fff;
+    padding-left: 0.4rem;
+    color: #fff;
+    display: inline-block;
+}
+
+.ys-message-board img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.message-board-main {
+    padding: 0.3rem;
+}
+
+.message-board-main p {
+    position: relative;
+    width: 100%;
+    height: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.message-board-icon1 {
+    width: 0.28rem;
+    height: 0.27rem;
+    display: inline-block;
+    background: url(../images/ys-outfit-sprite.png) -0.18rem 0;
+    background-size: 1rem 1rem;
+    position: absolute;
+    top: 50%;
+    left: 0.3rem;
+    margin-top: -0.135rem;
+}
+
+.message-board-icon2 {
+    background-position: -0.485rem 0;
+    background-size: 1rem 1rem;
+}
+
+.message-board-icon3 {
+    width: 0.18rem;
+    height: 0.28rem;
+    background-position: -0.82rem 0;
+    background-size: 1rem 1rem;
+}
+
+.message-board-main select, .message-board-main input {
+    width: 100%;
+    height: 0.8rem;
+    text-indent: 0.8rem;
+    color: #777;
+    border: 1px solid #ccc;
+    font-size: 0.3rem;
+}
+
+.message-board-main .message-board-sms {
+    display: inline-block;
+    width: 100%;
+    background-color: #ea4a25;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #fff;
+    border-radius: 0.35rem;
+    margin-top: 1rem;
+    border:none;
+}
+
+/*报价-试听-留言板 2017-9-8*/
+.message-board-main .message-board-p {
+    display: flex;
+    margin-top: 0.8rem;
+    height: initial;
+}
+
+.message-board-p a {
+    flex: 1;
+    color: #ea8625;
+    padding: 0.25rem 0.3rem;
+    border: 1px solid #ea8625;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 0.3rem;
+    line-height: initial;
+}
+
+.message-board-p .message-board-st {
+    margin-left: 0.6rem;
+    color: #ea4a25;
+    border: 1px solid #ea4a25;
+}
+
+.message-board-icon4 {
+    width: 0.23rem;
+    height: 0.27rem;
+    background-position: 0 -0.3rem;
+    background-size: 1rem 1rem;
+}
+
+.message-board-icon5 {
+    width: 0.27rem;
+    height: 0.27rem;
+    background-position: -0.25rem -0.3rem;
+    background-size: 1rem 1rem;
+}
+/*听力课堂WAP-出国雅思-费用 2017-9-11*/
+.cgys-fy-header {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background-color: #ea4a25;
+    color: #fff;
+    font-size: 0.36rem;
+    text-align: center;
+}
+
+.cgys-fy-banner {
+    width: 100%;
+    vertical-align: top;
+}
+
+.zly-ys-outfit1 {
+    border-top: 1px solid #ccc;
+    margin-top: 0;
+}
+
+.cgys-fy-tel {
+    color: #ea4e25;
+    font-size: 0.24rem;
+    padding: 0.15rem;
+    border: 1px solid #ea4e25;
+    border-radius: 0.3rem;
+    float: right;
+}
+
+.fy-tel-icon {
+    display: inline-block;
+    width: 0.27rem;
+    height: 0.27rem;
+    background: url(../images/ys-outfit-sprite.png) -0.23rem -0.3rem;
+    background-size: 1rem 1rem;
+    margin-right: 0.1rem;
+}
+
+.ys-outfit-offer1 {
+    padding: 0.12rem 0.2rem;
+    line-height: initial;
+    border-radius: 0.3rem;
+}
+
+.cgys-fy-form {
+    background-color: #fff;
+    padding: 0 0.2rem 0 0.3rem;
+}
+
+.fy-form-reason {
+    padding-top: 0.5rem;
+    font-size: 0.26rem;
+    line-height: 0.48rem;
+}
+
+.message-board-main1 {
+    background-color: #fff;
+}
+
+.fy-message-icon {
+    width: 0.23rem;
+    height: 0.27rem;
+    display: inline-block;
+    background: url(../images/ys-outfit-sprite1.png) 0 0 no-repeat;
+    background-size: 3rem 3rem;
+    position: absolute;
+    top: 0.265rem;
+    left: 0.3rem;
+}
+
+.fy-message-icon1 {
+    width: 0.27rem;
+    height: 0.27rem;
+    background-position: -0.27rem 0;
+}
+
+.message-board-main1 select, .message-board-main input {
+    border: 1px solid #000000;
+}
+
+.message-board-p1 a {
+    background-color: #ea8625;
+    color: #fff;
+}
+
+.message-board-p1 .message-board-st1 {
+    background-color: #ea4a25;
+    color: #fff;
+    border: none;
+    text-align: center;
+    text-indent: 0;
+    border-radius: 0.5rem;
+}
+
+.message-board-p1 input[type=submit] {
+    background-color: #786ca5;
+    -webkit-appearance: none;
+}
+/*2017-09-12*/
+.ys-outfit-class {
+    width: 1.2rem;
+    height: 0.89rem;
+    float: left;
+    margin-right: 0.2rem;
+}
+
+.zly-ys-tea {
+    padding: 0.34rem 0.3rem;
+    background-color: #fff;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.ys-tea-pic {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    float: left;
+}
+
+.zly-ys-icon {
+    width: 0.26rem;
+    height: 0.26rem;
+    float: left;
+    margin-top: 0.54rem;
+    margin-left: -0.2rem;
+    border-radius: 50%;
+}
+
+.zly-tea-cont {
+    margin-left: 0.2rem;
+    float: left;
+}
+
+.zly-tea-name {
+    font-size: 0.28rem;
+    color: #000;
+}
+
+.zly-tea-details {
+    font-size: 0.2rem;
+    color: #666666;
+    line-height: 0.5rem;
+}
+
+.zly-tea-consult {
+    display: inline-block;
+    padding: 0.1rem;
+    background-image: linear-gradient(to right,#ea4c25,#ea9425);
+    float: right;
+    color: #fff;
+    margin-top: 0.15rem;
+    border-radius: 0.1rem;
+}
+
+.zly-ys-btnObj {
+    display: flex;
+    margin-top: 0.72rem;
+}
+
+.zly-ys-btnObj a {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    padding: 0.2rem 0.6rem;
+    background-color: #ea4a25;
+}
+
+.zly-ys-btnObj .zly-ys-free {
+    background-color: #ff6c00;
+    margin-left: 0.39rem;
+}
+
+.zly-ys-cue {
+    margin-top: 0.35rem;
+    text-align: center;
+}
+
+.message-board-icon5 {
+    width: 0.27rem;
+    height: 0.27rem;
+    background-position: -0.25rem -0.3rem;
+    background-size: 1rem 1rem;
+}
+
+.ys-more-offer {
+    display: inline-block;
+    padding: 0.15rem;
+    background-color: #ea9425;
+    margin: 0.3rem auto -0.4rem;
+    color: #fff;
+    border-radius: 0.1rem;
+}
+/*听力课堂-少儿英语 2017/9/13*/
+
+.ys2-ask2-tit {
+    padding: 0.25rem 0 0.25rem 0.25rem;
+    font-size: 0.3rem;
+    font-weight: 700;
+    background-color: #f5f5f5;
+}
+
+.ask2-tit-line {
+    display: inline-block;
+    width: 0.07rem;
+    height: 0.3rem;
+    background-image: linear-gradient(to bottom,#ff9933,#cc3333);
+    vertical-align: middle;
+}
+
+.ys2-ask2-cont {
+    margin-left: 0.15rem;
+}
+
+.sr-yy-header {
+    height: 0.6rem;
+    line-height: 0.6rem;
+    background-color: #ea4a25;
+    text-align: center;
+    color: #fff;
+}
+
+.experience-details-list1 {
+    margin: 0 0.15rem;
+}
+
+.zly-ys-index1 {
+    background-color: #f5f5f5;
+}
+
+.zly-ys-outfit2 {
+    margin: 0 0.15rem;
+}
+
+.sr-yy-tel {
+    font-size: 0.3rem;
+    color: #ff4b2d;
+    float: right;
+    margin-top: 0.2rem;
+}
+
+.ys-outfit-tel {
+    font-size: 0.2rem;
+    color: #ff4b2d;
+    font-weight: bold;
+}
+
+.sr-yy-offer {
+    font-size: 0.28rem;
+    color: #786ca5;
+    padding: 0.05rem 0.15rem;
+    border-radius: 0.15rem;
+    border: 1px solid #786ca5;
+    float: right;
+    line-height: initial;
+}
+
+.sr-yy-list {
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+.sr-yy-list > li {
+    flex: 1;
+    text-align: center;
+}
+
+.sr-yy-list li:nth-child(1) {
+    border-right: 1px solid #cccccc;
+}
+
+.sr-yy-list li:nth-child(2) {
+    border-right: 1px solid #cccccc;
+}
+
+.sr-yy-school {
+    font-size: 0.28rem;
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 0.17rem;
+    margin-top: 0.3rem;
+}
+
+.sr-yy-campus {
+    font-size: 0.24rem;
+}
+
+.sr-yy-table {
+    margin-top: -0.05rem;
+}
+
+.sr-yy-table tr {
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+
+.sr-yy-table td:first-child {
+    font-size: 0.2rem;
+    color: #666666;
+    padding-right: 0.1rem;
+}
+
+.sr-yy-table td:nth-child(2) {
+    font-size: 0.28rem;
+    color: #ea4a25;
+}
+
+.sr-yy-bgc {
+    display: inline-block;
+    padding: 0.02rem;
+    background-color: #ff4b2d;
+    color: #fff;
+    font-size: 0.2rem;
+    margin-left: 0.1rem;
+    border-radius: 0.05rem;
+    line-height: initial;
+}
+
+.outfit-advantage-cont1 {
+    line-height: 0.4rem;
+}
+
+.ys-outfit-abstract1 {
+    margin: 0.1rem 0 0.1rem;
+}
+
+.sr-yy-offer1 {
+    margin-top: -0.22rem;
+}
+
+.ys-outfit-list1 {
+    padding: 0 0.15rem;
+}
+
+.ys-outfit-list1 > li {
+    background-color: #fff;
+    padding: 0.2rem 0.1rem;
+    margin-bottom: 0.2rem;
+    border-bottom: none;
+}
+
+.sr-yy-price {
+    color: #ea4a25;
+}
+
+.sr-yy-outfit {
+    display: inline-block;
+    padding: 0.1rem 0.15rem;
+    background-color: #da3333;
+    border-radius: 0.15rem;
+    margin: 0.1rem auto;
+    color: #fff;
+}
+
+.sr-yy-outfitnew {
+    float: right;
+    margin-top: 0.15rem;
+}
+
+.ys-outfit-btn1 {
+    width: 100%;
+}
+/*少儿英语-机构列表 2017-9-14*/
+/*.zly-ys-index2{background-color: #fff;}*/
+.zly-ys-outfit3 {
+    padding: 0.1rem 0.2rem 0.2rem 0.3rem;
+}
+/*联盟站wap着陆页改版-哪家好 2017/9/14*/
+.zly-ys-njh {
+    height: 0.6rem;
+    line-height: 0.6rem;
+    background-color: #ea4a25;
+    color: #fff;
+    text-align: center;
+    font-size: 0.36rem;
+}
+
+.zly-ys-banner {
+    width: 100%;
+    vertical-align: top;
+}
+
+.zly-ys-mian {
+    background-color: #fff;
+    padding-bottom: 0.5rem;
+}
+
+.zly-njh-articel {
+    font-size: 0.28rem;
+    color: #333333;
+    line-height: 0.58rem;
+    padding: 0.3rem 0.3rem;
+    background-color: #fff;
+}
+
+.zly-njh-test {
+    display: block;
+    padding: 0.15rem 0;
+    text-align: center;
+    border: 1px solid #ff4b2d;
+    background-color: #fff;
+    margin: 0 0.3rem;
+    border-radius: 0.3rem;
+    color: #ea4a25;
+}
+
+.ys-outfit-list2 {
+}
+
+.ys-outfit-list2 > li {
+    padding: 0.5rem 0.3rem 0.3rem;
+    background-color: #fff;
+    margin-bottom: 0.1rem;
+    border-bottom: none;
+}
+
+.zly-ys-outfit4 {
+    padding: 0.2rem 0.2rem 0;
+}
+
+.njh-outfit-label {
+    display: inline-block;
+    padding: 0.015rem;
+    color: #fff;
+    background-color: #ff4b2d;
+    line-height: initial;
+    border-radius: 0.05rem;
+    margin-left: 0.05rem;
+    font-size: 0.2rem;
+}
+
+.ys-outfit-name1 {
+    line-height: initial;
+    margin-bottom: 0.1rem;
+}
+
+.zly-njh-benefit {
+    display: inline-block;
+    padding: 0.01rem;
+    background-color: #ea4a25;
+    color: #fff;
+    border-radius: 0.05rem;
+    margin-right: 0.1rem;
+}
+
+.ys-outfit-cost1 {
+    float: none;
+    padding-left: 0.5rem;
+}
+
+.zlt-njh-p {
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.zlt-njh-p a {
+    color: #ea4a25;
+    border: 1px solid #ff4b2d;
+    display: inline-block;
+    padding: 0.1rem 0.25rem;
+    border-radius: 0.3rem;
+    margin-right: 0.8rem;
+}
+
+.zlt-njh-p a:last-child {
+    margin-right: 0;
+}
+
+.zly-njh-zx {
+    display: block;
+    background-color: #ea4a25;
+    color: #fff;
+    padding: 0.25rem 0;
+    text-align: center;
+    border-radius: 0.1rem;
+}
+
+.zly-njh-icon {
+    display: inline-block;
+    background: url(../images/zly-njh-sprite.png) 0 0 no-repeat;
+    background-size: 3rem 3rem;
+    position: absolute;
+    top: 50%;
+    left: 0.3rem;
+    margin-top: -0.135rem;
+    width: 0.23rem;
+    height: 0.27rem;
+}
+
+.zly-njh-icon1 {
+    width: 0.27rem;
+    height: 0.27rem;
+    background-position: -0.32rem 0;
+}
+
+.message-board-p2 a {
+    display: block;
+    background-image: linear-gradient(to right,#ea7925,#ea4a25);
+    color: #fff;
+    font-size: 0.3rem;
+}
+
+.sr-yy-campus1 {
+    color: #666;
+}
+/*免费测试*/
+.zly-ys-njh2 {
+    font-size: 0.28rem;
+}
+
+.njh-test-p {
+    font-size: 0.3rem;
+    text-align: center;
+    padding: 0.3rem 0 0.2rem;
+}
+
+.njh-test-tit {
+    font-size: 0.36rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.message-board-main2 {
+    padding: 0.1rem 0.3rem;
+}
+
+.message-board-main2 input {
+    border: 1px solid #b5b5b5;
+}
+
+.message-board-p3 a {
+    color: #ea4a25;
+    border: 1px solid #ea4a25;
+}
+
+.zly-njh-icon2 {
+    width: 0.24rem;
+    height: 0.28rem;
+    background-position: -0.68rem 0;
+}
+
+.zly-njh-icon3 {
+    width: 0.3rem;
+    height: 0.29rem;
+    background-position: -1rem 0;
+}
+
+/*听力课堂-无明确指向 2017/9/14*/
+.zly-tlkt-wmqzx {
+    font-size: 0.28rem;
+    background-color: #fff;
+}
+
+.zly-wmqzx-tit {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #0abeb8;
+    color: #fff;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.zly-twmqzx-banner {
+    width: 100%;
+    vertical-align: top;
+}
+
+.zly-twmqzx-articel {
+    padding: 0.3rem 0.3rem 0;
+    line-height: 0.58rem;
+}
+
+.twmqzx-outfit-tit {
+    font-size: 0.4rem;
+    padding: 0 0.3rem;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 0.3rem;
+}
+
+.twmqzx-outfit-tel {
+    font-size: 0.28rem;
+    font-weight: normal;
+    float: right;
+    padding: 0.05rem 0.15rem;
+    border: 1px solid #f6c300;
+    color: #f6c300;
+    border-radius: 0.3rem;
+}
+
+.twmqzx-outfit-list li {
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.twmqzx-outfit-logo {
+    width: 1.1rem;
+    height: 1.1rem;
+    border: 1px solid #e8e8e8;
+    display: inline-block;
+    float: left;
+}
+
+.twmqzx-outfit-logo img {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.twmqzx-outfit-info {
+    margin-left: 1.5rem;
+}
+
+.outfit-info-name {
+    font-size: 0.33rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.outfit-info-courses {
+    margin: 0.26rem 0;
+}
+
+.outfit-info-courses span {
+    font-size: 0.22rem;
+    display: inline-block;
+    padding: 0.03rem;
+    background-color: #71584b;
+    color: #fff;
+    margin-right: 0.13rem;
+}
+
+.outfit-info-courses span:nth-child(2) {
+    background-color: #a49457;
+}
+
+.outfit-info-courses span:nth-child(3) {
+    background-color: #786ca5;
+}
+
+.outfit-info-courses span:nth-child(4) {
+    background-color: #554974;
+}
+
+.outfit-info-new {
+    line-height: 0.4rem;
+}
+
+.outfit-info-offer {
+    padding: 0.1rem 0.2rem;
+    display: inline-block;
+    color: #fff;
+    background-color: #786ca5;
+    border-radius: 0.3rem;
+}
+
+.outfit-info-p {
+    text-align: center;
+    margin-top: 0.15rem;
+}
+
+.twmqzx-outfit-tel1 {
+    border: 1px solid #ffa758;
+    color: #ffa758;
+}
+
+.twmqzx-outfit-tit1 {
+    color: #ffa758;
+}
+
+.twmqzx-outfit-list1 li {
+    border-top: 1px solid #ff9739;
+    border-bottom: 1px solid #ff9739;
+}
+
+.outfit-info-offer1 {
+    background-color: #ff9739;
+}
+
+.twmqzx-outfit-tel2 {
+    border: 1px solid #ff5858;
+    color: #ff5858;
+}
+
+.twmqzx-outfit-tit2 {
+    color: #ff5858;
+}
+
+.twmqzx-outfit-list2 li {
+    border-top: 1px solid #ff5858;
+    border-bottom: 1px solid #ff5858;
+}
+
+.outfit-info-offer2 {
+    background-color: #ff5858;
+}
+
+.twmqzx-outfit-more {
+    padding: 0.1rem 0.3rem;
+    display: inline-block;
+    color: #ff5858;
+}
+/*听力课堂-出国雅思-费用 2017/9/19*/
+.njh-outfit-label1 {
+    background-color: #f18812;
+    padding: 0.015rem 0.1rem;
+}
+
+.cgys-fy-telnew {
+    background-image: linear-gradient(to right,#ea9325,#ea4a25);
+    border: none;
+    color: #fff;
+    margin-top: 0.16rem;
+}
+
+.fy-tel-icon1 {
+    width: 0.25rem;
+    height: 0.27rem;
+    background: url(../images/zly-njh-sprite.png) -1.96rem 0;
+    background-size: 3rem 3rem;
+    vertical-align: bottom;
+}
+
+.sr-yy-bgcGre {
+    background-color: #0dad4e;
+}
+
+.sr-yy-bgcBlu {
+    background-color: #126f98;
+}
+
+.zlt-njh-p .cgys-online-btn {
+    color: #2d8bff;
+    border: 1px solid #2d8bff;
+}
+
+.zlt-njh-p .cgys-offer-btn {
+    color: #ff0000;
+    border: 1px solid #f13c12;
+}
+
+.tlkt-outfit-more {
+    display: block;
+    background-image: linear-gradient(to right,#ea8f25,#ea4c25);
+    padding: 0.18rem 0;
+    border-radius: 0.35rem;
+    text-align: center;
+    color: #fff;
+}
+
+.choose-outfit-cruces {
+    font-size: 0.36rem;
+    line-height: 0.76rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+    font-weight: 500;
+}
+
+.outfit-cruces-list {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.outfit-cruces-list > li {
+    width: 48%;
+    padding: 0.25rem 0;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-radius: 0.05rem;
+}
+
+.outfit-cruces-list > li:first-child {
+    background-image: linear-gradient(to bottom,#facdc2,#ff9a9e);
+}
+
+.outfit-cruces-list > li:nth-child(2) {
+    background-image: linear-gradient(to bottom,#f6d365,#fda284);
+}
+
+.outfit-cruces-list > li:nth-child(3) {
+    background-image: linear-gradient(to bottom,#f4bee9,#a18cd1);
+}
+
+.outfit-cruces-list > li:last-child {
+    background-image: linear-gradient(to bottom,#facdc2,#ff9a9e);
+}
+
+.outfit-cruces-list > li:nth-child(2n) {
+    margin-right: 0;
+}
+
+.outfit-cruces-list > li:first-child {
+    background-image: linear-gradient(to bottom,#facdc2,#ff9a9e);
+}
+
+.outfit-cruces-icon {
+    display: block;
+    width: 0.72rem;
+    height: 0.72rem;
+    float: left;
+    background: url(../images/zly-njh-sprite.png) 0 -0.32rem;
+    background-size: 3rem 3rem;
+    margin: 0.29rem 0.45rem;
+}
+
+.outfit-cruces-tit {
+    color: #fff;
+    font-size: 0.3rem;
+}
+
+.outfit-cruces-cont {
+    font-size: 0.24rem;
+    color: #fff;
+    line-height: 0.4rem;
+    margin-top: 0.1rem;
+}
+
+.outfit-cruces-icon1 {
+    background-position: -0.79rem -0.32rem;
+    width: 0.73rem;
+    height: 0.69rem;
+}
+
+.outfit-cruces-icon2 {
+    background-position: -1.57rem -0.32rem;
+    width: 0.85rem;
+    height: 0.57rem;
+    margin-left: 0.3rem;
+}
+
+.outfit-cruces-icon3 {
+    background-position: 0 -1.04rem;
+    width: 0.8rem;
+    height: 0.57rem;
+    margin-left: 0.35rem;
+}
+
+.tlkt-word-cue {
+    padding: 0.3rem 0.3rem 0;
+    font-size: 0.28rem;
+    color: #666666;
+    line-height: 0.5rem;
+}
+
+.offer-board-main {
+    padding: 0 0.3rem;
+}
+
+.offer-board-main input {
+    border: 1px solid #bfbfbf;
+    border-radius: 0.05rem;
+}
+
+.cgys-board-icon {
+    background-position: -1.325rem 0;
+}
+
+.cgys-board-icon1 {
+    background-position: -1.635rem 0;
+    width: 0.265rem;
+    height: 0.26rem;
+}
+
+.tlkt-word-cont {
+    padding: 0.2rem 0.25rem 0.1rem;
+    color: #666;
+    line-height: 0.5rem;
+}
+
+.word-cont-pro {
+    font-size: 0.34rem;
+    font-weight: 600;
+    color: #333;
+}
+/*按钮颜色修改*/
+.sr-yy-outfit1 {
+    background-color:#786ca5;
+}
+/*听力课堂WAP-托福-费用 2017/10/26*/
+.land-page-index {
+    padding-bottom: 1.2rem;
+    font-size: 0.28rem;
+}
+
+.tlkt-tf-article {
+    padding: 0 0.3rem;
+    background-color: #fff;
+}
+
+.tlkt-tf-tit {
+    font-size: 0.36rem;
+    line-height: 0.9rem;
+}
+
+.tlkt-tf-time {
+    font-size: 0.24rem;
+    color: #666666;
+    margin-bottom: 0.3rem;
+}
+
+.tlkt-tf-banner img {
+    width: 100%;
+}
+
+.tlkt-tf-banner p {
+    line-height: 0.48rem;
+    margin-top: 0.2rem;
+}
+
+.tf-article-consult {
+    text-align: center;
+    margin-top: 0.3rem;
+    padding-bottom: 0.5rem;
+}
+
+.tf-article-consult a {
+    display: inline-block;
+    width: 5.8rem;
+    height: 0.8rem;
+    background-color: #ff4200;
+    line-height: 0.8rem;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.article-consult-icon {
+    display: inline-block;
+    width: 0.42rem;
+    height: 0.36rem;
+    background: url(../images/tlkt-tf-sprite.png) -0.08rem -0.08rem no-repeat;
+    background-size: 3rem 3rem;
+    margin-right: 0.15rem;
+    vertical-align: middle;
+}
+/*推荐机构*/
+.tlkt-tf-outfit {
+    margin-top: 0.16rem;
+}
+
+.tf-outfit-tit {
+    padding: 0.3rem 0.3rem;
+    border-bottom: 1px solid #f3f3f3;
+    background-color: #fff;
+}
+
+.tf-outfit-tit span {
+    font-size: 0.3rem;
+    padding-left: 0.2rem;
+    border-left: 3px solid #fa7052;
+    display: inline-block;
+    line-height: 0.26rem;
+    font-weight: bold;
+}
+
+.tf-outfit-logo {
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.2rem;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+.tf-outfit-logo img {
+    width: 1.4rem;
+    height: 1.2rem;
+}
+
+.tf-outfit-list li {
+    padding: 0.35rem 0.3rem;
+    margin-bottom: 0.16rem;
+    background-color: #fff;
+}
+
+.tf-outfit-cont {
+    margin-left: 1.8rem;
+    border-bottom: 1px dashed #f3f3f3;
+}
+
+.tf-outfit-name {
+    font-size: 0.32rem;
+    color: #333333;
+}
+
+.tf-outfit-offer {
+    font-size: 0.2rem;
+    background-color: #ff8a00;
+    display: inline-block;
+    padding: 0.1rem 0.18rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    float: right;
+    margin-right: 0.32rem;
+}
+
+.tf-outfit-consult {
+    font-size: 0.2rem;
+    background-color: #ff4200;
+    display: inline-block;
+    padding: 0.1rem 0.18rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    float: right;
+}
+
+.outfit-cont-tit {
+    margin-bottom: 0.3rem;
+}
+
+.tf-outfit-abstract {
+    font-size: 0.26rem;
+    color: #666666;
+    padding-bottom: 0.24rem;
+}
+
+.tf-outfit-course {
+    padding-top: 0.2rem;
+    color: #3a3a3a;
+    padding-left: 0.14rem;
+}
+
+.tf-outfit-course span {
+    display: inline-block;
+    padding: 0.12rem 0.35rem;
+    border: 1px solid #ddd;
+    color: #666666;
+    border-radius: 0.4rem;
+    margin-left: 0.2rem;
+}
+
+.tf-outfit-course span:first-child {
+    margin-left: 0.38rem;
+}
+
+.tlkt-tf-foot {
+    height: 0.98rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #ff4200;
+    padding: 0 0.3rem;
+    line-height: 0.98rem;
+}
+
+.tf-foot-input {
+    width: 4.46rem;
+    height: 0.58rem;
+    border: none;
+    border-radius: 0.1rem;
+    text-indent: 1em;
+}
+
+.tf-foot-btn {
+    width: 2.24rem;
+    height: 0.58rem;
+    background-color: #fffd38;
+    color: #010101;
+    border: none;
+    border-radius: 0.3rem;
+    margin-left: 0.1rem;
+}
+/*听力课堂-测试*/
+.tlkt-test-index {
+    padding: 0 15px 15px;
+    font-size: 14px;
+    color: #3e3e3e;
+}
+
+.tlkt-test-tit {
+    font-size: 22px;
+    line-height: 1.4rem;
+}
+
+.tlkt-test-subtit {
+    font-size: 14px;
+    line-height: 1.75em;
+    color: #3e3e3e;
+}
+
+.tlkt-test-main {
+    margin-top: 20px;
+    padding: 0 15px;
+}
+
+.tlkt-test-section {
+    padding: 80px 15px 18px;
+    font-size: 14px;
+    box-shadow: rgb(117, 117, 117) 0 0 5px;
+    border: 1px solid rgba(117, 117, 117, 0.498039);
+    margin-top: -55px;
+}
+
+.tlkt-test-decorate {
+    margin-left: -10px;
+    padding: 30px 10px 5px;
+    width: 85px;
+    height: 70px;
+    box-shadow: rgb(120, 120, 120) -1px 3px 8px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(226, 86, 27);
+    background-color: rgba(226, 86, 27,0.9);
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tlkt-test-decorate1 {
+    margin-bottom: -5px;
+    margin-left: 125px;
+    color: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    box-shadow: rgb(120, 120, 120) -1px 3px 8px;
+    border-color: rgb(226, 86, 27);
+    background-color: rgb(226, 86, 27);
+    box-sizing: border-box;
+}
+
+.tlkt-test-decorate2 {
+    margin-left: 145px;
+    width: 10px;
+    height: 10px;
+    box-shadow: rgb(120, 120, 120) -1px 3px 8px;
+    color: rgb(255, 255, 255);
+    border-color: rgb(226, 86, 27);
+    background-color: rgb(226, 86, 27);
+    box-sizing: border-box;
+}
+
+.tlkt-test-quizzes {
+    line-height: 1.75em;
+}
+
+.tlkt-test-quizzes input {
+    vertical-align: middle;
+}
+
+.tlkt-test-order {
+    display: inline-block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    vertical-align: top;
+    text-align: center;
+    border-color: rgb(226, 86, 27);
+    color: rgb(255, 255, 255);
+    background-color: rgb(226, 86, 27);
+    box-sizing: border-box;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.tlkt-test-que {
+    margin-left: 36px;
+    color: rgb(226, 86, 27);
+    border-color: rgb(226, 86, 27);
+    box-sizing: border-box;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.tlkt-test-letter {
+    color: rgb(226, 86, 27);
+}
+
+.tlkt-test-from p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.tlkt-test-from input {
+    border: 1px solid rgb(226, 86, 27);
+    height: 26px;
+}
+
+.tlkt-test-from input[type="submit"] {
+    background-color: rgb(226, 86, 27);
+    border: none;
+    color: #fff;
+    width: 40%;
+    height: 26px;
+    border-radius: 5px;
+    -webkit-appearance: none;
+}
+
+/*听力课堂-测试答案*/
+.tlkt-test-answer {
+    border-radius: 0.5em;
+    border: 1px solid rgb(226, 86, 27);
+    margin-top: 3em;
+}
+
+.test-answer-tit {
+    line-height: 2em;
+    background-color: rgb(226, 86, 27);
+    position: relative;
+    height: 2em;
+}
+
+.test-answer-bgc {
+    position: absolute;
+    top: -1px;
+    width: 80%;
+    left: 10%;
+    background-color: #fff;
+    height: 2.1em;
+    transform: skew(-15deg);
+    box-sizing: border-box;
+    padding-left: 15px;
+    font-size: 14px;
+    color: rgb(226, 86, 27);
+    font-weight: bold;
+}
+
+.answer-tit-cont {
+    transform: skew(15deg);
+}
+
+.test-answer-cont {
+    padding: 12px 10px;
+    line-height: 1.75em;
+}
+/*预约试听*/
+.ys-index {
+    background-color: #f3f3f3;
+    font-size: 0.28rem;
+}
+
+.website-map-line {
+    border-left: 1px solid #fff;
+    height: 0.34rem;
+    margin-left: 0.25rem;
+    line-height: 0.32rem;
+    display: inline-block;
+    padding-left: 0.25rem;
+}
+
+.audition-cont-message {
+    padding: 0 0.3rem;
+    background-color: #fff;
+    margin-top: 0.16rem;
+}
+
+.audition-cont-message p {
+    width: 6.9rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #d9d9d9;
+    height: 0.6rem;
+    padding-top: 0.2rem;
+}
+
+.audition-cue {
+    display: inline-block;
+    width: 1.5rem;
+    border-right: 1px solid #d9d9d9;
+    text-align: center;
+    margin-right: 0.18rem;
+    color: #999;
+}
+
+.audition-cue-select {
+    width: 5rem;
+    height: 0.6rem;
+    border: none;
+}
+
+.audition-cue-radio {
+    width: 0.18rem;
+    height: 0.18rem;
+}
+
+.audition-cue-input {
+    width: 5rem;
+    height: 0.6rem;
+    border: none;
+    color: #888;
+    outline: none;
+}
+
+.audition-cue-input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #333;
+}
+
+.audition-cue-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #333;
+}
+
+.audition-cue-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #333;
+}
+
+.audition-cue-input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #333;
+}
+
+.sms-quotation-form {
+    background-color: #fff;
+    overflow: hidden;
+    text-align:center;
+}
+
+.sms-quotation-form p {
+    width: 6.27rem;
+    margin: 0.4rem auto 0;
+    position: relative;
+}
+
+.sms-quotation-form input, .sms-quotation-form select {
+    width: 6.27rem;
+    height: 0.6rem;
+    border: none;
+    border-bottom: 1px solid #dadada;
+    color: #888;
+    text-indent: 3em;
+    outline: none;
+}
+
+.sms-quotation-form input[type="submit"] {
+    background-color: #786ca5;
+    color: #fff;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+    margin-top: 0.5rem;
+    text-indent: 0;
+    -webkit-appearance: none; 
+    border:1px solid #786ca5;
+}
+
+.teacher-section-star {
+    color: #ea4a25;
+}
+
+.sms-quotation-info {
+    text-align: center;
+    padding-top: 0.3rem;
+    font-size: 0.24rem;
+}
+
+.home-icon-back {
+    display: inline-block;
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url(../images/ys-sprite.png) -0.09rem -0.09rem no-repeat;
+    background-size: 3rem 3rem;
+}
+
+.website-map-line1 {
+    border-left: 1px solid #ff7758;
+}
+
+
+/*听力课堂81  2017-11-15*/
+.tlkt81-head81 {
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background-color: #ea4a25;
+    color: #fff;
+    text-align: center;
+    font-size: 0.32rem;
+}
+
+.tlkt81-tf-banner img {
+    width: 100%;
+}
+
+.tlkt81-tf-banner p {
+    padding: 0.2rem 0.3rem;
+    line-height: 0.52rem;
+    font-size: 0.26rem;
+}
+
+.tlkt81-tf-banner span {
+    font-size: 0.3rem;
+    font-weight: bold;
+}
+
+.tlkt81-tf-banner i {
+    font-size: 0.3rem;
+    color: #ea4a25;
+    font-weight: bold;
+}
+
+.subscribe-discount-course {
+    display: block;
+    width: 5rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #fff;
+    background-color: #ea4a25;
+    margin: 0.3rem auto 0.7rem;
+    border-radius: 0.4rem;
+}
+
+.subscribe-discount-icon {
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url(../images/tlkt-tf-sprite.png) -0.6rem -0.08rem;
+    background-size: 3rem 3rem;
+    margin-right: 0.12rem;
+    vertical-align: middle;
+    margin-top: -0.05rem;
+}
+
+.tf81-outfit-tit {
+    width: 6.9rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    background-color: #f3f3f3;
+    border-radius: 0.11rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.tf81-outfit-tit span {
+    display: inline-block;
+    border-left: 0.08rem solid #ea4a25;
+    border-radius: 0.08rem 0 0 0.08rem;
+    padding-left: 0.17rem;
+}
+
+.tlkt81-tel-icon {
+    display: inline-block;
+    width: 0.26rem;
+    height: 0.28rem;
+    background: url(../images/tlkt-tf-sprite.png) -1.05rem -0.083rem;
+    background-size: 3rem 3rem;
+    margin-right: 0.15rem;
+    vertical-align: middle;
+}
+
+.tlkt81-phone-code {
+    width: 2.76rem;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #ea4e25;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    display: inline-block;
+    float: right;
+    margin-right: 0.22rem;
+    margin-top: 0.13rem;
+}
+
+.tf81-outfit-list {
+    background-color: #f3f3f3;
+}
+
+.tf81-outfit-list li {
+    background-color: #fff;
+    padding: 0.46rem 0.3rem;
+    margin-bottom: 0.16rem;
+}
+
+.tf81-outfit-logo {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    float: left;
+    border: 1px solid #f3f3f3;
+    border-radius: 0.15rem;
+}
+
+.tf81-outfit-logo img {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.15rem;
+    vertical-align: top;
+}
+
+.tf81-outfit-cont {
+    margin-left: 1.5rem;
+    height: 1.4rem;
+    overflow: hidden;
+}
+
+.tf81-outfit-name {
+    font-size: 0.3rem;
+    color: #000000;
+}
+
+.tf81-outfit-consult {
+    font-size: 0.2rem;
+    background-color: #ea4a25;
+    display: inline-block;
+    width: 1.2rem;
+    height: 0.43rem;
+    line-height: 0.44rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    float: right;
+    text-align: center;
+}
+
+.tf81-outfit-offer {
+    font-size: 0.2rem;
+    background-color: #0081ff;
+    display: inline-block;
+    width: 1.2rem;
+    height: 0.43rem;
+    line-height: 0.44rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    float: right;
+    margin-right: 0.32rem;
+    text-align: center;
+}
+
+.tf81-outfit-abstract {
+    font-size: 0.24rem;
+    color: #666;
+    margin-top: 0.54rem;
+}
+
+.tlkt81-outfit-info {
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.tlkt81-outfit-advantage {
+    padding: 0.15rem 0 0.05rem;
+    font-size: 0.24rem;
+    color: #666;
+}
+
+.tlkt81-discount-word {
+    display: inline-block;
+    width: 1.2rem;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    text-align: center;
+    background-color: #fff4f1;
+    color: #ea4a25;
+    font-size: 0.2rem;
+    border-radius: 0.15rem;
+    margin-right: 0.12rem;
+    float: left;
+    margin-bottom: 0.2rem;
+}
+
+.outfit-discount-cost {
+    padding-left: 0.2rem;
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.tlkt81-outfit-help {
+    font-size: 0.2rem;
+    color: #999999;
+    margin-top: 0.2rem;
+    text-align: right;
+}
+
+.tlkt81-outfit-icon {
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.23rem;
+    background: url(../images/tlkt-tf-sprite.png) -1.4rem -0.09rem;
+    background-size: 3rem 3rem;
+    margin-right: 0.1rem;
+}
+
+.tlkt81-outfit-help i {
+    color: #ee6b4d;
+}
+
+.message-board-main3 input {
+    border: 1px solid #dadada;
+    outline: none;
+}
+
+.fy-message-icon2 {
+    background: url(../images/tlkt-tf-sprite.png) -1.755rem -0.08rem;
+    background-size: 3rem 3rem;
+    height: 0.28rem;
+    width: 0.27rem;
+}
+
+.fy-message-icon3 {
+    background: url(../images/tlkt-tf-sprite.png) -2.08rem -0.08rem;
+    background-size: 3rem 3rem;
+    width: 0.29rem;
+    height: 0.295rem;
+}
+
+.message81-board-p input[type="submit"] {
+    width: 3.05rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color: #0081ff;
+    color: #fff;
+    text-align: center;
+    text-indent: 0;
+    border-radius: 0.4rem;
+    margin-right: 0.6rem;
+    -webkit-appearance: none;
+}
+
+.message81-board-p input[type="submit"]:nth-child(2) {
+    margin-right: 0;
+    background-color: #ea4a25;
+    color: #fff;
+    -webkit-appearance: none;
+    border: 1px solid #ea4a25;
+}
+/*预约优惠 2017-11 -9*/
+.ys-index {
+    background-color: #f3f3f3;
+    font-size: 0.28rem;
+}
+
+.website-map-header {
+    white-space:nowrap;
+    background-color:#786ca5;
+    padding:0.3rem;
+    color: #fff;
+    font-size: 0.34rem;
+    overflow: hidden;
+    height:1rem;
+    box-sizing:border-box;
+}
+
+
+.website-map-line {
+    border-left: 1px solid #fff;
+    height: 0.34rem;
+    margin-left: 0.25rem;
+    line-height: 0.32rem;
+    display: inline-block;
+    padding-left: 0.25rem;
+    color: #fff;
+}
+
+.home-icon-back {
+    display: inline-block;
+    width: 0.32rem;
+    height: 0.32rem;
+    background: url(../images/ys-sprite.png) -0.09rem -0.09rem no-repeat;
+    background-size: 3rem 3rem;
+}
+
+.sms3-quotation {
+    background-color: #fff;
+    padding: 0.3rem 0;
+}
+
+.sms3-quotation-img {
+    width: 7.5rem;
+    height: 1.94rem;
+}
+
+.sms3-quotation-cue {
+    font-size: 0.4rem;
+    color: #666;
+    text-align: center;
+    margin-top: 0.15rem;
+    font-weight: 500;
+}
+
+.sms3-quotation-red {
+    color: #ea4a25;
+}
+
+.sms3-quotation-form {
+    padding-top: 0.2rem;
+}
+
+.sms3-quotation-form input, .sms3-quotation-form select {
+    color: #999;
+    border-bottom: 1px solid #ea4a25;
+    outline: none;
+}
+
+.sms3-quotation-form input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #999;
+}
+
+.sms3-quotation-form input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #999;
+}
+
+.sms3-quotation-form input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #999;
+}
+
+.sms3-quotation-form input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: #999;
+}
+
+.sms-quotation-icon {
+    display: inline-block;
+    width: 0.35rem;
+    height: 0.3rem;
+    background: url(../images/ys-sprite.png) -0.835rem -0.58rem no-repeat;
+    background-size: 3rem 3rem;
+    position: absolute;
+    top: 0.15rem;
+    left: 0.2rem;
+}
+
+.sms-quotation-icon2 {
+    width: 0.27rem;
+    height: 0.29rem;
+    background-position: -1.3rem -0.58rem;
+}
+
+.sms-quotation-info {
+    text-align: center;
+    padding-top: 0.3rem;
+    font-size: 0.24rem;
+    background-color: #fff;
+}
+
+.sms-quotation-info a {
+    color: #333333;
+}
+
+.sms-quotation-icon5 {
+    width: 0.33rem;
+    height: 0.29rem;
+    background-position: -1.715rem -0.97rem;
+}
+
+.sms-quotation-icon6 {
+    width: 0.26rem;
+    height: 0.29rem;
+    background-position: -2.11rem -0.97rem;
+}
+
+.sms-quotation-icon7 {
+    width: 0.29rem;
+    height: 0.28rem;
+    background-position: -2.45rem -0.97rem;
+}
+
+.message81-board-p1 {
+    margin-top: 0.3rem;
+}
+
+.message81-board-p1 a {
+    display: inline-block;
+    width: 3.05rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    background-color: #fff;
+    border: 1px solid #0081ff;
+    color: #0081ff;
+    text-align: center;
+    text-indent: 0;
+    border-radius: 0.4rem;
+    margin-right: 0.6rem;
+    -webkit-appearance: none;
+    font-size: 0.24rem;
+}
+
+.message81-board-p1 a:nth-child(2) {
+    margin-right: 0;
+    background-color: #fff;
+    color: #ea4a25;
+    -webkit-appearance: none;
+    border: 1px solid #ea4a25;
+}
+
+.message81-board-p2 input[type="submit"] {
+    width: 6.9rem;
+    margin-right: 0;
+}
+
+.sms-quotation {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0.16rem;
+}
+
+.sms-quotation-tit {
+    font-size: 0.4rem;
+    line-height: 1.3rem;
+}
+
+.sms-quotation-img {
+    width: 4.86rem;
+}
+/*精英家教-成人按钮修改  2017-11-21*/
+.jyjj-cr-btn {
+    margin-top: 0.3rem;
+    text-align: center;
+}
+
+.jyjj-cr-btn a {
+    display: inline-block;
+    padding: 0.1rem 0.25rem;
+    border: 1px solid #ea4a25;
+    color: #ea4a25;
+    border-radius: 0.3rem;
+}
+
+.jyjj-cr-btn a:first-child {
+    margin-right: 0.9rem;
+}
+
+/* 2017-11-27 */
+.ys-list{padding:0 0.3rem;background-color: #fff;}
+.ys-list li{padding:0.3rem 0;font-size: 0.28rem;border-bottom:1px solid #f3f3f3;}
+.ys-list a{display:block;color:#333;}
+.ys-list-time{font-size: 0.24rem;color:#999999;margin-top: 0.15rem;}
+/*相关推荐*/
+.experience-list{font-size:0.28rem;}
+.experience-detial-Relevant{line-height: 0.82rem;color:#999999;background-color: #fff;border-bottom: 1px solid #f3f3f3;padding:0 0.3rem;font-size: 0.32rem;}
+.experience-Relevant-icon{display: inline-block;width:0.33rem;height:0.33rem;background:url(../images/ys-sprite.png) -1.76rem -0.09rem no-repeat;background-size: 3rem 3rem;margin-right: 0.2rem;vertical-align: middle;}
+.experience-Relevant-list{background-color: #fff; }
+.experience-Relevant-list li{padding:0 0.3rem;border-bottom:1px solid #f3f3f3;}
+.experience-Relevant-list a{color:#333333;font-size: 0.3rem;display: inline-block;width:100%;box-sizing: border-box;padding:0.3rem 0;   }
+/*面包屑*/
+.public-index-crumbs{font-size:0.28rem;color:#666;padding:0.3rem;}
+.public-index-crumbs a{color:#333;}
+.public-index-crumbs .public-index-home{color:#eb5232;}
+
+.pColorClass{color:#c33;}
+
+/*精英家教教师详情 2017-12-06*/
+.lxs-wap-index{font-size:0.28rem;background-color: #e5e4e4;margin-bottom:2rem;min-width: 320px;width:100%;}
+.details-tea-img1{width:0.6rem;height:0.6rem;border-radius: 50%;float: left;}
+.details-list-cont1{padding:0.22rem  0.3rem;background-color: #fff;border-bottom:1px solid #e5e5e5;}
+.details-cont1-icon{display: inline-block;width:0.19rem;height:0.19rem;float: left;background:url(../images/lxs-wap-sprite.png) -1.30rem 0 no-repeat;background-size: 3rem 3rem;margin-top: 0.41rem;margin-left: -0.1rem;}
+.ask-teacher-info{font-size:0.28rem;color:#333;padding-left:0.18rem;padding-right: 0.18rem;}
+.ask-teacher-help{font-size:0.2rem;color:#999;}
+.ask-teacher-icon{width:0.26rem;height:0.26rem;display: inline-block;background:url(../images/lxs-wap-sprite.png) -1.5rem 0 no-repeat;background-size:3rem 3rem ;}
+.ask-teacher-section{padding:0.4rem 0.3rem 0;background-color: #fff;}
+.teacher-section-brief{font-size: 0.26rem;color:#333;font-weight:bold;margin-left: 0.18rem;}
+.teacher-section-word{font-size: 0.22rem;color:#666666;line-height: 0.4rem;margin-top: 0.1rem;padding-bottom: 0.32rem;border-bottom:1px solid #dddcdc;}
+.ask-teacher-icon1{background-position: -1.81rem 0 ;background-size:3rem 3rem;width:0.23rem;height:0.23rem;}
+.teacher-section-word1{border-bottom: none;}
+.ask-teacher-que{margin-top: 0.2rem;padding:0.2rem 0.3rem;background-color: #fff;}
+.ask-teacher-icon2{width:0.24rem;height:0.24rem;background-position: -2.1rem 0;background-size: 3rem 3rem;}
+.teacher-que-tit{border-bottom:1px solid #dddcdc;padding-bottom: 0.2rem;}
+.ask-teacher-form{text-align: center;}
+.teacher-index-sr{text-align:center;background-color: #fff;border-bottom:1px solid #dddcdc;width:90%;margin:0 auto;margin-bottom: 0.46rem;}
+.index-sr-cont{width:100%;height:2.7rem;border:none;margin:0 auto;padding:0.5rem 0;box-sizing: border-box;font-size: 0.2rem;outline:none;}
+.teacher-form-input{width:2.69rem;height:0.46rem;text-indent: 0.5em;}
+.teacher-form-btn{display: inline-block;width:1.56rem;height:0.534rem;text-align: center;line-height: 0.53rem;background-color:#786ca5;color:#fff;font-size: 0.24rem;vertical-align: bottom;border:none;}
+.ask-teacher-spot{width:0.08rem;height:0.08rem;background-color: #999999;border-radius: 50%;display: inline-block;float: left;margin-top: 0.15rem;}
+.ask-teacher-cue{font-size: 0.2rem;color:#999;margin-top:0.38rem;margin-right: 0.01rem;margin-left: 0.1rem;}
+.details-tea-info{height:0.6rem;line-height: 0.6rem;}
+/*2017-12-13 听力课堂-成人-培训*/
+.ting-adult-article .zly-njh-test{width:2.5rem;margin:0.15rem auto 0;}
+/*2017-12-14 听力课堂-雅思-培训*/
+.ting-class-index {font-size:0.28rem;background-color:#fff;}
+.experience-article-cont img {
+     width:100%;
+}
+.website-map-header a {
+    color:#fff;
+}
+.experience-article{
+    padding: 0.2rem 0.3rem;
+    line-height: 0.52rem;
+    font-size: 0.26rem;
+}
+.ting-classify-tit {
+    width: 6.9rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    background-color: #f3f3f3;
+    border-radius: 0.11rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-weight: 500;
+
+}
+    .ting-classify-tit span {
+        display: inline-block;
+        border-left: 0.08rem solid #ea4a25;
+        border-radius: 0.08rem 0 0 0.08rem;
+        padding-left: 0.17rem;
+    }
+    .no-more{color:#999999;font-size: 0.8em;text-align: center;line-height: 3.36em;}
+    /*培训频道-页面内-留言板 2017-12-13*/
+.ting-paging-messsage{background-color: #fff;text-align: center;margin-top: 0.16rem;padding-bottom:1rem;}
+.paging-messsage-tit{padding:0.46rem 0;}
+.paging-messsage-tit span{display: inline-block;padding:0.2rem;border-top:1px solid #ffecd5;border-bottom:1px solid #ffecd5;color:#999;}
+.paging-messsage-exhibition{margin:0 0.3rem;background-color: #f4f4f4;text-align: left;}
+.ting-page-img{float: left;padding:0.62rem 0.48rem 0.62rem  1.17rem;}
+.ting-page-discount{width:1.28rem;height:1.28rem;}
+.paging-messsage-spot{display: inline-block;width:0.08rem;height:0.08rem;background-color: #ff8b00;border-radius:50%;margin-right: 0.1rem;}
+.paging-messsage-info{margin-left: 2.9rem;padding-top: 0.36rem;}
+.paging-messsage-cue{font-size: 0.3rem;font-weight: bold;}
+.paging-messsage-info p{margin-top: 0.18rem;color:#666;}
+.paging-messsage-contact{padding:0.3rem;font-size: 0.24rem;}
+.paging-messsage-input{width:6.9rem;height:0.8rem;background-color: #eeeeee;border:1px solid #dbdbdb;text-indent: 0.5rem;}
+.paging-messsage-p{position: relative;}
+.paging-messsage-tel{position: absolute;display: inline-block;width:0.2rem;height:0.28rem;background: url("../images/ting-class-sprite.png") -2.64rem -0.54rem;background-size: 5rem 5rem;top:0.3rem;left:0.5rem;}
+.paging-messsage-submit{width:6.9rem;background-color:#ea4c25;color:#fff;font-size: 0.3rem;margin-top: 0.4rem;height:0.8rem;border:none;border-radius:0.04rem;}
+
+/*留言板颜色*/
+.message-board-main .message-board-p input[type=submit]{background:#786ca5;border:1px solid #786ca5;}

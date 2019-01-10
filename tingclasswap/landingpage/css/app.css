@@ -1,0 +1,189 @@
+/**
+ * Demo Page Styles
+ */
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+    border:0px;
+    background:none;
+    -webkit-text-size-adjust:100%;
+}
+
+body {
+    background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    text-align: center;
+    font-weight: 300;
+    color: #333;
+}
+
+/**
+ * Slider specific styles
+ */
+
+.slider {
+    position: relative;
+    width: 290px;
+    margin: 0 auto 20px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.frame {
+    position: relative;
+    width: 260px;
+    margin: 0 auto;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.frame li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+}
+.js_slide img{ width:180px; height:180px; border-radius: 90px;overflow:hidden;}
+.js_slide p{ font-size:1em; color:#333;line-height:1.5em; text-align:left;white-space:normal !important;}
+
+.slides {
+    display: inline-block;
+}
+
+.simple li {
+    width: 260px;
+    margin-right: 10px;
+}
+
+.variablewidth li {
+    width: 260px;
+    margin-right: 10px;
+
+}
+
+.multipleelements li, .multislides li, .ease li {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.simple li:last-child,
+.variablewidth li:last-child,
+.multipleelements li:last-child,
+.multislides li:last-child,
+.ease li:last-child {
+    margin-right: 0;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 30%;
+    margin-top: -25px;
+    display: block;
+    cursor: pointer;
+}
+
+.next {
+    right: 0;
+}
+
+.prev {
+    left: 0;
+}
+
+.next svg, .prev svg {
+    width: 25px;
+}
+
+@media screen and (min-width: 640px ) {
+    /**
+     * Demo Page Styles
+     */
+    .examplecode, .frame {
+        width: 580px;
+    }
+
+    table {
+        width: 580px;
+        margin: 0 auto;
+    }
+
+    tr {
+        padding: 0;
+    }
+
+    /**
+     * Slider specific styles
+     */
+
+    .slider {
+        width: 640px;
+        margin: 0 auto 20px;
+    }
+
+    .simple li {
+        width: 580px;
+    }
+
+    .variablewidth li {
+        width: 280px;
+        margin-right: 10px;
+    }
+
+    .multipleelements li, .multislides li, .ease li {
+        width: 130px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 980px ) {
+    /**
+     * Demo Page Styles
+     */
+
+    .examplecode {
+        width: 880px;
+    }
+
+    /**
+     * Slider specific styles
+     */
+
+    .slider {
+        width: 980px;
+        margin: 0 auto 20px;
+    }
+
+    .frame {
+        width: 880px;
+    }
+
+    .simple li {
+        width: 880px;
+    }
+
+    .variablewidth li {
+        width: 280px;
+        margin-right: 10px;
+    }
+
+    .multipleelements li, .multislides li, .ease li {
+        width: 205px;
+        margin-right: 20px;
+    }
+}

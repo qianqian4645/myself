@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="mouldV3/WAP-mould/css/base-wap.css"/>
+    <link rel="stylesheet" href="mouldV3/WAP-mould/css/wap-mould.css"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <script>
+        var viewport = document.documentElement;
+        var width = viewport.clientWidth;
+        var fontSize = width / 750 * 100;
+        viewport.style.fontSize = fontSize + 'px';
+    </script>
+</head>
+<body>
+  <div class="outfit1109-box ${frameCode}">
+      <ul class="outfit1109-list">
+          <li>
+              <div class="bg-fff">
+                  <img src="http://msydfile.nadiyi.cn/mouldV3/WAP-mould/images/F2018_11_09_001/outfit1109-list-hot.png" alt="" class="outfit1109-list-hot"/>
+                  <div class="outfit1109-list-cont clearfix bd-bottom-eee">
+                      <img src="${orgInfo.Logo}" alt="" class="outfit1109-list-logo1 fl"/>
+                      <div class="outfit1109-list-info">
+                          <h3 class="f30">${org_name}</h3>
+                          <p class="f22 col-84 mt10">${phone_desc}</p>
+                      </div>
+                  </div>
+                  <p class="outfit1109-list-tag bd-bottom-eee col-84"><span>性价比：<i class="col-ee645f">${cost_performance_num}</i>分</span><span>校区数：<i class="col-ee645f">${campus_num}</i>家</span><span>学员数：<i class="col-ee645f">${help_student_num}</i>人</span></p>
+                  <p class="pt20 pb20 bd-bottom-eee pl24 f22 col-84">课程：${main_course}</p>
+                  <p class="outfit1109-list-btn tc pt25 pb25"><a href="#" class="click-monitor bd-ee645f bg-ee645f col-fff mr20"  data-m="${mouldCode}"  data-type="留言板" data-lsgid="33" data-value="获取报价">获取报价</a><a href="#" data-m="${mouldCode}"  data-type="留言板" data-lsgid="58" data-value="免费试听" class="click-monitor bd-ee645f col-ee645f mr20">免费试听</a><a href="#" class="click-monitor bd-ee645f col-ee645f" data-m="${mouldCode}"  data-type="小能" data-lsgid="" data-value="免费试听">在线咨询</a></p>
+              </div>
+          </li>
+      </ul>
+  </div>
+</body>
+</html>

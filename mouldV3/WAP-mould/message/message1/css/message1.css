@@ -1,0 +1,12 @@
+.message1-outer-layer{width:100%;height:100%;position: fixed;top:0;left:0;background-color: rgba(0,0,0,0.5);}
+.message1-outer-box{width:6.1rem;height:7.87rem;background-color: #fff;border-radius:0.12rem;position: fixed;left:50%;top:50%;margin-left:-3.05rem;margin-top:-3.935rem;padding:0 0.3rem;box-sizing: border-box;}
+.message1-close{position: absolute;top:0.24rem;right:0.3rem;background: url("../images/message1-close.png");background-size: 0.24rem;width:0.24rem;height:0.24rem;}
+.message1-tit{padding:0.3rem 0;}
+.message1-learn-goals{display: flex;flex-wrap: wrap;}
+.message1-learn-goals span{display: inline-block;width:1.68rem;margin-right:0.2rem;padding:0.12rem 0;font-size:0.24rem;color:#848484;border:0.01rem solid #dadada;border-radius:0.04rem;text-align:center;margin-top:0.2rem;}
+.message1-learn-goals span:nth-child(3n){margin-right:0;}
+.message1-learn-goals span.active{background-color: #ee645f;color:#fff;border:0.01rem solid #ee645f;}
+.message1-form p{width:100%;height:0.8rem;position: relative;}
+.message1-form input[type="text"]{width:100%;height:0.8rem;border:0.01rem solid #dadada;text-indent:0.6rem;}
+.message1-tel-icon{display: inline-block;width:0.21rem;height:0.3rem;background: url("../images/message1-tel-icon.png");background-size: 0.21rem 0.3rem;position: absolute;top:0.25rem;left:0.2rem;}
+.message1-submit{width:100%;height:0.8rem;background-color: #ee645f;color:#fff;font-size:0.36rem;border:none;border-radius:0.04rem;}

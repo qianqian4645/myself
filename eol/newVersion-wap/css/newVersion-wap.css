@@ -1,0 +1,69 @@
+.eol-home-tag{padding:0 0.2rem;height:0.61rem;line-height:0.61rem;background-color: #f8f8f8;}
+.eol-home-index{font-size:0.28rem;color:#333;}
+.eol125-exp-list li{padding:0.25rem 0;}
+.eol-exp-img{width:1.8rem;height:1.36rem;border-radius:0.04rem;}
+.eol1225-exp-info{margin-left:2rem;}
+/*分页*/
+.abroad-paging-list{margin-top:0.12rem;}
+.abroad-paging-list li{display: flex;height:0.8rem;line-height: 0.8rem;background-color: #fff;margin-bottom:0.12rem;}
+.paging-list-second {text-align:center;}
+.abroad-paging-list div{color:#333333;width:40%;}
+.abroad-paging-list div:first-child ,.abroad-paging-list div:nth-child(3){display: flex;}
+.abroad-paging-list div:nth-child(2) {width:30%;text-align:center;}
+.paging-list-third {text-align:center;}
+.paging-list-third div:first-child a:first-child{margin-left:0.5rem;}
+.abroad-paging-list div:first-child a ,.abroad-paging-list div:nth-child(3) a{flex:1;}
+.abroad-paging-list a:nth-child(2){text-align:center;}
+.abroad-paging-list a {color:#333;}
+.abroad-paging-next{display: inline-block;width:0.14rem;height:0.26rem;background: url("../images/lxs-index-sprite.png") -2rem -0.435rem;background-size: 3rem 3rem;vertical-align:middle;}
+.abroad-paging-prv{display: inline-block;width:0.14rem;height:0.26rem;background: url("../images/lxs-index-sprite.png") -2.32rem -0.435rem;background-size: 3rem 3rem;vertical-align:middle;}
+.abroad-paging-first{display: inline-block;width:0.16rem;height:0.24rem;background: url("../images/lxs-index-sprite.png") -2.62rem -0.435rem;background-size: 3rem 3rem;vertical-align:middle;}
+/*话题推荐*/
+.eol1225-topic-Recommend{display: flex;flex-wrap: wrap;}
+.eol1225-topic-Recommend li{width:1.62rem;height:0.72rem;text-align:center;line-height:0.72rem;border-radius: 0.04rem;border:0.02rem solid #ededed;margin-right:0.153rem;margin-bottom:0.2rem;}
+.eol1225-topic-Recommend li:nth-child(4n){margin-right:0;}
+.eol1225-topic-Recommend li a{color:#333;}
+/*底部浮窗*/
+.abroad-footer{position: fixed;bottom:0;left:0;background-color: #fff;}
+.aborad-footer-list{border-top:1px solid #e0e0e0;box-sizing: border-box;}
+.aborad-footer-list li{width:1.36rem;height:0.98rem;float: left;}
+.aborad-footer-list a{display: inline-block;width:100%;text-align: center;color:#000000;padding-top: 0.15rem;font-size: 0.22rem;}
+.aborad-footer-icon1{display: inline-block;width:0.42rem;height:0.36rem;background:url(../images/aborad-footer-icon1.png)  no-repeat;background-size: 0.42rem 0.36rem;position: relative;}
+.aborad-footer-icon2{background:url(../images/aborad-footer-icon2.png)  no-repeat;width:0.37rem;height:0.37rem;background-size: 0.37rem 0.37rem;}
+.aborad-footer-icon3{background:url(../images/aborad-footer-icon3.png)  no-repeat;width:0.42rem;height:0.32rem;background-size: 0.42rem 0.32rem;}
+.aborad-footer-list li:last-child{width:3.4rem;background-color: #fab649;padding-top:0;}
+.aborad-footer-list li:last-child a{color:#fff;font-size: 0.32rem;line-height: 0.98rem;padding-top:0;}
+/*罐头英语WAP-机构详情*/
+.eol-orgInfo-banner{width:7.5rem;height:3.2rem;vertical-align: top;}
+.eol-orgInfo-logo{width:1.28rem;height:1.28rem;border:0.02rem solid #efefef;}
+.eol-orgInfo{padding:0.36rem 0.2rem;border-radius:0.1rem;}
+.eol-orgInfo-info{margin-left:1.53rem;}
+.eol-orgInfo-flex{display: flex;height:0.84rem;line-height:0.84rem;border-bottom:0.02rem solid #ebebeb;}
+.eol-orgInfo-flex li{flex: 1;text-align:center;}
+.eol-orgInfo-flex li a{color:#666;}
+.eol-orgInfo-flex li.active a{font-weight:bold;padding-bottom:0.18rem;border-bottom:0.04rem solid #fab649;}
+.eol-orgInfo-tit{height:0.84rem;line-height:0.84rem;background: url("../images/eol-orgInfo-titBg.png") no-repeat center center ;background-size: 2.556rem 0.04rem;text-align: center;background-color: #f5f5f5;}
+.eol-orgInfo-desc{padding:0.4rem 0.2rem;}
+.eol-orgInfo-descWord{font-size:0.32rem;line-height:0.48rem;}
+.eol-orgInfo-more{font-size:0.32rem;color:#fab649;display: inline-block;}
+.eol-orgInfo-under{display: inline-block;width:0.2rem;height:0.12rem;background: url("../images/eol-orgInfo-under.png") no-repeat;background-size:0.2rem 0.12rem; }
+.eol-orgInfo-upper{display: inline-block;width:0.2rem;height:0.12rem;background: url("../images/eol-orgInfo-upper.png") no-repeat;background-size:0.2rem 0.12rem; }
+.eol-orgInfo-couScreen{padding: 0.28rem 0.2rem 0;}
+.eol-orgInfo-couScreen li{padding: 0.1rem 0.21rem;border-radius: 0.04rem;border:0.02rem solid  #eee;float: left;margin-right: 0.28rem;margin-bottom:0.28rem;}
+.eol-orgInfo-couScreen li.active{border:0.02rem solid  #fab649;color:#fab649;}
+.eol-orgInfo-course li{padding:0.3rem 0.39rem;background-color: #fff;margin-top:0.2rem;border-radius:0.04rem;}
+.eol-orgInfo-couBtn a{width:2.96rem;height:0.68rem;text-align:center;line-height:0.68rem;background-color: #fab649;color:#fff;border:0.02rem solid #fab649;display: inline-block;border-radius:0.04rem;}
+.eol-orgInfo-couBtn a:last-child{background-color: #fff;color:#fab649;margin-left:0.3rem;}
+.eol-orgInfo-school li{padding:0.4rem 0;border-bottom:dashed 0.02rem #ebebeb;}
+.eol-orgInfo-school li:last-child{border-bottom:none;}
+.eol-orgInfo-evaluate li{padding:0.4rem 0;border-bottom:0.02rem solid #ebebeb;}
+.eol-orgInfo-evaluate li:last-child{border-bottom:none;}
+.eol-orgInfo-evaImg{width:0.6rem;height:0.6rem;}
+.eol-orgInfo-evaInfo{margin-left:0.8rem;}
+/*罐头英语WAP-课程详情*/
+.eol-couInfo-orgCont{padding:0.3rem 0.2rem;}
+.eol-couInfo-orgLogo{width:0.66rem;height:0.66rem;border:0.02rem solid #f2f2f2;border-radius:50%;}
+.eol-couInfo-orgInfo{margin-left:1rem;}
+.eol-couInfo-orgBtn{display: inline-block;width:1.44rem;height:0.72rem;text-align:center;line-height:0.72rem;background-color: #fab649;color:#fff;font-size:0.3rem;float:right;border-radius:0.04rem;}
+/*罐头英语WAP-地址详情*/
+.eol-addressInfo-btn{display: block;width:100%;height:0.8rem;line-height:0.8rem;background-color: #fab649;color:#fff;border-radius:0.04rem;font-size:0.36rem;text-align:center;}

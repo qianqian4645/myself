@@ -1,0 +1,48 @@
+.experience-article-tit{font-size:0.36rem;line-height: 0.58rem;background-color: #fff;padding:0.15rem 0.3rem;border:1px solid #f3f3f3;}
+.experience-article-cont{padding:0.3rem 0.3rem 0.1rem;background-color: #fff;}
+.ys2-details-tea{display: inline-block;width:0.8rem;height:0.8rem;float: left;margin-right: 0.2rem;}
+.ys2-details-tea img{width:0.8rem;height:0.8rem;}
+.experience-teacher-info{padding-bottom:0.3rem;border-bottom:1px solid #f3f3f3;}
+.experience-teacher-attestation{padding-left: 0.2rem;font-size: 0.2rem;color:#ff2b00;}
+.experience-attestation-icon{display: inline-block;width:0.18rem;height:0.22rem;background:url(../images/ys-sprite.png) -0.48rem -0.09rem no-repeat;background-size: 3rem 3rem;vertical-align: middle;margin-left: 0.13rem;}
+.experience-education{font-size: 0.2rem;color:#666666;margin-top: 0.12rem;}
+.experience-education-time{color:#ea4a25;}
+.experience-teacher-message{display: inline-block;padding:0.1rem 0.24rem 0.11rem;background-color:#23cdc0;border-radius: 0.3rem;color:#fff;float: right;margin-right:0.2rem;margin-top: 0.15rem;font-size: 0.22rem;}
+.experience-teacher-ask{padding:0.1rem 0.24rem 0.11rem;background-color: #3d8d7f;color:#fff;float: right;border-radius: 0.3rem;margin-top: 0.15rem;font-size: 0.22rem;}
+.experience-article{font-size: 0.28rem;color:#666;line-height: 0.5rem;background-color: #fff;padding:0 0.3rem 0.2rem;}
+.experience-article-test{text-align: center;background-color: #fff;padding:0.5rem 0;}
+.experience-article-test a{padding:0.17rem 0.45rem;color:#3d8d7f;border:1px solid #3d8d7f;border-radius: 0.4rem;display: inline-block;}
+/*学员留言部分*/
+.student0612-case-tit{padding:0.2rem;font-size:0.26rem;font-weight:bold;}
+.student0612-case-list{background: #f6f6f6;padding:0 0.2rem;}
+.student0612-case-list li{padding:0.2rem 0;border-bottom:0.02rem solid #ccc;}
+.student0612-case-list li:last-child{border-bottom:none;}
+.student0612-case-pic{width:0.6rem;height:0.6rem;float:left;}
+.student0612-case-info{margin-left:0.8rem;}
+.newanli{line-height:0.4rem;}
+.student0720-case-btn{display: inline-block;width:3.1rem;padding:0.1rem 0;border-radius:0.04rem;font-size:0.3rem;}
+.public0725-wap-tag{padding: 0.5rem 0.3rem 0.3rem;}
+.public0725-wap-tag a{font-size: 0.24rem;display:inline-block;color: #666;border: 1px solid #ccc;border-radius: 0.1rem;padding: 0.1rem 0.3rem;margin: 0 0.2rem 0 0;}
+/*相关推荐*/
+.experience-detial-Relevant{line-height: 0.82rem;color:#999999;background-color: #fff;border-bottom: 1px solid #f3f3f3;padding:0 0.3rem;font-size: 0.32rem;}
+.experience-Relevant-icon{display: inline-block;width:0.33rem;height:0.33rem;background:url(../images/ys-sprite.png) -1.76rem -0.09rem no-repeat;background-size: 3rem 3rem;margin-right: 0.2rem;vertical-align: middle;}
+.experience-Relevant-list{background-color: #fff; }
+.experience-Relevant-list li{padding:0 0.3rem;border-bottom:1px solid #f3f3f3;}
+.experience-Relevant-list a{color:#333333;font-size: 0.3rem;display: inline-block;width:100%;box-sizing: border-box;padding:0.3rem 0;   }
+
+/*八大服务部分*/
+.col-ff9595{color:#ff9595;}
+.eight-service-container{background: #eefff4;padding:0.3rem 0.26rem 0.54rem;}
+.eight-service-list li{float:left;width:1.3rem;margin-right:0.593rem;margin-top:0.25rem;text-align:center;}
+.eight-service-list li:nth-child(4n){margin-right:0;}
+.eight-service-list li p{font-size:0.3rem;color:#ff6e6e;}
+.eight-service-list li span{display: inline-block;width:1.06rem;height:1.06rem;border-radius: 50%;background: #ff9595 url("../images/eight-service-icon1.png") center no-repeat;background-size: 0.51rem 0.51rem;}
+.eight-service-list li:nth-child(2) span{display: inline-block;width:1.06rem;height:1.06rem;border-radius: 50%;background: #ff9595 url("../images/eight-service-icon2.png") center no-repeat;background-size: 0.51rem 0.51rem;}
+.eight-service-list li:nth-child(3) span{display: inline-block;width:1.06rem;height:1.06rem;border-radius: 50%;background: #ff9595 url("../images/eight-service-icon3.png") center no-repeat;background-size: 0.51rem 0.51rem;}
+.eight-service-list li:nth-child(4) span{display: inline-block;width:1.06rem;height:1.06rem;border-radius: 50%;background: #ff9595 url("../images/eight-service-icon4.png") center no-repeat;background-size: 0.51rem 0.51rem;}
+.eight-service-list li:nth-child(5) span{display: inline-block;width:1.06rem;height:1.06rem;border-radius: 50%;background: #ff9595 url("../images/eight-service-icon5.png") center no-repeat;background-size: 0.51rem 0.51rem;}
+.eight-service-list li:nth-child(6) span{display: inline-block;width:1.06rem;height:1.06rem;border-radius: 50%;background: #ff9595 url("../images/eight-service-icon6.png") center no-repeat;background-size: 0.51rem 0.51rem;}
+.eight-service-list li:nth-child(7) span{display: inline-block;width:1.06rem;height:1.06rem;border-radius: 50%;background: #ff9595 url("../images/eight-service-icon7.png") center no-repeat;background-size: 0.51rem 0.51rem;}
+.eight-service-list li:nth-child(8) span{display: inline-block;width:1.06rem;height:1.06rem;border-radius: 50%;background: #ff9595 url("../images/eight-service-icon8.png") center no-repeat;background-size: 0.51rem 0.51rem;}
+.eight-service-form input[type="text"] ,.eight-service-form select{width:100%;height:0.93rem;border:0.02rem solid #ccc;box-sizing: border-box;margin-top:0.42rem;text-indent: 0.4rem;color:#999;}
+.eight-service-form  .eight-service-submit{width:100%;height:0.92rem;text-align:center;line-height:0.92rem;background-color: #3d8d7f;font-size:0.36rem;color:#fff;border:0.02rem solid #3d8d7f;margin-top:0.42rem;}
