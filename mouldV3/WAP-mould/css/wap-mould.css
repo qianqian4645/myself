@@ -142,3 +142,11 @@ body,html{font-size:0.28rem;}
 .outfit0107-list-btn{padding:0.3rem 0 0;}
 .outfit0107-list-btn a{width: 2.14rem;height:0.48rem;border-radius:0.24rem;border: solid 1px #fe6d4c;text-align:center;line-height:0.48rem;display: inline-block;color:#fe6d4c;}
 .outfit0107-list-btn a:last-child{margin-left:1.1rem;}
+/*F2019_01_08_001*/
+.bg-fdf5f5{background-color: #fdf5f5;}
+.outfit0108-list-logo{width:1.2rem;height:1.2rem;}
+.bg-fe6d4c{background-color: #fe6d4c;}
+.outfit0108-list-btn{padding:0.3rem 0 0;}
+.outfit0108-list-btn a{width: 2.14rem;height:0.48rem;border-radius:0.24rem;border: solid 1px #fe6d4c;text-align:center;line-height:0.48rem;display: inline-block;color:#fff;}
+.outfit0108-list-btn a:last-child{margin-left:1.1rem;}
+.bd-bottom-fe6d4c{border-bottom:0.02rem dotted #fe6d4c;}

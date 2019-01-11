@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd256188-6301-482c-8632-a15f0af0e825" name="默认的" comment="">
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\WAP-模板\.idea\WAP-模板.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\WAP-模板\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\WAP-模板\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\WAP-模板\.idea\vcs.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/F2019_01_08_001.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css" afterPath="$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/罐头英语WAP-地址详情.html" afterPath="$PROJECT_DIR$/罐头英语WAP-地址详情.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/罐头英语WAP-机构详情.html" afterPath="$PROJECT_DIR$/罐头英语WAP-机构详情.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/罐头英语WAP-课程详情.html" afterPath="$PROJECT_DIR$/罐头英语WAP-课程详情.html" />
     </list>
     <ignored path="WAP-模板.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +35,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="F2019_01_08_001.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/F2019_01_08_001.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18238214">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wap-mould.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="5.5">
+              <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="F2019_01_07_001.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/F2019_01_07_001.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.764706">
+              <caret line="16" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="罐头英语WAP-地址详情.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/罐头英语WAP-地址详情.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.82353">
+            <state vertical-scroll-proportion="0.0">
               <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
               <folding />
             </state>
@@ -53,18 +78,18 @@
       <file leaf-file-name="罐头英语WAP-机构详情.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/罐头英语WAP-机构详情.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-166.91176">
+            <state vertical-scroll-proportion="0.0">
               <caret line="227" column="45" selection-start-line="227" selection-start-column="45" selection-end-line="227" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="罐头英语WAP-课程详情.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="罐头英语WAP-课程详情.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/罐头英语WAP-课程详情.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75186104">
-              <caret line="120" column="7" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/page20.html" />
         <option value="$PROJECT_DIR$/../PC-模板/eol/newVersion/css/head-foot-pc.css" />
         <option value="$PROJECT_DIR$/eol/css/newVersion-wap.css" />
         <option value="$PROJECT_DIR$/eol/newVersion-wap/css/head-foot-wap.css" />
@@ -127,7 +151,6 @@
         <option value="$PROJECT_DIR$/罐头英语-经验列表WAP.html" />
         <option value="$PROJECT_DIR$/aa.html" />
         <option value="$PROJECT_DIR$/F2019_01_07_001.html" />
-        <option value="$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css" />
         <option value="E:/SVN-Files-server-3/trunk/mouldV3/WAP-mould/css/F2018_12.css" />
         <option value="$PROJECT_DIR$/课程详情.html" />
         <option value="$PROJECT_DIR$/eol/newVersion-wap/css/base-wap.css" />
@@ -137,6 +160,8 @@
         <option value="$PROJECT_DIR$/罐头英语WAP-地址详情.html" />
         <option value="$PROJECT_DIR$/罐头英语WAP-机构详情.html" />
         <option value="$PROJECT_DIR$/罐头英语WAP-课程详情.html" />
+        <option value="$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css" />
+        <option value="$PROJECT_DIR$/F2019_01_08_001.html" />
       </list>
     </option>
   </component>
@@ -185,9 +210,6 @@
       <pane id="Scratches">
         <subPane />
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,6 +219,13 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="更改的文件" />
+        <subPane subId="测试" />
+        <subPane subId="问题" />
+        <subPane subId="Project Files" />
+        <subPane subId="默认的" />
       </pane>
     </panes>
   </component>
@@ -291,16 +320,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="1" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16024464" sideWeight="0.5178366" order="1" side_tool="true" content_ui="combo" x="632" y="70" width="415" height="869" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23058105" sideWeight="0.54545456" order="1" side_tool="true" content_ui="combo" x="632" y="70" width="415" height="869" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Weex Documents" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296636" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24892966" sideWeight="0.4821634" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24892966" sideWeight="0.45454547" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296636" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -360,6 +389,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/罐头英语WAP-课程详情.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eol/newVersion-wap/css/base-wap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -638,20 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6722289">
-          <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/F2019_01_07_001.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71428573">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/custom-services.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.3913043">
@@ -673,6 +696,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/罐头英语WAP-地址详情.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/罐头英语WAP-机构详情.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="227" column="45" selection-start-line="227" selection-start-column="45" selection-end-line="227" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/罐头英语WAP-课程详情.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.411765">
@@ -681,26 +728,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/罐头英语WAP-地址详情.html">
+    <entry file="file://$PROJECT_DIR$/F2019_01_07_001.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.82353">
-          <caret line="114" column="7" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+        <state vertical-scroll-proportion="-11.764706">
+          <caret line="16" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/罐头英语WAP-机构详情.html">
+    <entry file="file://$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-166.91176">
-          <caret line="227" column="45" selection-start-line="227" selection-start-column="45" selection-end-line="227" selection-end-column="45" />
+        <state vertical-scroll-proportion="5.5">
+          <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/罐头英语WAP-课程详情.html">
+    <entry file="file://$PROJECT_DIR$/F2019_01_08_001.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75186104">
-          <caret line="120" column="7" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.18238214">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>
