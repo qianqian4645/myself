@@ -226,8 +226,6 @@
 <script>
     var Top=$(".eol-orgInfo-flex").offset().top;
     var Height=$(".eol-orgInfo-flex").height;
-    console.log(Top);
-    console.log(Height);
    $(window).scroll(function(){
        var srcTop = $(window).scrollTop();
        if(srcTop>Top){
@@ -241,7 +239,6 @@
 </script>
 <script>
    var Height= $(".eol-orgInfo-descWord").height();
-   console.log(Height);
     if(Height>=72){
         $(".eol-orgInfo-descWord").css({"height":"1.44rem","overflow":"hidden"})
     }

@@ -119,41 +119,4 @@
 
 
 </body>
-<script src="mouldV3/WAP-mould/js/jquery-2.1.1.min.js"></script>
-<script>
-    var Top = $(".eol-orgInfo-flex").offset().top;
-    var Height = $(".eol-orgInfo-flex").height;
-    $(window).scroll(function () {
-        var srcTop = $(window).scrollTop();
-        if (srcTop > Top) {
-            $(".eol-orgInfo-flex").css({
-                "position": "fixed",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "margin-top": "0"
-            });
-            $(".eol-orgInfo-static").css({"margin-top": "0.84rem"});
-        } else {
-            $(".eol-orgInfo-flex").css({"position": "static", "margin-top": "0.12rem"});
-            $(".eol-orgInfo-static").css({"margin-top": 0});
-        }
-    })
-</script>
-<script>
-    var Height = $(".eol-orgInfo-descWord").height();
-    console.log(Height);
-    if (Height >= 72) {
-        $(".eol-orgInfo-descWord").css({"height": "1.44rem", "overflow": "hidden"})
-    }
-    $(".eol-orgInfo-more").click(function () {
-        if ($(this).text() == "展开 ") {
-            $(".eol-orgInfo-descWord").css({"height": "auto"});
-            $(".eol-orgInfo-more").html('收起 <span class="eol-orgInfo-upper"></span>')
-        } else {
-            $(".eol-orgInfo-descWord").css({"height": "1.44rem", "overflow": "hidden"});
-            $(".eol-orgInfo-more").html('展开 <span class="eol-orgInfo-under"></span>')
-        }
-    })
-</script>
 </html>
