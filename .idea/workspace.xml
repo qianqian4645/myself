@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd256188-6301-482c-8632-a15f0af0e825" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/F2019_01_10_001.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eol/newVersion-wap/css/newVersion-wap.css" afterPath="$PROJECT_DIR$/eol/newVersion-wap/css/newVersion-wap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/F2019_01_09_001.html" afterPath="$PROJECT_DIR$/F2019_01_09_001.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css" afterPath="$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/罐头英语WAP-机构详情.html" afterPath="$PROJECT_DIR$/罐头英语WAP-机构详情.html" />
     </list>
     <ignored path="WAP-模板.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,14 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="F2019_01_10_001.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="F2019_01_10_001.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/F2019_01_10_001.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5279503">
-              <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+            <state vertical-scroll-proportion="-8.970589">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -43,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wap-mould.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wap-mould.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3">
-              <caret line="171" column="55" selection-start-line="171" selection-start-column="55" selection-end-line="171" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.4128554">
+              <caret line="160" column="5" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="F2019_01_09_001.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/F2019_01_09_001.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.5588236">
+              <caret line="28" column="104" selection-start-line="28" selection-start-column="104" selection-end-line="28" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -124,12 +128,12 @@
         <option value="$PROJECT_DIR$/罐头英语WAP-课程详情.html" />
         <option value="$PROJECT_DIR$/F2019_01_08_001.html" />
         <option value="$PROJECT_DIR$/mouldV3/F2019_01_09_001.html" />
-        <option value="$PROJECT_DIR$/F2019_01_09_001.html" />
         <option value="$PROJECT_DIR$/罐头英语WAP-机构详情.html" />
         <option value="E:/SVN-Files-server-3/trunk/eol/newVersion-wap/css/newVersion-wap.css" />
         <option value="$PROJECT_DIR$/eol/newVersion-wap/css/newVersion-wap.css" />
         <option value="$PROJECT_DIR$/F2019_01_10_001.html" />
         <option value="$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css" />
+        <option value="$PROJECT_DIR$/F2019_01_09_001.html" />
       </list>
     </option>
   </component>
@@ -674,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/F2019_01_09_001.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.705882">
-          <caret line="35" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tingclasswap/css/base-wap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.466667">
@@ -714,24 +710,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css">
+    <entry file="file://$PROJECT_DIR$/F2019_01_09_001.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3">
-          <caret line="171" column="55" selection-start-line="171" selection-start-column="55" selection-end-line="171" selection-end-column="55" />
+        <state vertical-scroll-proportion="-5.5588236">
+          <caret line="28" column="104" selection-start-line="28" selection-start-column="104" selection-end-line="28" selection-end-column="104" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/F2019_01_10_001.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5279503">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
+        <state vertical-scroll-proportion="-8.970589">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mouldV3/WAP-mould/css/wap-mould.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4128554">
+          <caret line="160" column="5" selection-start-line="160" selection-start-column="1" selection-end-line="160" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
